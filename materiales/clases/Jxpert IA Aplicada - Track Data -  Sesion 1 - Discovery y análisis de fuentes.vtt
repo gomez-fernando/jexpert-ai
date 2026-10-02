@@ -1,0 +1,3728 @@
+WEBVTT
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/14-0
+00:00:03.255 --> 00:00:05.255
+<v Roberto Fuertes L&#243;pez>¿La presentación y se me oye bien, no?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/13-0
+00:00:05.735 --> 00:00:06.175
+<v Irene Arellano Jim&#233;nez>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/16-0
+00:00:05.895 --> 00:00:06.055
+<v Roberto Fuertes L&#243;pez>A.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/15-0
+00:00:06.295 --> 00:00:06.775
+<v Adri&#225;n Iborra Rizo>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/17-0
+00:00:06.455 --> 00:00:06.855
+<v Fernando David Gomez Ortega>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/18-0
+00:00:07.455 --> 00:00:07.855
+<v Bel&#233;n Gonz&#225;lez Agudo>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/23-0
+00:00:07.495 --> 00:00:10.280
+<v Roberto Fuertes L&#243;pez>Pues nada,
+muchas gracias a todos por hacer el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/23-1
+00:00:10.280 --> 00:00:13.835
+<v Roberto Fuertes L&#243;pez>esfuerzo de estar aquí,
+como dice Belén a la hora de comer,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/23-2
+00:00:13.835 --> 00:00:17.272
+<v Roberto Fuertes L&#243;pez>que se va a retrasar un poco.
+Ya os digo que podéis comer</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/23-3
+00:00:17.272 --> 00:00:20.769
+<v Roberto Fuertes L&#243;pez>tranquilamente, no me voy a ofender,
+mientras ya os hablo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/23-4
+00:00:20.769 --> 00:00:24.265
+<v Roberto Fuertes L&#243;pez>lo importante es que estéis atentos a lo
+que voy a contar.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/22-0
+00:00:23.295 --> 00:00:23.695
+<v Fernando David Gomez Ortega>Mhm.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/23-5
+00:00:24.265 --> 00:00:26.695
+<v Roberto Fuertes L&#243;pez>Bienvenidos al curso sobre guía asistida.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/24-0
+00:00:26.975 --> 00:00:32.095
+<v Roberto Fuertes L&#243;pez>En el entorno de data,
+vamos a ver un poco la agenda de hoy.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/27-0
+00:00:32.935 --> 00:00:37.374
+<v Roberto Fuertes L&#243;pez>Que es bueno,
+me voy a presentar y os voy a plantear.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/27-1
+00:00:37.374 --> 00:00:41.156
+<v Roberto Fuertes L&#243;pez>Os voy a explicar cómo he planteado el
+curso.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/27-2
+00:00:41.156 --> 00:00:45.431
+<v Roberto Fuertes L&#243;pez>Vamos a empezar con un una especie de
+cliente fake.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/27-3
+00:00:45.431 --> 00:00:52.255
+<v Roberto Fuertes L&#243;pez>Ahora entro en detalles y vamos a iterar
+sobre ese proyecto fake que he preparado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/30-0
+00:00:53.175 --> 00:00:58.396
+<v Roberto Fuertes L&#243;pez>¿Entonces, quién soy? Pues bueno,
+como hoy me llamo Roberto Fuertes,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/30-1
+00:00:58.396 --> 00:01:02.028
+<v Roberto Fuertes L&#243;pez>llevo trabajando en tecnología desde el
+año 92.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/30-2
+00:01:02.028 --> 00:01:08.157
+<v Roberto Fuertes L&#243;pez>Me parece que he mirado cuando montré una
+mini empresa con un amigo con 20 años,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/30-3
+00:01:08.157 --> 00:01:12.697
+<v Roberto Fuertes L&#243;pez>me puse a la sala,
+así que llevo 30 y tantos años sin dejar</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/30-4
+00:01:12.697 --> 00:01:14.135
+<v Roberto Fuertes L&#243;pez>de darle a la tele.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/31-0
+00:01:15.095 --> 00:01:18.262
+<v Roberto Fuertes L&#243;pez>He hecho un poco de todo.
+He estado en sistemas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/31-1
+00:01:18.262 --> 00:01:23.368
+<v Roberto Fuertes L&#243;pez>he hecho mucho desarrollo de software,
+sobre todo mucho desarrollo de software</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/31-2
+00:01:23.368 --> 00:01:28.280
+<v Roberto Fuertes L&#243;pez>de, digamos, de alta performance,
+con muchas concurrencias y mucho tráfico.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/31-3
+00:01:28.280 --> 00:01:31.771
+<v Roberto Fuertes L&#243;pez>He estado haciendo software de auditoría
+para bancos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/31-4
+00:01:31.771 --> 00:01:33.775
+<v Roberto Fuertes L&#243;pez>software de venta de tractores.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/32-0
+00:01:34.855 --> 00:01:40.112
+<v Roberto Fuertes L&#243;pez>No sé, son de que ya no me acuerdo.
+He hecho un poco de la parte de sistemas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/32-1
+00:01:40.112 --> 00:01:43.389
+<v Roberto Fuertes L&#243;pez>también.
+Mi primer contacto con el Big Data fue</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/32-2
+00:01:43.389 --> 00:01:48.715
+<v Roberto Fuertes L&#243;pez>hace aproximadamente unos 8 años que
+hicimos una transformación en la empresa</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/32-3
+00:01:48.715 --> 00:01:53.495
+<v Roberto Fuertes L&#243;pez>que estaba hacia un modelo de un SQL
+Server hacia un modelo Big Data.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/33-0
+00:01:54.375 --> 00:01:57.846
+<v Roberto Fuertes L&#243;pez>Y bueno,
+desde hace 6 años estoy en Jacala,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/33-1
+00:01:57.846 --> 00:02:04.078
+<v Roberto Fuertes L&#243;pez>llevo 5 años en el proyecto de Barceló,
+a cargo de toda parte de Data y bueno,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/33-2
+00:02:04.078 --> 00:02:10.548
+<v Roberto Fuertes L&#243;pez>estoy también envuelto en otros proyectos
+como Grupo Ramos, más Orange, etcétera.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/33-3
+00:02:10.548 --> 00:02:14.335
+<v Roberto Fuertes L&#243;pez>¿Cómo es esto? Entonces,
+¿por qué me eligieron?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/34-0
+00:02:14.535 --> 00:02:17.952
+<v Roberto Fuertes L&#243;pez>A mí como esto,
+pues que yo creo que con toda esta</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/34-1
+00:02:17.952 --> 00:02:22.978
+<v Roberto Fuertes L&#243;pez>experiencia tengo más o menos criterio de
+saber cómo debemos usar la IA y,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/34-2
+00:02:22.978 --> 00:02:26.328
+<v Roberto Fuertes L&#243;pez>sobre todo,
+cómo no debemos usar la IA para estos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/34-3
+00:02:26.328 --> 00:02:27.535
+<v Roberto Fuertes L&#243;pez>entornos directos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/35-0
+00:02:29.575 --> 00:02:29.815
+<v Roberto Fuertes L&#243;pez>Y.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/38-0
+00:02:31.495 --> 00:02:35.986
+<v Roberto Fuertes L&#243;pez>¿Venís todos de un track transversal?
+Aquí, como tenemos muy poco tiempo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/38-1
+00:02:35.986 --> 00:02:40.053
+<v Roberto Fuertes L&#243;pez>es 1 hora de presentación,
+aunque igual algún día nos alargamos un</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/38-2
+00:02:40.053 --> 00:02:42.906
+<v Roberto Fuertes L&#243;pez>poco.
+Ya hay cosas que deberíais saber o haber</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/38-3
+00:02:42.906 --> 00:02:45.880
+<v Roberto Fuertes L&#243;pez>aprendido en el track,
+como que es el prompting,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/38-4
+00:02:45.880 --> 00:02:50.068
+<v Roberto Fuertes L&#243;pez>como es el fichero de contexto,
+las salidas estructuradas, los MCPS,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/38-5
+00:02:50.068 --> 00:02:50.615
+<v Roberto Fuertes L&#243;pez>etcétera.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/39-0
+00:02:51.175 --> 00:02:55.483
+<v Roberto Fuertes L&#243;pez>Si os está sonando a chino,
+os recomiendo que hagáis la revisión del</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/39-1
+00:02:55.483 --> 00:03:00.167
+<v Roberto Fuertes L&#243;pez>track transversal para que no tengamos
+que repetir ahora toda esta teoría.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/39-2
+00:03:00.167 --> 00:03:04.850
+<v Roberto Fuertes L&#243;pez>Lo que lo vamos a hacer nosotros es esos
+conceptos que visteis en el track</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/39-3
+00:03:04.850 --> 00:03:10.033
+<v Roberto Fuertes L&#243;pez>transversal aplicarlos al área de datos.
+El prompting, pues para esquema, muestra,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/39-4
+00:03:10.033 --> 00:03:11.095
+<v Roberto Fuertes L&#243;pez>regla de negocio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/40-0
+00:03:11.135 --> 00:03:15.643
+<v Roberto Fuertes L&#243;pez>El context El context file,
+pues para el glosario, naming,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/40-1
+00:03:15.643 --> 00:03:17.095
+<v Roberto Fuertes L&#243;pez>modelo y políticas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/41-0
+00:03:17.855 --> 00:03:21.822
+<v Roberto Fuertes L&#243;pez>La salida estructurada, ahora lo veremos.
+¿Qué significa esto?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/41-1
+00:03:21.822 --> 00:03:26.796
+<v Roberto Fuertes L&#243;pez>Pues para poder utilizar lo que nos da la
+IA de una forma fiable en un entorno</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/41-2
+00:03:26.796 --> 00:03:29.881
+<v Roberto Fuertes L&#243;pez>productivo,
+MCPs y agentes para conectar nuestro</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/41-3
+00:03:29.881 --> 00:03:34.919
+<v Roberto Fuertes L&#243;pez>cloud con Google Cloud directamente y que
+haga operaciones con nosotros y luego</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/41-4
+00:03:34.919 --> 00:03:37.375
+<v Roberto Fuertes L&#243;pez>temas de evaluación de datos, etcétera.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/42-0
+00:03:39.415 --> 00:03:44.378
+<v Roberto Fuertes L&#243;pez>Vale,
+esto es un poco el guión de toda de toda</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/42-1
+00:03:44.378 --> 00:03:44.695
+<v Roberto Fuertes L&#243;pez>la.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/45-0
+00:03:45.495 --> 00:03:49.121
+<v Roberto Fuertes L&#243;pez>El track vamos a ir en estas 5 sesiones,
+bueno, 6 sesiones.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/45-1
+00:03:49.121 --> 00:03:54.078
+<v Roberto Fuertes L&#243;pez>El último va a estar un poco más centrado
+en el tema del trabajo de fin de máster</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/45-2
+00:03:54.078 --> 00:03:57.523
+<v Roberto Fuertes L&#243;pez>que os vamos a plantear,
+pero es un poco todas las áreas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/45-3
+00:03:57.523 --> 00:04:01.029
+<v Roberto Fuertes L&#243;pez>importantes que hay en data,
+el discovery de las fuentes,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/45-4
+00:04:01.029 --> 00:04:04.535
+<v Roberto Fuertes L&#243;pez>luego como con esas fuentes hacemos un
+modelado de datos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/46-0
+00:04:04.855 --> 00:04:09.236
+<v Roberto Fuertes L&#243;pez>¿Cómo con ese modelo ya preparamos las
+ingestas, los controles de calidad,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/46-1
+00:04:09.236 --> 00:04:12.157
+<v Roberto Fuertes L&#243;pez>etcétera?
+¿Cómo se implementan temas de gobierno,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/46-2
+00:04:12.157 --> 00:04:16.188
+<v Roberto Fuertes L&#243;pez>de privacidad de los datos?
+¿Cómo se operativiza todo esto o cómo se</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/46-3
+00:04:16.188 --> 00:04:20.978
+<v Roberto Fuertes L&#243;pez>pone en producción todo esto? Y luego,
+el último día haremos algunas prácticas y,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/46-4
+00:04:20.978 --> 00:04:24.074
+<v Roberto Fuertes L&#243;pez>sobre todo,
+explicar un poco cuál es el objetivo del</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/46-5
+00:04:24.074 --> 00:04:25.535
+<v Roberto Fuertes L&#243;pez>trabajo de fin de máster.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/47-0
+00:04:26.175 --> 00:04:30.135
+<v Roberto Fuertes L&#243;pez>Nos vamos a aprender, vale,
+hasta aquí todo claro.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/48-0
+00:04:30.935 --> 00:04:31.295
+<v Roberto Fuertes L&#243;pez>Six.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/51-0
+00:04:33.335 --> 00:04:37.182
+<v Roberto Fuertes L&#243;pez>Si tenéis alguna duda,
+como no voy a estar preguntándoos cada 2</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/51-1
+00:04:37.182 --> 00:04:41.391
+<v Roberto Fuertes L&#243;pez>minutos si digo tenéis todo bien, vale,
+levantáis la mano en el chat,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/51-2
+00:04:41.391 --> 00:04:43.255
+<v Roberto Fuertes L&#243;pez>yo os veo y paramos un momento.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/54-0
+00:04:44.615 --> 00:04:48.571
+<v Roberto Fuertes L&#243;pez>Vale, ¿cuál es la mecánica de este curso?
+Como os digo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/54-1
+00:04:48.571 --> 00:04:54.082
+<v Roberto Fuertes L&#243;pez>es ver cómo podemos utilizar la IA en
+cada una de las fases de un proyecto de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/54-2
+00:04:54.082 --> 00:04:57.402
+<v Roberto Fuertes L&#243;pez>data.
+Vamos a trabajar con un cliente ficticio</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/54-3
+00:04:57.402 --> 00:05:00.935
+<v Roberto Fuertes L&#243;pez>que se llama Vivenka.
+Es un retail multinacional.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/55-0
+00:05:02.055 --> 00:05:05.930
+<v Roberto Fuertes L&#243;pez>Y , sobre todo,
+se dedica a temas de ventas a empresas y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/55-1
+00:05:05.930 --> 00:05:10.825
+<v Roberto Fuertes L&#243;pez>lo que quieren es pues preparar un
+dashboard donde puedan ver el ROI de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/55-2
+00:05:10.825 --> 00:05:14.904
+<v Roberto Fuertes L&#243;pez>todas las operaciones,
+lo que consiguen con cada una de los</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/55-3
+00:05:14.904 --> 00:05:20.411
+<v Roberto Fuertes L&#243;pez>eventos y las ventas que van a hacer.
+Este cliente es multicanal, vende offline,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/55-4
+00:05:20.411 --> 00:05:21.295
+<v Roberto Fuertes L&#243;pez>vende online.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/56-0
+00:05:21.415 --> 00:05:25.504
+<v Roberto Fuertes L&#243;pez>Y aparte vende en ferias,
+prepara ferias con temáticas donde van</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/56-1
+00:05:25.504 --> 00:05:30.096
+<v Roberto Fuertes L&#243;pez>sus clientes profesionales y ahí cogen
+contactos y también cogen pentas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/56-2
+00:05:30.096 --> 00:05:32.990
+<v Roberto Fuertes L&#243;pez>Entonces,
+el problema que tienen ahora es que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/56-3
+00:05:32.990 --> 00:05:37.896
+<v Roberto Fuertes L&#243;pez>tienen por un lado su base de datos de
+CRM de clientes y por otro lado tienen</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/56-4
+00:05:37.896 --> 00:05:42.615
+<v Roberto Fuertes L&#243;pez>una base de datos de que vienen
+directamente de los eventos que ahí están.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/57-0
+00:05:43.335 --> 00:05:46.759
+<v Roberto Fuertes L&#243;pez>Organizando,
+cogen los datos del cliente cuando llegan</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/57-1
+00:05:46.759 --> 00:05:49.375
+<v Roberto Fuertes L&#243;pez>a la feria y los meten a un sistema, vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/58-0
+00:05:50.455 --> 00:05:53.270
+<v Roberto Fuertes L&#243;pez>Entonces, bueno,
+como en todos los proyectos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/58-1
+00:05:53.270 --> 00:05:56.636
+<v Roberto Fuertes L&#243;pez>lo primero que hacemos es decirlo, bueno,
+vamos a ver,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/58-2
+00:05:56.636 --> 00:06:01.349
+<v Roberto Fuertes L&#243;pez>entendemos más o menos lo que quieren y
+quieren unificar identidades entre 2</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/58-3
+00:06:01.349 --> 00:06:04.899
+<v Roberto Fuertes L&#243;pez>sistemas diferentes.
+Quieren que sea así para luego poder</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/58-4
+00:06:04.899 --> 00:06:09.612
+<v Roberto Fuertes L&#243;pez>hacer cálculos sobre la facturación,
+sobre todo lo que invierten para atraer</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/58-5
+00:06:09.612 --> 00:06:10.775
+<v Roberto Fuertes L&#243;pez>clientes, etcétera.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/59-0
+00:06:11.655 --> 00:06:15.836
+<v Roberto Fuertes L&#243;pez>Y lo primero que le hemos pedido es decir,
+bueno, venga,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/59-1
+00:06:15.836 --> 00:06:21.631
+<v Roberto Fuertes L&#243;pez>pásanos un fichero de ejemplo de lo que
+tenéis como leads en vuestros eventos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/59-2
+00:06:21.631 --> 00:06:27.207
+<v Roberto Fuertes L&#243;pez>Vale, bueno, esto va a ser, digamos,
+el la regla del track. La I A propone,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/59-3
+00:06:27.207 --> 00:06:30.655
+<v Roberto Fuertes L&#243;pez>nosotros validamos y luego el sistema
+ejecuta.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/62-0
+00:06:32.215 --> 00:06:37.446
+<v Roberto Fuertes L&#243;pez>Seguramente voy a desviarme 2 minutos por
+un poco de speech.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/62-1
+00:06:37.446 --> 00:06:44.394
+<v Roberto Fuertes L&#243;pez>Lo que se ha hablado siempre es la IA nos
+va a quitar el trabajo o la IA en data</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/62-2
+00:06:44.394 --> 00:06:50.655
+<v Roberto Fuertes L&#243;pez>nos va a sustituir o ese mensaje es
+absolutamente correcto. La IA vas a.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/63-0
+00:06:50.855 --> 00:06:55.428
+<v Roberto Fuertes L&#243;pez>Quitar el trabajo de la gente que no sepa
+de tecnología en el caso de data.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/63-1
+00:06:55.428 --> 00:06:59.640
+<v Roberto Fuertes L&#243;pez>Si tú eres un buen técnico,
+si sabes cuáles son los mejores prácticas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/63-2
+00:06:59.640 --> 00:07:03.251
+<v Roberto Fuertes L&#243;pez>para el modelado de datos,
+si sabes entender cuáles son los</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/63-3
+00:07:03.251 --> 00:07:07.222
+<v Roberto Fuertes L&#243;pez>requerimientos de cliente en cuanto asus
+KPI, sus preocupaciones,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/63-4
+00:07:07.222 --> 00:07:11.375
+<v Roberto Fuertes L&#243;pez>lo que intenta conseguir.
+Todo eso no lo va a hacer una guía porque.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-0
+00:07:11.495 --> 00:07:14.479
+<v Roberto Fuertes L&#243;pez>De momento,
+el cliente no va a hablar con una IA ni</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-1
+00:07:14.479 --> 00:07:17.464
+<v Roberto Fuertes L&#243;pez>va a delegar en él en la IA todas estas
+decisiones.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-2
+00:07:17.464 --> 00:07:21.884
+<v Roberto Fuertes L&#243;pez>Entonces la figura del técnico va a
+seguir estando y vamos a seguir teniendo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-3
+00:07:21.884 --> 00:07:24.811
+<v Roberto Fuertes L&#243;pez>trabajo,
+siempre y cuando aprendamos a usar esto y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-4
+00:07:24.811 --> 00:07:29.174
+<v Roberto Fuertes L&#243;pez>que nuestros sistemas que estamos
+desarrollando sean fiables. Por lo tanto,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-5
+00:07:29.174 --> 00:07:32.733
+<v Roberto Fuertes L&#243;pez>un poco menos de con el hype este de
+global quita de trabajo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/64-6
+00:07:32.733 --> 00:07:34.455
+<v Roberto Fuertes L&#243;pez>sino que la IA lo que hace es.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/65-0
+00:07:34.615 --> 00:07:38.556
+<v Roberto Fuertes L&#243;pez>Acelerarnos mucho y lo vais a ver ahora
+mismo con ejemplos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/65-1
+00:07:38.556 --> 00:07:41.709
+<v Roberto Fuertes L&#243;pez>acelerarnos mucho en nuestras fases de
+trabajo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/65-2
+00:07:41.709 --> 00:07:46.701
+<v Roberto Fuertes L&#243;pez>lo que antes tardábamos una semana,
+ahora tardaremos 1 hora o 22 plomes con</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/65-3
+00:07:46.701 --> 00:07:49.657
+<v Roberto Fuertes L&#243;pez>el chat,
+pero es importante que sepas qué le</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/65-4
+00:07:49.657 --> 00:07:54.518
+<v Roberto Fuertes L&#243;pez>tienes que pedir al a la I A y qué
+quieres que te devuelva y que tenga la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/65-5
+00:07:54.518 --> 00:07:56.095
+<v Roberto Fuertes L&#243;pez>capacidad de analizarlo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/66-0
+00:07:56.615 --> 00:08:00.709
+<v Roberto Fuertes L&#243;pez>Si no tenéis esos conocimientos,
+da igual que utilices porque vas a dar el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/66-1
+00:08:00.709 --> 00:08:05.076
+<v Roberto Fuertes L&#243;pez>visto bueno a todos y a todos y a todo,
+y lo que vais a montar es un bifostio y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/66-2
+00:08:05.076 --> 00:08:08.679
+<v Roberto Fuertes L&#243;pez>un problema con el cliente porque la
+solución no se va a ajustar.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/66-3
+00:08:08.679 --> 00:08:11.735
+<v Roberto Fuertes L&#243;pez>Hecho este pequeño paréntesis,
+esto es un poco el hilo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/66-4
+00:08:11.735 --> 00:08:15.175
+<v Roberto Fuertes L&#243;pez>Nosotros nos apoyamos en la I A para
+acelerar nuestro trabajo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/67-0
+00:08:15.855 --> 00:08:21.533
+<v Roberto Fuertes L&#243;pez>La utilizamos dentro de unos parámetros
+muy concretos dentro de nuestros procesos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/67-1
+00:08:21.533 --> 00:08:25.775
+<v Roberto Fuertes L&#243;pez>y pero siempre nosotros decidimos qué es
+lo que pasa contigo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/70-0
+00:08:28.055 --> 00:08:31.778
+<v Roberto Fuertes L&#243;pez>Entonces, lo primero que,
+volviendo a la temática del curso,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/70-1
+00:08:31.778 --> 00:08:35.439
+<v Roberto Fuertes L&#243;pez>lo primero que necesitamos es un poco
+entender las fuentes.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/70-2
+00:08:35.439 --> 00:08:40.017
+<v Roberto Fuertes L&#243;pez>Las conversaciones han iniciadas con el
+equipo de marketing y el equipo de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/70-3
+00:08:40.017 --> 00:08:42.824
+<v Roberto Fuertes L&#243;pez>marketing nos han enviado este fichero.
+Vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/70-4
+00:08:42.824 --> 00:08:46.975
+<v Roberto Fuertes L&#243;pez>os doy 2 minutos para que echéis un poco
+un vistazo a este fichero.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/71-0
+00:08:47.095 --> 00:08:51.723
+<v Roberto Fuertes L&#243;pez>Y a ver si podéis ver a simple vista
+cuáles son los posibles problemas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/71-1
+00:08:51.723 --> 00:08:52.495
+<v Roberto Fuertes L&#243;pez>30 segundos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/74-0
+00:08:56.775 --> 00:09:00.368
+<v Roberto Fuertes L&#243;pez>Alguien me puede ir diciendo alguno así
+rápidamente,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/74-1
+00:09:00.368 --> 00:09:05.927
+<v Roberto Fuertes L&#243;pez>pero más que veis en esta CSV a la hora
+de luego ingestarlo en una base de datos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/74-2
+00:09:05.927 --> 00:09:07.215
+<v Roberto Fuertes L&#243;pez>Vamos a ver, Patri.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/76-0
+00:09:07.855 --> 00:09:12.230
+<v Patricia Lafuente Estrada>Los teléfonos,
+unos vienen con prefijo y otros no.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/76-1
+00:09:12.230 --> 00:09:17.807
+<v Patricia Lafuente Estrada>Por ejemplo, la línea 1234,
+Inés no viene con prefijo de España,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/76-2
+00:09:17.807 --> 00:09:19.695
+<v Patricia Lafuente Estrada>que son en su mayoría.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/75-0
+00:09:19.335 --> 00:09:20.615
+<v Roberto Fuertes L&#243;pez>Uy, perdón.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/77-0
+00:09:21.495 --> 00:09:23.255
+<v Roberto Fuertes L&#243;pez>Sí, correcto, alguna cosa.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/78-0
+00:09:23.135 --> 00:09:27.215
+<v Patricia Lafuente Estrada>No hay correo electrónico, apellido, sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/80-0
+00:09:26.535 --> 00:09:30.807
+<v Roberto Fuertes L&#243;pez>En algunos registros, vale, bueno,
+realmente esto cuando cogemos este</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/79-0
+00:09:28.295 --> 00:09:29.255
+<v Patricia Lafuente Estrada>Falta, sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/80-1
+00:09:30.807 --> 00:09:34.592
+<v Roberto Fuertes L&#243;pez>fichero y salgamos a una IA,
+lo que detecta es esto. Primero,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/80-2
+00:09:34.592 --> 00:09:39.048
+<v Roberto Fuertes L&#243;pez>las cabeceras están en Moji Bake.
+Moji Bake es que tienen los caracteres</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/80-3
+00:09:39.048 --> 00:09:42.954
+<v Roberto Fuertes L&#243;pez>que como tienen una modificación
+diferente, se han escrito MAN.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/80-4
+00:09:42.954 --> 00:09:46.495
+<v Roberto Fuertes L&#243;pez>Las cabeceras están como Mobile Bake,
+tenemos 3 formatos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/81-0
+00:09:46.735 --> 00:09:48.015
+<v Roberto Fuertes L&#243;pez>Diferentes de fechas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/84-0
+00:09:48.975 --> 00:09:52.255
+<v Roberto Fuertes L&#243;pez>Si os dais cuenta,
+aquí hay algunas que empiezan por.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/85-0
+00:09:54.695 --> 00:09:56.135
+<v Roberto Fuertes L&#243;pez>Yo veo los ejemplos ahora.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/86-0
+00:09:58.775 --> 00:10:02.401
+<v Roberto Fuertes L&#243;pez>Esta empieza por el año,
+esta empieza por el día.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/86-1
+00:10:02.401 --> 00:10:08.348
+<v Roberto Fuertes L&#243;pez>Hay 3 formas diferentes, los contactos.
+Hay registros con teléfono y medio vacío.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/86-2
+00:10:08.348 --> 00:10:11.975
+<v Roberto Fuertes L&#243;pez>Esto sí lo ha visto Patri y vemos que
+aquí en el.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/87-0
+00:10:12.775 --> 00:10:16.156
+<v Roberto Fuertes L&#243;pez>La empresa que viene en eventos,
+pues es un poco noro,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/87-1
+00:10:16.156 --> 00:10:19.660
+<v Roberto Fuertes L&#243;pez>porque aquí es feria pro sector,
+aquí es webinar, o sea,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/87-2
+00:10:19.660 --> 00:10:24.455
+<v Roberto Fuertes L&#243;pez>no mantiene una estructura de naming en
+eventos que nos permita inferir nada.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/88-0
+00:10:25.615 --> 00:10:27.615
+<v Roberto Fuertes L&#243;pez>Vale, entonces.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/89-0
+00:10:28.895 --> 00:10:30.655
+<v Roberto Fuertes L&#243;pez>Vamos a ver cómo hemos conseguido este.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/93-0
+00:10:32.815 --> 00:10:36.626
+<v Roberto Fuertes L&#243;pez>Bueno,
+verdad que tengo habría que habituarme a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/93-1
+00:10:36.626 --> 00:10:41.470
+<v Roberto Fuertes L&#243;pez>la a los controles,
+lo que vamos a hacer es hacer un pequeño</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/93-2
+00:10:41.470 --> 00:10:47.744
+<v Roberto Fuertes L&#243;pez>prompt a cloud con una muestra de los
+registros y le vamos a pedir primero que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/93-3
+00:10:47.744 --> 00:10:52.667
+<v Roberto Fuertes L&#243;pez>nos haga un propuesto,
+una un propuesto de esquema para poder</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/93-4
+00:10:52.667 --> 00:10:54.335
+<v Roberto Fuertes L&#243;pez>importar ese archivo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/94-0
+00:10:55.135 --> 00:10:59.552
+<v Roberto Fuertes L&#243;pez>Que los de las anomalías de Encodi,
+los de los formatos diferentes, etcétera,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/94-1
+00:10:59.552 --> 00:11:03.573
+<v Roberto Fuertes L&#243;pez>y que nos dé unas preguntas para el
+cliente porque obviamente con este</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/94-2
+00:11:03.573 --> 00:11:07.423
+<v Roberto Fuertes L&#243;pez>fichero podemos continuar.
+El cliente nos tiene que aclarar si esto</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/94-3
+00:11:07.423 --> 00:11:10.935
+<v Roberto Fuertes L&#243;pez>va a ser el final,
+si solo es una muestra o qué está pasando.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/95-0
+00:11:12.055 --> 00:11:16.331
+<v Roberto Fuertes L&#243;pez>Y le vamos a dar una regla para que no se
+invente cosas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/95-1
+00:11:16.331 --> 00:11:19.632
+<v Roberto Fuertes L&#243;pez>no supongas el significado de las
+columnas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/95-2
+00:11:19.632 --> 00:11:25.783
+<v Roberto Fuertes L&#243;pez>distingue observaciones verificables de
+hipótesis y no corrijas nada de los datos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/95-3
+00:11:25.783 --> 00:11:30.735
+<v Roberto Fuertes L&#243;pez>y le vamos a dar una muestra con la
+cabecera y las filas de este.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/96-0
+00:11:31.095 --> 00:11:31.735
+<v Roberto Fuertes L&#243;pez>Vamos a.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/97-0
+00:11:33.015 --> 00:11:36.240
+<v Roberto Fuertes L&#243;pez>A ver,
+tengo por aquí los bronces ya preparados,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/97-1
+00:11:36.240 --> 00:11:38.215
+<v Roberto Fuertes L&#243;pez>voy a abrir un segundito aquí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/100-0
+00:11:42.295 --> 00:11:48.013
+<v Roberto Fuertes L&#243;pez>Tengo aquí abierta una sesión de cloud en
+un proyecto. He creado un proyecto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/100-1
+00:11:48.013 --> 00:11:53.657
+<v Roberto Fuertes L&#243;pez>Esto lo cuento un poco para que sepáis
+cuando tengamos el cloud centerprise,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/100-2
+00:11:53.657 --> 00:11:58.789
+<v Roberto Fuertes L&#243;pez>que en teoría llegará en algún momento
+con el partner si que tenemos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/100-3
+00:11:58.789 --> 00:12:01.575
+<v Roberto Fuertes L&#243;pez>pues se puede crear un nuevo proyecto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/101-0
+00:12:01.655 --> 00:12:04.781
+<v Roberto Fuertes L&#243;pez>Y luego aquí,
+pues se pueden añadir archivos de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/101-1
+00:12:04.781 --> 00:12:08.428
+<v Roberto Fuertes L&#243;pez>contexto, etcétera,
+que van a utilizarse dentro de este</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/101-2
+00:12:08.428 --> 00:12:13.898
+<v Roberto Fuertes L&#243;pez>proyecto. De momento no necesitamos nada,
+simplemente vamos a pegarle el prompt que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/101-3
+00:12:13.898 --> 00:12:14.615
+<v Roberto Fuertes L&#243;pez>le ha dado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/104-0
+00:12:15.775 --> 00:12:20.905
+<v Roberto Fuertes L&#243;pez>Es que me ha propuesto anemolías,
+preguntas para el cliente y le doy una</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/104-1
+00:12:20.905 --> 00:12:25.615
+<v Roberto Fuertes L&#243;pez>muestra con la cabecera y unos cuantos
+ejemplos. Vale, le pegamos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/111-0
+00:12:44.815 --> 00:12:51.170
+<v Roberto Fuertes L&#243;pez>Creo que para las próximas tareas dejaré
+ya el output generado y así nos ahorramos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/108-0
+00:12:51.095 --> 00:12:54.455
+<v Adri&#225;n Iborra Rizo>Bueno, nos da para nos da para el café,
+no pasa nada, Robert.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/111-1
+00:12:51.170 --> 00:12:57.067
+<v Roberto Fuertes L&#243;pez>estos tipos de espera incómodos. Vale,
+para que más te quedes a gusto. Vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/111-2
+00:12:57.067 --> 00:12:59.135
+<v Roberto Fuertes L&#243;pez>entonces este es el output.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/112-0
+00:13:00.055 --> 00:13:03.007
+<v Roberto Fuertes L&#243;pez>¿La columna original,
+cuál es el nombre del campo que nos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/112-1
+00:13:03.007 --> 00:13:03.415
+<v Roberto Fuertes L&#243;pez>sugiere?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/113-0
+00:13:04.695 --> 00:13:05.615
+<v Roberto Fuertes L&#243;pez>Un tipo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/118-0
+00:13:06.615 --> 00:13:11.537
+<v Roberto Fuertes L&#243;pez>Y algunos ejemplos que he observado para
+cada uno de los campos. Vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/118-1
+00:13:11.537 --> 00:13:15.975
+<v Roberto Fuertes L&#243;pez>no vamos a detenernos tampoco mucho de
+campos por ir avanzando.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/119-0
+00:13:17.495 --> 00:13:23.336
+<v Roberto Fuertes L&#243;pez>Anomalías detectables que son
+verificables, pues hay un inconsistente,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/119-1
+00:13:23.336 --> 00:13:24.735
+<v Roberto Fuertes L&#243;pez>el del limitador.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/126-0
+00:13:25.815 --> 00:13:30.131
+<v Roberto Fuertes L&#243;pez>Sí, se usa de forma consistente,
+el formato de teléfono es mixto,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/126-1
+00:13:30.131 --> 00:13:34.383
+<v Roberto Fuertes L&#243;pez>el formato de fecha es mixto,
+hay valores vacíos, doble espacio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/126-2
+00:13:34.383 --> 00:13:39.550
+<v Roberto Fuertes L&#243;pez>Todo lo que os he enseñado en la anterior
+es el output que he leído después de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/126-3
+00:13:39.550 --> 00:13:41.055
+<v Roberto Fuertes L&#243;pez>hacerle este hipótesis.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/129-0
+00:13:41.895 --> 00:13:45.714
+<v Roberto Fuertes L&#243;pez>El problema posible que no sé qué la
+columna de evento podría destinar a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/129-1
+00:13:45.714 --> 00:13:48.800
+<v Roberto Fuertes L&#243;pez>mapear contra un catálogo de eventos.
+Esto es lo que digo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/129-2
+00:13:48.800 --> 00:13:52.305
+<v Roberto Fuertes L&#243;pez>si de esa columna que viene un solo dato
+que es nombre del evento,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/129-3
+00:13:52.305 --> 00:13:56.700
+<v Roberto Fuertes L&#243;pez>luego el cliente dice no es que yo quiero
+separar lo que son webinars de lo que son</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/129-4
+00:13:56.700 --> 00:14:00.990
+<v Roberto Fuertes L&#243;pez>presentaciones, no sé qué de lo que son.
+Entonces con ese nombre no valdría y por</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/129-5
+00:14:00.990 --> 00:14:01.775
+<v Roberto Fuertes L&#243;pez>lo tanto sería.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/130-0
+00:14:02.135 --> 00:14:04.907
+<v Roberto Fuertes L&#243;pez>¿Lícito a levantar esto con el cliente y
+decirle, oye,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/130-1
+00:14:04.907 --> 00:14:07.175
+<v Roberto Fuertes L&#243;pez>para qué queréis utilizar la columna
+evento?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/133-0
+00:14:08.615 --> 00:14:13.903
+<v Roberto Fuertes L&#243;pez>¿Y cuál es la las preguntas que para el
+cliente? ¿Cuál es la codificación real?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/133-1
+00:14:13.903 --> 00:14:19.060
+<v Roberto Fuertes L&#243;pez>¿Se confirma que vais a utilizar punto y
+coma, qué hacemos con los teléfonos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/133-2
+00:14:19.060 --> 00:14:22.101
+<v Roberto Fuertes L&#243;pez>qué hacemos con las fechas,
+cerca de hacerlo?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/133-3
+00:14:22.101 --> 00:14:27.126
+<v Roberto Fuertes L&#243;pez>Ya habéis visto que en un simple prompt
+no tenemos que estar ahí 10 minutos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/133-4
+00:14:27.126 --> 00:14:27.655
+<v Roberto Fuertes L&#243;pez>mirando.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/134-0
+00:14:27.935 --> 00:14:33.420
+<v Roberto Fuertes L&#243;pez>No, el CSV si encontramos las diferencias.
+Y con esto ya podemos iniciar una pequeña</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/134-1
+00:14:33.420 --> 00:14:37.744
+<v Roberto Fuertes L&#243;pez>conversación con el cliente,
+porque al final los primeras fases de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/134-2
+00:14:37.744 --> 00:14:42.326
+<v Roberto Fuertes L&#243;pez>clientes con el clientes es así,
+es dialogar y entender lo que se está</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/134-3
+00:14:42.326 --> 00:14:43.295
+<v Roberto Fuertes L&#243;pez>haciendo. vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/137-0
+00:14:45.575 --> 00:14:49.060
+<v Roberto Fuertes L&#243;pez>Aquí un poco es el output,
+lo he dejado en la presentación para que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/137-1
+00:14:49.060 --> 00:14:50.495
+<v Roberto Fuertes L&#243;pez>se vea lo que hemos hablado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/138-0
+00:14:51.495 --> 00:14:52.495
+<v Roberto Fuertes L&#243;pez>Entonces.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/139-0
+00:14:53.655 --> 00:14:55.615
+<v Roberto Fuertes L&#243;pez>Preguntas para cargar esta vaca.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/142-0
+00:14:56.375 --> 00:15:00.245
+<v Roberto Fuertes L&#243;pez>¿Qué representa la fecha?
+Un evento comparte la fecha,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/142-1
+00:15:00.245 --> 00:15:05.031
+<v Roberto Fuertes L&#243;pez>no la comparte, tiene time stamp.
+Todos nuestros clientes van a ser</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/142-2
+00:15:05.031 --> 00:15:08.620
+<v Roberto Fuertes L&#243;pez>nacionales.
+Tenemos que concatenar el prefijo, sí,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/142-3
+00:15:08.620 --> 00:15:12.561
+<v Roberto Fuertes L&#243;pez>no vamos a tener que guardar algún tipo
+de lógica aquí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/142-4
+00:15:12.561 --> 00:15:15.095
+<v Roberto Fuertes L&#243;pez>¿Qué pasa cuando hay un email vacío?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/143-0
+00:15:16.255 --> 00:15:18.953
+<v Roberto Fuertes L&#243;pez>¿Cuál es el contrato definitivo del
+fichero, es decir,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/143-1
+00:15:18.953 --> 00:15:22.240
+<v Roberto Fuertes L&#243;pez>cuáles son las columnas,
+cuáles son los campos y qué formato van a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/143-2
+00:15:22.240 --> 00:15:22.535
+<v Roberto Fuertes L&#243;pez>tener?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/144-0
+00:15:24.615 --> 00:15:30.394
+<v Roberto Fuertes L&#243;pez>Y esto es un poco ya para empezar a
+hablar también con el cliente a otro tipo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/144-1
+00:15:30.394 --> 00:15:31.135
+<v Roberto Fuertes L&#243;pez>de debate.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/147-0
+00:15:32.535 --> 00:15:37.623
+<v Roberto Fuertes L&#243;pez>¿Hay algún identificador de clientes
+estable para poder mezclar las fuentes?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/147-1
+00:15:37.623 --> 00:15:41.984
+<v Roberto Fuertes L&#243;pez>que O sea, esto es, perdón,
+porque falta una pequeña orden. Aquí,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/147-2
+00:15:41.984 --> 00:15:47.139
+<v Roberto Fuertes L&#243;pez>como os comentáis, hay 2 ficheros,
+los de CRMY este que hemos analizado, ¿no?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/147-3
+00:15:47.139 --> 00:15:51.434
+<v Roberto Fuertes L&#243;pez>Entonces ya tenemos que hacer preguntas
+un poco sobre el macheo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/147-4
+00:15:51.434 --> 00:15:53.615
+<v Roberto Fuertes L&#243;pez>Hay un catálogo único de cuentas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/148-0
+00:15:53.815 --> 00:15:56.788
+<v Roberto Fuertes L&#243;pez>Hay un ID único de cliente que debamos
+observar.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/148-1
+00:15:56.788 --> 00:16:00.975
+<v Roberto Fuertes L&#243;pez>¿Qué pasa si 2 fuentes disquelepan?
+¿Cuál es la fuente de la verdad?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/148-2
+00:16:00.975 --> 00:16:05.587
+<v Roberto Fuertes L&#243;pez>Todo esto son lógicas que se sacan
+exclusivamente de hablar con el cliente.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/148-3
+00:16:05.587 --> 00:16:08.621
+<v Roberto Fuertes L&#243;pez>Si tú le dices todo a ChatGPT que te lo
+resuelva,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/148-4
+00:16:08.621 --> 00:16:13.415
+<v Roberto Fuertes L&#243;pez>te va a dar lo que a él le parezca bien,
+pero eso no significa que vaya a ser.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/149-0
+00:16:13.655 --> 00:16:19.307
+<v Roberto Fuertes L&#243;pez>Lo que necesita el cliente, vale,
+sobre todo supervisar bien lo que los</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/149-1
+00:16:19.307 --> 00:16:19.935
+<v Roberto Fuertes L&#243;pez>outputs.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/152-0
+00:16:22.535 --> 00:16:23.015
+<v Roberto Fuertes L&#243;pez>Right.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/155-0
+00:16:25.015 --> 00:16:30.414
+<v Roberto Fuertes L&#243;pez>Imaginaos que ha pasado unos unos días,
+hemos estado hablando con el cliente y al</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/155-1
+00:16:30.414 --> 00:16:35.748
+<v Roberto Fuertes L&#243;pez>final nos ha entregado 2 ficheros que
+afortunadamente ya cumplen las normativas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/155-2
+00:16:35.748 --> 00:16:40.357
+<v Roberto Fuertes L&#243;pez>Ya hemos hablado con ellos,
+ya nos han dicho como nos van a pasar las</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/155-3
+00:16:40.357 --> 00:16:43.255
+<v Roberto Fuertes L&#243;pez>fechas,
+como nos van a pasar los teléfonos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/160-0
+00:16:43.655 --> 00:16:46.499
+<v Roberto Fuertes L&#243;pez>Etcétera, etcétera,
+un poco para que veáis aquí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/160-1
+00:16:46.499 --> 00:16:49.401
+<v Roberto Fuertes L&#243;pez>Este sería el recién llegado que hemos
+analizado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/160-2
+00:16:49.401 --> 00:16:53.812
+<v Roberto Fuertes L&#243;pez>Tengo todo esto es un una carpeta que
+luego compartiré también porque es un</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/160-3
+00:16:53.812 --> 00:16:57.875
+<v Roberto Fuertes L&#243;pez>poco la base de todo lo que estamos
+hablando. Aquí están los prompts,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/160-4
+00:16:57.875 --> 00:17:01.938
+<v Roberto Fuertes L&#243;pez>esta presentación, etcétera, etcétera,
+para que lo podáis leer. Vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/160-5
+00:17:01.938 --> 00:17:03.215
+<v Roberto Fuertes L&#243;pez>entonces nos envía un.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/161-0
+00:17:03.655 --> 00:17:08.055
+<v Roberto Fuertes L&#243;pez>¿Un fichero definitivo que es este,
+el del id de venta, vale?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/164-0
+00:17:09.495 --> 00:17:13.336
+<v Roberto Fuertes L&#243;pez>Y otro que es el CRM.
+Estos son los ficheros definitivos que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/164-1
+00:17:13.336 --> 00:17:18.185
+<v Roberto Fuertes L&#243;pez>requiere el cliente que trabajemos y
+hagamos resolución de identidades entre</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/164-2
+00:17:18.185 --> 00:17:18.815
+<v Roberto Fuertes L&#243;pez>los 2 o k.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/165-0
+00:17:20.775 --> 00:17:23.895
+<v Roberto Fuertes L&#243;pez>Vale,
+es lo primero que le podemos decir a.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/168-0
+00:17:26.455 --> 00:17:27.175
+<v Roberto Fuertes L&#243;pez>Yeah.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/171-0
+00:17:28.295 --> 00:17:31.867
+<v Roberto Fuertes L&#243;pez>A Al modelo,
+pues que nos prepare una propuesta de las</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/171-1
+00:17:31.867 --> 00:17:37.258
+<v Roberto Fuertes L&#243;pez>tablas que tenemos que implementar. Vale,
+lo primero que hacemos es vamos a seguir</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/171-2
+00:17:37.258 --> 00:17:41.349
+<v Roberto Fuertes L&#243;pez>una no una nomenclatura igual para todo
+el proyecto. Es decir,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/171-3
+00:17:41.349 --> 00:17:45.961
+<v Roberto Fuertes L&#243;pez>cada vez que creemos una tabla,
+pues va a tener que tener un nombre en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/171-4
+00:17:45.961 --> 00:17:47.455
+<v Roberto Fuertes L&#243;pez>concreto en los campos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/172-0
+00:17:47.535 --> 00:17:50.367
+<v Roberto Fuertes L&#243;pez>Pues van a tener que tener un nombre en
+completo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/172-1
+00:17:50.367 --> 00:17:52.973
+<v Roberto Fuertes L&#243;pez>¿Cuál es el formato del nombre de los
+campos?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/172-2
+00:17:52.973 --> 00:17:57.335
+<v Roberto Fuertes L&#243;pez>Todo esto son instrucciones que le
+estamos dando a la IA y que va a tener en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/172-3
+00:17:57.335 --> 00:18:00.735
+<v Roberto Fuertes L&#243;pez>cuenta cada vez que ejecutemos un
+producto. Vale, entonces.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/173-0
+00:18:02.895 --> 00:18:06.895
+<v Roberto Fuertes L&#243;pez>Como os digo,
+esto se puede poner directamente en cloud.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/174-0
+00:18:09.055 --> 00:18:13.735
+<v Roberto Fuertes L&#243;pez>Ahora os explico esto,
+lo que hay en esta pestaña, vamos a ver.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/175-0
+00:18:24.695 --> 00:18:25.335
+<v Roberto Fuertes L&#243;pez>Perdón.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/176-0
+00:18:26.935 --> 00:18:28.055
+<v Roberto Fuertes L&#243;pez>Pero es.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/177-0
+00:18:30.695 --> 00:18:31.055
+<v Roberto Fuertes L&#243;pez>Vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/178-0
+00:18:32.375 --> 00:18:34.455
+<v Roberto Fuertes L&#243;pez>Y nos movemos a la pestaña de Cloud.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/179-0
+00:18:37.495 --> 00:18:40.495
+<v Roberto Fuertes L&#243;pez>Podemos abrir una nueva sesión o lo que
+queráis.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/182-0
+00:18:42.615 --> 00:18:45.735
+<v Roberto Fuertes L&#243;pez>Ponemos aquí y le vamos a poner.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/183-0
+00:18:47.175 --> 00:18:47.575
+<v Roberto Fuertes L&#243;pez>Okay.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/184-0
+00:18:48.695 --> 00:18:49.695
+<v Roberto Fuertes L&#243;pez>Y diri diri.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/185-0
+00:18:52.175 --> 00:18:53.255
+<v Roberto Fuertes L&#243;pez>A ver si lo encuentro.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/186-0
+00:18:56.375 --> 00:18:57.735
+<v Roberto Fuertes L&#243;pez>No me digas que me lo carga.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/189-0
+00:19:02.055 --> 00:19:03.575
+<v Roberto Fuertes L&#243;pez>Así me había cargado, qué bien.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/196-0
+00:19:05.095 --> 00:19:08.269
+<v Roberto Fuertes L&#243;pez>Bueno, perdone,
+ya cogeré práctica para el siguiente</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/196-1
+00:19:08.269 --> 00:19:11.983
+<v Roberto Fuertes L&#243;pez>presentación. Vale,
+aquí tenemos el contexto de equipo, vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/196-2
+00:19:11.983 --> 00:19:15.817
+<v Roberto Fuertes L&#243;pez>que es lo que hemos dicho.
+¿Qué le estamos diciendo a Cloud que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/196-3
+00:19:15.817 --> 00:19:17.495
+<v Roberto Fuertes L&#243;pez>queremos para este proyecto?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/199-0
+00:19:18.455 --> 00:19:22.909
+<v Roberto Fuertes L&#243;pez>Pues que los nombres de las columnas nos
+ponga el snake case,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/199-1
+00:19:22.909 --> 00:19:28.512
+<v Roberto Fuertes L&#243;pez>que es en minúsculas con guión bajo,
+que los campos que sean timestamp o date</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/199-2
+00:19:28.512 --> 00:19:32.966
+<v Roberto Fuertes L&#243;pez>se se le ponga un sufijo,
+los campos de clave con un ID y los</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/199-3
+00:19:32.966 --> 00:19:36.415
+<v Roberto Fuertes L&#243;pez>booleanos lo vamos a prefijar con is o
+con has.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/200-0
+00:19:38.695 --> 00:19:42.583
+<v Roberto Fuertes L&#243;pez>Los hay en el negocio.
+Esto ya lo hemos hablado con el cliente y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/200-1
+00:19:42.583 --> 00:19:46.830
+<v Roberto Fuertes L&#243;pez>el cliente no sale el hecho.
+Un lead es una persona que va a un evento</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/200-2
+00:19:46.830 --> 00:19:49.642
+<v Roberto Fuertes L&#243;pez>mío,
+pero no quiere decir que sea un contacto,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/200-3
+00:19:49.642 --> 00:19:54.547
+<v Roberto Fuertes L&#243;pez>solo es un contacto si ya lo tengo en CRM.
+Luego ya veremos que siguen ellos para</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/200-4
+00:19:54.547 --> 00:19:58.615
+<v Roberto Fuertes L&#243;pez>volcar ese cliente a su CRM,
+pero de momento hay una lógica que es.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/201-0
+00:19:58.735 --> 00:20:03.554
+<v Roberto Fuertes L&#243;pez>Tenemos usuarios que no tenemos en CRM
+registrados sin datos y tenemos usuarios</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/201-1
+00:20:03.554 --> 00:20:08.313
+<v Roberto Fuertes L&#243;pez>que son clientes nuestros que sí están en
+CRM y lo que tenemos que hacer es el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/201-2
+00:20:08.313 --> 00:20:08.735
+<v Roberto Fuertes L&#243;pez>máximo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/202-0
+00:20:09.735 --> 00:20:16.792
+<v Roberto Fuertes L&#243;pez>Y luego siempre nunca invente valores,
+devuelve null y devuelve un campo que es</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/202-1
+00:20:16.792 --> 00:20:19.615
+<v Roberto Fuertes L&#243;pez>retira revisión si tienes dudas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/203-0
+00:20:20.575 --> 00:20:26.535
+<v Roberto Fuertes L&#243;pez>Vale, y si te falta información enumerada.
+Esto son reglas que van a ir en todos los.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/206-0
+00:20:28.695 --> 00:20:31.575
+<v Roberto Fuertes L&#243;pez>Se ha entendido esto, sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/210-0
+00:20:33.455 --> 00:20:37.781
+<v Roberto Fuertes L&#243;pez>Vale, entonces vamos a ir con el mapeo,
+le vamos a decir: proponme un mapeo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/210-1
+00:20:37.781 --> 00:20:41.140
+<v Roberto Fuertes L&#243;pez>columna a columna entre las 2 fuentes
+para ver lo que hay,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/210-2
+00:20:41.140 --> 00:20:45.239
+<v Roberto Fuertes L&#243;pez>porque ya veis aquí que tenemos nombre y
+apellido, aquí tenemos nombre,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/210-3
+00:20:45.239 --> 00:20:48.142
+<v Roberto Fuertes L&#243;pez>aquí tenemos email contacto, aquí email,
+etcétera.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/210-4
+00:20:48.142 --> 00:20:51.615
+<v Roberto Fuertes L&#243;pez>Necesitamos que nos haga un poco de
+matching de las fuentes.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/211-0
+00:20:51.655 --> 00:20:54.135
+<v Roberto Fuertes L&#243;pez>Lo primero para saber lo que estamos
+haciendo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/212-0
+00:20:55.535 --> 00:20:58.895
+<v Roberto Fuertes L&#243;pez>Entonces, a ver, copia el prompt.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/213-0
+00:21:00.975 --> 00:21:01.975
+<v Roberto Fuertes L&#243;pez>El prontes.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/214-0
+00:21:03.055 --> 00:21:07.584
+<v Roberto Fuertes L&#243;pez>Dame el mapping,
+dame una la confianza en que tienes,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/214-1
+00:21:07.584 --> 00:21:11.695
+<v Roberto Fuertes L&#243;pez>que ese mapeo que estás haciendo es
+correcto. y.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/215-0
+00:21:12.895 --> 00:21:15.175
+<v Roberto Fuertes L&#243;pez>Decidas cosas que no deberías.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/216-0
+00:21:16.175 --> 00:21:21.535
+<v Roberto Fuertes L&#243;pez>Entonces cogemos un prompt, un prompt,
+lo pego aquí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/217-0
+00:21:23.135 --> 00:21:24.815
+<v Roberto Fuertes L&#243;pez>Lo mismo va a tardar un poquito.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/218-0
+00:21:31.455 --> 00:21:34.455
+<v Roberto Fuertes L&#243;pez>Aquí está,
+por poner un mapping con una columna.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/221-0
+00:21:35.775 --> 00:21:38.940
+<v Roberto Fuertes L&#243;pez>¿Cuáles son los orígenes,
+cuáles son el destino,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/221-1
+00:21:38.940 --> 00:21:42.234
+<v Roberto Fuertes L&#243;pez>qué transformación había habría haría
+falta hacer,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/221-2
+00:21:42.234 --> 00:21:46.175
+<v Roberto Fuertes L&#243;pez>la confianza que tienes en ese mapeo y
+una decisión abierta?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/222-0
+00:21:47.695 --> 00:21:51.765
+<v Roberto Fuertes L&#243;pez>Sí, existe, o sea,
+que no de por hecho absolutamente nada,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/222-1
+00:21:51.765 --> 00:21:52.455
+<v Roberto Fuertes L&#243;pez>esperamos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/223-0
+00:22:03.455 --> 00:22:06.955
+<v Roberto Fuertes L&#243;pez>Mientras pieza,
+estamos todos alineados con el hilo que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/223-1
+00:22:06.955 --> 00:22:12.143
+<v Roberto Fuertes L&#243;pez>estoy siguiendo con este curso de cuáles
+son las tareas que sigue un data engineer</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/223-2
+00:22:12.143 --> 00:22:16.456
+<v Roberto Fuertes L&#243;pez>o en data. Vale, perfecto,
+porque tenía muchas dudas y me ha costado</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/223-3
+00:22:16.456 --> 00:22:19.831
+<v Roberto Fuertes L&#243;pez>bastante en el curso de una forma
+práctica. Al final,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/223-4
+00:22:19.831 --> 00:22:24.644
+<v Roberto Fuertes L&#243;pez>lo que quiero es igual vosotros no vas a
+utilizar cada una de las slides que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/223-5
+00:22:24.644 --> 00:22:25.895
+<v Roberto Fuertes L&#243;pez>estamos programando.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/226-0
+00:22:26.415 --> 00:22:30.858
+<v Roberto Fuertes L&#243;pez>Pero sí que tengáis esas herramientas,
+ese conocimiento para acelerar o para</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/226-1
+00:22:30.858 --> 00:22:33.455
+<v Roberto Fuertes L&#243;pez>facilitar lo que son las implementas,
+¿vale?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/229-0
+00:22:35.615 --> 00:22:39.765
+<v Roberto Fuertes L&#243;pez>Aquí está la propuesta,
+lo mismo no nos vamos a enrollar mucho en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/229-1
+00:22:39.765 --> 00:22:43.663
+<v Roberto Fuertes L&#243;pez>este output, practicarlo.
+Tenéis ahí los ejemplos y los plum,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/229-2
+00:22:43.663 --> 00:22:46.493
+<v Roberto Fuertes L&#243;pez>lo leéis despacito,
+intentáis entender todo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/229-3
+00:22:46.493 --> 00:22:51.335
+<v Roberto Fuertes L&#243;pez>Y si hay dudas sobre lo que nos está
+escupiendo el prompt, pues lo hablamos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/230-0
+00:22:52.175 --> 00:22:58.591
+<v Roberto Fuertes L&#243;pez>Nos dice que el origen del CRM tiene el
+origen de eventos tiene i de gente y lo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/230-1
+00:22:58.591 --> 00:23:04.366
+<v Roberto Fuertes L&#243;pez>que propone es que no los unifiquemos,
+sino que tengamos en el destino,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/230-2
+00:23:04.366 --> 00:23:07.495
+<v Roberto Fuertes L&#243;pez>que tengamos una columna para cada uno.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/231-0
+00:23:08.575 --> 00:23:13.775
+<v Roberto Fuertes L&#243;pez>Sin transformaciones y tiene la confianza
+alta en que no debe fusionarse.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/234-0
+00:23:15.935 --> 00:23:21.695
+<v Roberto Fuertes L&#243;pez>Y nos da una serie de preguntas, además,
+que se hace sobre esta fusión: nombre y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/234-1
+00:23:21.695 --> 00:23:26.317
+<v Roberto Fuertes L&#243;pez>apellido y nombre. Aquí,
+¿qué es lo que destino, lo que propone?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/234-2
+00:23:26.317 --> 00:23:28.735
+<v Roberto Fuertes L&#243;pez>Propone mantenerlo separado, pero.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/235-0
+00:23:31.215 --> 00:23:36.615
+<v Roberto Fuertes L&#243;pez>Nos dice que la confianza es media porque
+no sabe si vamos a poder sacar el nombre.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/236-0
+00:23:37.775 --> 00:23:41.945
+<v Roberto Fuertes L&#243;pez>De los apellidos viniendo solo campo.
+No es lo mismo una persona que tiene un</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/236-1
+00:23:41.945 --> 00:23:45.794
+<v Roberto Fuertes L&#243;pez>nombre y 2 apellidos que una persona que
+tiene 3 nombres y 2 apellidos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/236-2
+00:23:45.794 --> 00:23:49.697
+<v Roberto Fuertes L&#243;pez>donde haces el split para saber cuál es
+el nombre y cuál es el apellido.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/236-3
+00:23:49.697 --> 00:23:52.049
+<v Roberto Fuertes L&#243;pez>Por lo tanto,
+aquí te dice yo lo dividiría,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/236-4
+00:23:52.049 --> 00:23:54.135
+<v Roberto Fuertes L&#243;pez>pero tengo dudas de cómo haríamos esto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/239-0
+00:23:55.855 --> 00:24:00.406
+<v Roberto Fuertes L&#243;pez>Con el email pues dice, vale,
+pues esto lo vamos a llamar email y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/239-1
+00:24:00.406 --> 00:24:05.164
+<v Roberto Fuertes L&#243;pez>mantenemos los 2, lo normalizamos,
+lo dejamos todo limpio. Teléfono,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/239-2
+00:24:05.164 --> 00:24:07.095
+<v Roberto Fuertes L&#243;pez>lo mismo, empresa, lo mismo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/240-0
+00:24:07.855 --> 00:24:09.055
+<v Roberto Fuertes L&#243;pez>¿Y la fecha?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/241-0
+00:24:10.015 --> 00:24:14.041
+<v Roberto Fuertes L&#243;pez>Aquí dice que no mapemos las fechas
+diferentes porque una viene en el CRM,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/241-1
+00:24:14.041 --> 00:24:18.229
+<v Roberto Fuertes L&#243;pez>no sabe muy que significa y otra viene en
+el lead que será la fecha en la que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/241-2
+00:24:18.229 --> 00:24:20.055
+<v Roberto Fuertes L&#243;pez>estuvo el ese cliente en la feria.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/246-0
+00:24:20.895 --> 00:24:23.628
+<v Roberto Fuertes L&#243;pez>Vale,
+no quiero entrar en detalle esto para</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/246-1
+00:24:23.628 --> 00:24:27.790
+<v Roberto Fuertes L&#243;pez>poder seguir avanzando. Esto,
+preparáis vuestro ejemplo en vuestro</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/246-2
+00:24:27.790 --> 00:24:32.574
+<v Roberto Fuertes L&#243;pez>cloud, incluso en Luke Gemini. Yo creo,
+porque tampoco hace falta que sea un</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/246-3
+00:24:32.574 --> 00:24:36.550
+<v Roberto Fuertes L&#243;pez>modelo avanzado para esto.
+Podéis utilizar un modelo baratito y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/246-4
+00:24:36.550 --> 00:24:40.775
+<v Roberto Fuertes L&#243;pez>podéis practicar y ver el output,
+entender lo que os está diciendo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/247-0
+00:24:40.895 --> 00:24:41.295
+<v Roberto Fuertes L&#243;pez>Z.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/248-0
+00:24:42.495 --> 00:24:42.535
+<v Roberto Fuertes L&#243;pez>I.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/251-0
+00:24:44.015 --> 00:24:47.215
+<v Roberto Fuertes L&#243;pez>Entonces aquí es un poco,
+pues es el mismo output,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/251-1
+00:24:47.215 --> 00:24:51.107
+<v Roberto Fuertes L&#243;pez>pero en formato tabla lo que nos han
+dicho, lo que es seguro,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/251-2
+00:24:51.107 --> 00:24:55.814
+<v Roberto Fuertes L&#243;pez>lo que deberíamos revisar y algunas
+decisiones abiertas. De esto lo mismo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/251-3
+00:24:55.814 --> 00:24:59.015
+<v Roberto Fuertes L&#243;pez>son cosas que tendremos que hablar con el
+cliente.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/254-0
+00:25:01.295 --> 00:25:05.863
+<v Roberto Fuertes L&#243;pez>¿Vale, cómo resolvemos identidades?
+Al final tenemos 2 ficheros,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/254-1
+00:25:05.863 --> 00:25:09.800
+<v Roberto Fuertes L&#243;pez>es una carrera inicial,
+luego en un futuro habrá cargas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/254-2
+00:25:09.800 --> 00:25:13.736
+<v Roberto Fuertes L&#243;pez>incrementables,
+pero al final vamos a tener lo que hace</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/254-3
+00:25:13.736 --> 00:25:17.321
+<v Roberto Fuertes L&#243;pez>lo mismo.
+Tenemos una fuente de leads y una fuente</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/254-4
+00:25:17.321 --> 00:25:20.695
+<v Roberto Fuertes L&#243;pez>de CRMY tenemos que buscar los posibles
+matchs.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/255-0
+00:25:20.975 --> 00:25:21.775
+<v Roberto Fuertes L&#243;pez>Entre guía.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/256-0
+00:25:23.175 --> 00:25:26.846
+<v Roberto Fuertes L&#243;pez>Por ejemplo, a simple vista,
+vosotros diríais que esta persona que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/256-1
+00:25:26.846 --> 00:25:28.655
+<v Roberto Fuertes L&#243;pez>están los 2 ficheros es la misma.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/261-0
+00:25:34.495 --> 00:25:38.417
+<v Roberto Fuertes L&#243;pez>Tiene buena pinta, ¿no?
+En principio parece a la misma porque</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/259-0
+00:25:36.175 --> 00:25:36.615
+<v Fernando David Gomez Ortega>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/260-0
+00:25:36.975 --> 00:25:37.415
+<v Bel&#233;n Gonz&#225;lez Agudo>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/261-1
+00:25:38.417 --> 00:25:42.023
+<v Roberto Fuertes L&#243;pez>comparte el teléfono.
+El email es ligeramente diferente,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/261-2
+00:25:42.023 --> 00:25:43.415
+<v Roberto Fuertes L&#243;pez>pero bueno, se parece.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/263-0
+00:25:44.255 --> 00:25:47.690
+<v Roberto Fuertes L&#243;pez>Y resulta que en el evento,
+pues ya han metido al nombre de la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/262-0
+00:25:45.855 --> 00:25:46.575
+<v Bel&#233;n Gonz&#225;lez Agudo>El nombre.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/263-1
+00:25:47.690 --> 00:25:50.416
+<v Roberto Fuertes L&#243;pez>empresa,
+se la han metido y se ha ido y tiene ahí</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/263-2
+00:25:50.416 --> 00:25:53.960
+<v Roberto Fuertes L&#243;pez>un nombre un poco, por lo tanto. Entonces,
+en principio sí, ¿no?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/263-3
+00:25:53.960 --> 00:25:57.886
+<v Roberto Fuertes L&#243;pez>Y un humano entiende que esto podría ser
+una buena persona, pero claro,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/263-4
+00:25:57.886 --> 00:26:02.138
+<v Roberto Fuertes L&#243;pez>hay que transformar esto en lógicas.
+¿Por qué tenemos que transformar esto en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/263-5
+00:26:02.138 --> 00:26:02.575
+<v Roberto Fuertes L&#243;pez>lógicas?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/266-0
+00:26:03.775 --> 00:26:08.123
+<v Roberto Fuertes L&#243;pez>¿Porque cuál sería el proceso?
+¿Si vosotros podéis una máquina?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/266-1
+00:26:08.123 --> 00:26:13.694
+<v Roberto Fuertes L&#243;pez>¿Cuál sería el proceso que que tendréis
+que seguir para comparar este fichero con</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/266-2
+00:26:13.694 --> 00:26:17.295
+<v Roberto Fuertes L&#243;pez>este fichero?
+Tendréis que coger el primer registro.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/267-0
+00:26:18.775 --> 00:26:20.095
+<v Roberto Fuertes L&#243;pez>¿Y al otro fichero?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/272-0
+00:26:21.615 --> 00:26:25.922
+<v Roberto Fuertes L&#243;pez>Y buscar a ver si está aquí con el
+segundo registro tendréis que hacer lo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/272-1
+00:26:25.922 --> 00:26:29.706
+<v Roberto Fuertes L&#243;pez>mismo y tendréis que estar comparando
+todas las filas de origen,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/272-2
+00:26:29.706 --> 00:26:33.665
+<v Roberto Fuertes L&#243;pez>todas las fichas de destino para ver si
+es matching. ¿Por lo tanto,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/272-3
+00:26:33.665 --> 00:26:38.147
+<v Roberto Fuertes L&#243;pez>qué estamos haciendo? 200 registros,
+que es una muestra nada más por un lado</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/272-4
+00:26:38.147 --> 00:26:41.175
+<v Roberto Fuertes L&#243;pez>más 150 por el otro,
+significa que hay 30000 pares.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/273-0
+00:26:41.415 --> 00:26:44.655
+<v Roberto Fuertes L&#243;pez>¿Posibles que evaluar entonces?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/276-0
+00:26:45.775 --> 00:26:50.861
+<v Roberto Fuertes L&#243;pez>Aunque Aunque nos apoyemos en cloud para
+que nos ayude a ver si una persona la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/276-1
+00:26:50.861 --> 00:26:54.145
+<v Roberto Fuertes L&#243;pez>misma o no,
+lo que no podemos hacer es enviarle 30</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/276-2
+00:26:54.145 --> 00:26:58.975
+<v Roberto Fuertes L&#243;pez>30000 pares y que nos digan si es la
+misma persona o no es algo operativo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/277-0
+00:26:59.735 --> 00:27:03.228
+<v Roberto Fuertes L&#243;pez>Por lo tanto,
+lo primero que hay que hacer es filtrar</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/277-1
+00:27:03.228 --> 00:27:08.081
+<v Roberto Fuertes L&#243;pez>esa fuente de entrada, es decir,
+preguntarle al cliente o confirmar con el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/277-2
+00:27:08.081 --> 00:27:12.934
+<v Roberto Fuertes L&#243;pez>cliente cuáles son las reglas que nos
+permite inferir de una persona en la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/277-3
+00:27:12.934 --> 00:27:17.657
+<v Roberto Fuertes L&#243;pez>misma o no. Volviendo al ejemplo,
+el cliente nos puede decir si en los 2</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/277-4
+00:27:17.657 --> 00:27:20.375
+<v Roberto Fuertes L&#243;pez>sitios tiene el mismo número del teléfono.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/278-0
+00:27:20.655 --> 00:27:22.695
+<v Roberto Fuertes L&#243;pez>Asumimos en la misma persona.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/281-0
+00:27:23.775 --> 00:27:28.627
+<v Roberto Fuertes L&#243;pez>Y luego también los puede decir,
+porque lo hemos estado hablando con él.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/281-1
+00:27:28.627 --> 00:27:32.349
+<v Roberto Fuertes L&#243;pez>Si en uno de los registros no tengo
+número de teléfono,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/281-2
+00:27:32.349 --> 00:27:37.334
+<v Roberto Fuertes L&#243;pez>pues si se llama más o menos o igual y la
+empresa más o menos es la misma,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/281-3
+00:27:37.334 --> 00:27:41.588
+<v Roberto Fuertes L&#243;pez>podríamos hacer match. Vale,
+podrían ser reglas que nos dice el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/281-4
+00:27:41.588 --> 00:27:46.175
+<v Roberto Fuertes L&#243;pez>cliente. Y a esto lo importante,
+son reglas que podemos implementar.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/282-0
+00:27:46.255 --> 00:27:47.575
+<v Roberto Fuertes L&#243;pez>En una consulta.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/285-0
+00:27:48.975 --> 00:27:52.076
+<v Roberto Fuertes L&#243;pez>Para filtrar,
+porque esto son reglas de negocio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/285-1
+00:27:52.076 --> 00:27:55.874
+<v Roberto Fuertes L&#243;pez>Si los 2 correos son iguales,
+es la misma persona, ya está.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/285-2
+00:27:55.874 --> 00:27:59.798
+<v Roberto Fuertes L&#243;pez>Y si ninguno coincide,
+es que son leads nuevos y por lo tanto</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/285-3
+00:27:59.798 --> 00:28:03.976
+<v Roberto Fuertes L&#243;pez>tendría que ir a la inserción.
+Ahí no hay matcheo. Si no matchea,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/285-4
+00:28:03.976 --> 00:28:07.267
+<v Roberto Fuertes L&#243;pez>se inserta.
+Si matchea habrá que ver si es la misma</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/285-5
+00:28:07.267 --> 00:28:11.255
+<v Roberto Fuertes L&#243;pez>persona o no. Ahora vamos a ir,
+me estoy liando o se entiende.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/286-0
+00:28:12.415 --> 00:28:14.775
+<v Roberto Fuertes L&#243;pez>Es que veo que estoy dando demasiadas
+horas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/288-0
+00:28:14.175 --> 00:28:14.815
+<v Bel&#233;n Gonz&#225;lez Agudo>¿Se entiende?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/289-0
+00:28:15.055 --> 00:28:16.455
+<v Fernando David Gomez Ortega>No se entiende, sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/287-0
+00:28:15.375 --> 00:28:15.975
+<v Adri&#225;n Iborra Rizo>Admit.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-0
+00:28:16.975 --> 00:28:20.281
+<v Roberto Fuertes L&#243;pez>¿Vale, entonces,
+cómo bloqueamos toda esa data a los 30000</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-1
+00:28:20.281 --> 00:28:24.316
+<v Roberto Fuertes L&#243;pez>pares que le vamos a enviar a cloud?
+No podemos hacer eso en un entorno</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-2
+00:28:24.316 --> 00:28:27.006
+<v Roberto Fuertes L&#243;pez>productivo.
+Vamos a utilizar cloud para que nos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-3
+00:28:27.006 --> 00:28:30.928
+<v Roberto Fuertes L&#243;pez>filtre esto en un entorno productivo,
+pero tiene que ser de una forma</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-4
+00:28:30.928 --> 00:28:33.506
+<v Roberto Fuertes L&#243;pez>controlada.
+Lo primero que hacemos es vamos a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-5
+00:28:33.506 --> 00:28:37.989
+<v Roberto Fuertes L&#243;pez>escribir una query que nos matcheen los
+que probablemente sean los mismos y nos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/292-6
+00:28:37.989 --> 00:28:39.615
+<v Roberto Fuertes L&#243;pez>vamos a quedar solo con esos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/293-0
+00:28:39.695 --> 00:28:45.767
+<v Roberto Fuertes L&#243;pez>Y solo vamos a trabajar con eso, vale.
+Entonces cogemos una consulta que sería,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/293-1
+00:28:45.767 --> 00:28:49.486
+<v Roberto Fuertes L&#243;pez>por un lado,
+si el teléfono quitándole todos los</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/293-2
+00:28:49.486 --> 00:28:54.268
+<v Roberto Fuertes L&#243;pez>formatos, espacios en blanco, tal,
+si el teléfono es el mismo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/293-3
+00:28:54.268 --> 00:28:58.975
+<v Roberto Fuertes L&#243;pez>entraría aquí como un candidato a ser un
+una identidad. y si.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/294-0
+00:28:59.055 --> 00:29:00.815
+<v Roberto Fuertes L&#243;pez>El nombre que tiene. y.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/295-0
+00:29:04.095 --> 00:29:06.558
+<v Roberto Fuertes L&#243;pez>Sí,
+que si el nombre que tiene el CRM y el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/295-1
+00:29:06.558 --> 00:29:08.735
+<v Roberto Fuertes L&#243;pez>nombre que tiene el evento se parecen.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/296-0
+00:29:10.535 --> 00:29:14.662
+<v Roberto Fuertes L&#243;pez>¿Y la empresa se parece entonces? Bueno,
+todos los que tengan el teléfono igual,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/296-1
+00:29:14.662 --> 00:29:18.281
+<v Roberto Fuertes L&#243;pez>entonces también me los mete.
+Si el nombre se parece la empresa por un</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/296-2
+00:29:18.281 --> 00:29:21.135
+<v Roberto Fuertes L&#243;pez>lado y los que tengan el mismo teléfono
+por otro, vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/297-0
+00:29:22.175 --> 00:29:25.055
+<v Roberto Fuertes L&#243;pez>Entonces vamos ya a la.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/298-0
+00:29:26.735 --> 00:29:30.864
+<v Roberto Fuertes L&#243;pez>A la consola de Big Query,
+yo tengo aquí un pequeño cachet.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/298-1
+00:29:30.864 --> 00:29:36.095
+<v Roberto Fuertes L&#243;pez>Si me escribía en Spring privados,
+puedo a cualquiera que trabaja en cloud.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/299-0
+00:29:37.175 --> 00:29:39.898
+<v Roberto Fuertes L&#243;pez>Vale,
+aquí tengo las 2 tablas que las tengo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/299-1
+00:29:39.898 --> 00:29:40.455
+<v Roberto Fuertes L&#243;pez>cargadas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/302-0
+00:29:41.695 --> 00:29:47.215
+<v Roberto Fuertes L&#243;pez>Tal cual es la propuesta que nos ha hecho
+en cuanto a nombres, etcétera.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/305-0
+00:29:48.575 --> 00:29:52.735
+<v Roberto Fuertes L&#243;pez>Y ahora lo que voy a hacer es escribir
+una consulta que la tendré por aquí en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/305-1
+00:29:52.735 --> 00:29:53.375
+<v Roberto Fuertes L&#243;pez>algún sitio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/306-0
+00:29:58.255 --> 00:29:59.495
+<v Roberto Fuertes L&#243;pez>Y la vemos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/307-0
+00:30:02.175 --> 00:30:02.295
+<v Roberto Fuertes L&#243;pez>H.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/310-0
+00:30:07.055 --> 00:30:12.690
+<v Roberto Fuertes L&#243;pez>Vale, como digo, es una unión de 2.
+Primero dame todos los clientes,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/310-1
+00:30:12.690 --> 00:30:14.895
+<v Roberto Fuertes L&#243;pez>que es un número sea igual.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/311-0
+00:30:15.695 --> 00:30:18.135
+<v Roberto Fuertes L&#243;pez>Y me los unes a todos los clientes que.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/314-0
+00:30:19.215 --> 00:30:25.775
+<v Roberto Fuertes L&#243;pez>Parece que su nombre o sus nombres son
+parecidos o que coincida la empresa. Vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/314-1
+00:30:25.775 --> 00:30:30.655
+<v Roberto Fuertes L&#243;pez>esto le pegamos y le decimos que nos
+limite la muestra a 40.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/317-0
+00:30:31.815 --> 00:30:36.870
+<v Roberto Fuertes L&#243;pez>Entonces aquí necesitas ya primero es
+lógica de negocio. ¿Qué quiere el cliente?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/317-1
+00:30:36.870 --> 00:30:41.488
+<v Roberto Fuertes L&#243;pez>¿Cuál es el match? Es entenderlo,
+es hablar con el con el cliente, ¿vale?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/317-2
+00:30:41.488 --> 00:30:44.297
+<v Roberto Fuertes L&#243;pez>Y luego pues haces una query y dices,
+bueno,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/317-3
+00:30:44.297 --> 00:30:49.415
+<v Roberto Fuertes L&#243;pez>pues aquí tengo los posibles candidatos,
+algunos porque coinciden en el teléfono.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/319-0
+00:30:51.855 --> 00:30:56.416
+<v Roberto Fuertes L&#243;pez>Está aquí y otros porque tienen un nombre
+parecido y coincide la empresa.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/319-1
+00:30:56.416 --> 00:30:59.867
+<v Roberto Fuertes L&#243;pez>Estos son los candidatos a machear entre
+las 2 fuentes,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/319-2
+00:30:59.867 --> 00:31:01.655
+<v Roberto Fuertes L&#243;pez>que es lo que queremos hacer.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/320-0
+00:31:02.655 --> 00:31:03.095
+<v Roberto Fuertes L&#243;pez>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/323-0
+00:31:04.215 --> 00:31:08.655
+<v Roberto Fuertes L&#243;pez>Vale, una vez que tenemos esto,
+¿qué hacemos?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/328-0
+00:31:13.535 --> 00:31:16.228
+<v Roberto Fuertes L&#243;pez>Vale,
+esto es un poco el output que hemos visto</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/328-1
+00:31:16.228 --> 00:31:17.295
+<v Roberto Fuertes L&#243;pez>en la otra ventana.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/329-0
+00:31:18.975 --> 00:31:23.485
+<v Roberto Fuertes L&#243;pez>Podríamos probar con el cloud y decirle,
+oye, por favor,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/329-1
+00:31:23.485 --> 00:31:29.895
+<v Roberto Fuertes L&#243;pez>mira a ver si estas 2 personas que me que
+me que hay en este output de la query.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/332-0
+00:31:30.775 --> 00:31:34.247
+<v Roberto Fuertes L&#243;pez>Se parecen y te diré, pues sí,
+parece la misma persona,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/332-1
+00:31:34.247 --> 00:31:38.525
+<v Roberto Fuertes L&#243;pez>te dirá alguna cosa, si no,
+pues te dirá no porque no sé qué y no se</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/332-2
+00:31:38.525 --> 00:31:43.547
+<v Roberto Fuertes L&#243;pez>cuenta y te darán una explicación ahí de
+por qué cree o no cree Cloud que son la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/332-3
+00:31:43.547 --> 00:31:44.415
+<v Roberto Fuertes L&#243;pez>misma persona.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/333-0
+00:31:46.655 --> 00:31:52.265
+<v Roberto Fuertes L&#243;pez>¿Cuál es el problema de esto?
+Que ese output no aporta nada en un</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/333-1
+00:31:52.265 --> 00:31:57.280
+<v Roberto Fuertes L&#243;pez>sistema automatizado.
+Si tú metes a cloud diciendo de este</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/333-2
+00:31:57.280 --> 00:32:02.125
+<v Roberto Fuertes L&#243;pez>hecho esta query,
+analízame si hay coincidencias y qué y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/333-3
+00:32:02.125 --> 00:32:06.375
+<v Roberto Fuertes L&#243;pez>qué probabilidad hay de que sea la misma
+persona.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/334-0
+00:32:06.495 --> 00:32:10.704
+<v Roberto Fuertes L&#243;pez>Y que cada vez que escribe una cosa
+diferente, pues parece que no sé qué,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/334-1
+00:32:10.704 --> 00:32:14.344
+<v Roberto Fuertes L&#243;pez>no sé cuánto es el nombre.
+Todo eso no es procesable por ningún</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/334-2
+00:32:14.344 --> 00:32:17.131
+<v Roberto Fuertes L&#243;pez>sistema.
+No podéis meter esa pieza ahí porque no</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/334-3
+00:32:17.131 --> 00:32:18.895
+<v Roberto Fuertes L&#243;pez>vais a poder parsear la salida.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/335-0
+00:32:20.015 --> 00:32:25.895
+<v Roberto Fuertes L&#243;pez>Y aquí es cuando entra la segunda parte
+de lo que vamos a ver en el asistente.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/336-0
+00:32:27.295 --> 00:32:31.055
+<v Roberto Fuertes L&#243;pez>Que es vale, vamos a delegar en cloud.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/337-0
+00:32:33.055 --> 00:32:37.252
+<v Roberto Fuertes L&#243;pez>Que decida si estas personas son las
+mismas a un lado y a otro,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/337-1
+00:32:37.252 --> 00:32:40.269
+<v Roberto Fuertes L&#243;pez>pero vamos a hacerlo de una forma
+controlada.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/337-2
+00:32:40.269 --> 00:32:43.615
+<v Roberto Fuertes L&#243;pez>Discúlpame 1 segundo que me estoy
+moviendo de eso.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/340-0
+00:32:49.935 --> 00:32:50.415
+<v Roberto Fuertes L&#243;pez>Vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/341-0
+00:32:52.815 --> 00:32:53.735
+<v Roberto Fuertes L&#243;pez>Entonces.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/342-0
+00:32:56.975 --> 00:32:58.855
+<v Roberto Fuertes L&#243;pez>Vamos con el siguiente.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/345-0
+00:32:59.855 --> 00:33:02.925
+<v Roberto Fuertes L&#243;pez>Con el siguiente prompt que queremos
+hacerle a Cloud,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/345-1
+00:33:02.925 --> 00:33:06.507
+<v Roberto Fuertes L&#243;pez>que es ordename para todas estas fuentes
+que te estoy pasando,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/345-2
+00:33:06.507 --> 00:33:10.715
+<v Roberto Fuertes L&#243;pez>ordename la salida de una forma que luego
+pueda enchufar en algún proceso</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/345-3
+00:33:10.715 --> 00:33:11.455
+<v Roberto Fuertes L&#243;pez>automatizado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/346-0
+00:33:13.575 --> 00:33:17.386
+<v Roberto Fuertes L&#243;pez>Lo primero es decir en el prompt cuáles
+son las lógicas del negocio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/346-1
+00:33:17.386 --> 00:33:21.142
+<v Roberto Fuertes L&#243;pez>El email es una señal fuerte,
+no lo hemos visto en ejemplo, perdón,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/346-2
+00:33:21.142 --> 00:33:25.506
+<v Roberto Fuertes L&#243;pez>está un poco desincronizado el prompt,
+pero son cosas que hemos hablado con el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/346-3
+00:33:25.506 --> 00:33:29.925
+<v Roberto Fuertes L&#243;pez>cliente. El email es una señal fuerte,
+pero dominios distintos de la empresa no</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/346-4
+00:33:29.925 --> 00:33:30.975
+<v Roberto Fuertes L&#243;pez>descartan el match.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/347-0
+00:33:31.935 --> 00:33:35.695
+<v Roberto Fuertes L&#243;pez>Los nombres con iniciales o diminutivos
+cuentan como coincidencia parcial.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/348-0
+00:33:37.455 --> 00:33:40.975
+<v Roberto Fuertes L&#243;pez>Es misma entidad,
+es un campo con tu mejor decisión.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/348-1
+00:33:40.975 --> 00:33:45.028
+<v Roberto Fuertes L&#243;pez>La confianza indica la seguridad que
+tienes en esa decisión.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/348-2
+00:33:45.028 --> 00:33:48.283
+<v Roberto Fuertes L&#243;pez>No es una probabilidad.
+Entonces tú como engine,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/348-3
+00:33:48.283 --> 00:33:52.535
+<v Roberto Fuertes L&#243;pez>¿qué seguridad tienes en esto que me
+estás diciendo? Es verdad.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/349-0
+00:33:54.015 --> 00:33:58.775
+<v Roberto Fuertes L&#243;pez>Si la confianza es inferior a 0.8,
+el caso pasará a revisión humana.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/350-0
+00:34:01.175 --> 00:34:06.109
+<v Roberto Fuertes L&#243;pez>La justificación debe citar los campos
+concretos que ahora veremos el esquema,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/350-1
+00:34:06.109 --> 00:34:09.108
+<v Roberto Fuertes L&#243;pez>o sea,
+queremos que lo que el output tenga unos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/350-2
+00:34:09.108 --> 00:34:10.295
+<v Roberto Fuertes L&#243;pez>campos en concreto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/351-0
+00:34:11.775 --> 00:34:15.770
+<v Roberto Fuertes L&#243;pez>No te inventes datos,
+esto hay que decírselo a la IA todo el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/351-1
+00:34:15.770 --> 00:34:20.880
+<v Roberto Fuertes L&#243;pez>rato porque por algún motivo alucina si
+no se lo recuerdas y devuelve un JSON</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/351-2
+00:34:20.880 --> 00:34:23.828
+<v Roberto Fuertes L&#243;pez>puro,
+de tal manera que yo ese JSON lo pueda</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/351-3
+00:34:23.828 --> 00:34:25.335
+<v Roberto Fuertes L&#243;pez>utilizar en otro sitio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/352-0
+00:34:26.735 --> 00:34:30.175
+<v Roberto Fuertes L&#243;pez>¿Qué es quema le vamos a proponer que nos
+que nos devuelva?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/353-0
+00:34:31.215 --> 00:34:36.359
+<v Roberto Fuertes L&#243;pez>Pues en el ejemplo, puesto esto,
+cada uno puede adaptar las cosas a su a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/353-1
+00:34:36.359 --> 00:34:37.135
+<v Roberto Fuertes L&#243;pez>su ejemplo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/354-0
+00:34:38.255 --> 00:34:41.295
+<v Roberto Fuertes L&#243;pez>¿Me vas a devolver un Jason con una raíz
+de ítems?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/357-0
+00:34:43.495 --> 00:34:46.695
+<v Roberto Fuertes L&#243;pez>Que no sé el identificador de.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/358-0
+00:34:48.335 --> 00:34:54.085
+<v Roberto Fuertes L&#243;pez>El identificador de las 2:00 fuentes que
+me diga si es la misma entidad o no,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/358-1
+00:34:54.085 --> 00:34:58.950
+<v Roberto Fuertes L&#243;pez>según tú, qué confianza tienes,
+qué campos hay en conflicto y una</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/358-2
+00:34:58.950 --> 00:35:02.415
+<v Roberto Fuertes L&#243;pez>justificación con un máximo de 280
+caracteres.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/359-0
+00:35:03.975 --> 00:35:10.153
+<v Roberto Fuertes L&#243;pez>Vale, y esta es la estructura y le dices,
+necesito que me devuelvas todos los</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/359-1
+00:35:10.153 --> 00:35:12.055
+<v Roberto Fuertes L&#243;pez>campos y nada más, okay.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/362-0
+00:35:13.535 --> 00:35:17.256
+<v Roberto Fuertes L&#243;pez>Y luego, como veis,
+hay que pasarle unos ejemplos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/362-1
+00:35:17.256 --> 00:35:20.467
+<v Roberto Fuertes L&#243;pez>como siempre a la a todo prompt sobre
+data.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/362-2
+00:35:20.467 --> 00:35:26.524
+<v Roberto Fuertes L&#243;pez>Siempre intentar pasar ejemplos de datos
+porque ahí coge contexto mucho más rápido</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/362-3
+00:35:26.524 --> 00:35:32.070
+<v Roberto Fuertes L&#243;pez>y entiendo lo que está haciendo.
+Así habláis de cosas genéricas como leads,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/362-4
+00:35:32.070 --> 00:35:33.895
+<v Roberto Fuertes L&#243;pez>coste, visitas, campañas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/363-0
+00:35:34.015 --> 00:35:37.853
+<v Roberto Fuertes L&#243;pez>No, estos son los datos,
+estas son las reglas de negocio y esto es</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/363-1
+00:35:37.853 --> 00:35:38.655
+<v Roberto Fuertes L&#243;pez>lo que quiero.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/364-0
+00:35:40.655 --> 00:35:45.575
+<v Roberto Fuertes L&#243;pez>Entonces vamos a ver lo que nos dice la
+IA con esto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/365-0
+00:35:46.375 --> 00:35:47.055
+<v Roberto Fuertes L&#243;pez>Pepe.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/366-0
+00:35:48.655 --> 00:35:49.135
+<v Roberto Fuertes L&#243;pez>Perfect.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/371-0
+00:35:56.335 --> 00:36:01.695
+<v Roberto Fuertes L&#243;pez>Abrimos la sección con cloud y cogemos un
+plum con pileta que tengo por aquí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/374-0
+00:36:12.975 --> 00:36:14.255
+<v Roberto Fuertes L&#243;pez>Copio, copio, copio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/376-0
+00:36:21.375 --> 00:36:22.015
+<v Roberto Fuertes L&#243;pez>Yo escribo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/377-0
+00:36:24.655 --> 00:36:25.215
+<v Roberto Fuertes L&#243;pez>Vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/378-0
+00:36:28.695 --> 00:36:30.255
+<v Roberto Fuertes L&#243;pez>Es lo que hemos visto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/379-0
+00:36:31.295 --> 00:36:32.215
+<v Roberto Fuertes L&#243;pez>Decimos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/382-0
+00:36:33.615 --> 00:36:38.265
+<v Roberto Fuertes L&#243;pez>El identificador de los pares que
+queremos y le pasamos un esquema,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/382-1
+00:36:38.265 --> 00:36:39.975
+<v Roberto Fuertes L&#243;pez>un unos pares de ejemplo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/383-0
+00:36:40.815 --> 00:36:45.930
+<v Roberto Fuertes L&#243;pez>Es el primer registro que nos ha devuelto
+anterior query, Marta y Martí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/383-1
+00:36:45.930 --> 00:36:51.396
+<v Roberto Fuertes L&#243;pez>¿Por qué ha elegido nuestro SQL a estos?
+Pues como hemos visto en un ejemplo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/383-2
+00:36:51.396 --> 00:36:55.180
+<v Roberto Fuertes L&#243;pez>porque tiene el teléfono y así con cada
+uno de ellos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/383-3
+00:36:55.180 --> 00:36:59.455
+<v Roberto Fuertes L&#243;pez>de los 40 de ejemplo que le hemos pedido
+a la I a que no sé.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/386-0
+00:36:59.655 --> 00:37:03.695
+<v Roberto Fuertes L&#243;pez>Vale, entonces le pegamos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/389-0
+00:37:04.775 --> 00:37:07.535
+<v Roberto Fuertes L&#243;pez>Mientras piensa alguna duda que tengáis
+con esto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/392-0
+00:37:09.895 --> 00:37:14.068
+<v Roberto Fuertes L&#243;pez>Tened en cuenta que al final esto de el
+esquema de salida, etcétera,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/392-1
+00:37:14.068 --> 00:37:19.089
+<v Roberto Fuertes L&#243;pez>a lo mejor ahora os suena un poco a chino,
+pero en cuanto lo empecéis a utilizar y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/392-2
+00:37:19.089 --> 00:37:23.324
+<v Roberto Fuertes L&#243;pez>entendáis el objetivo de esto,
+que lo vais a entender con este curso,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/392-3
+00:37:23.324 --> 00:37:28.284
+<v Roberto Fuertes L&#243;pez>pensar esos props un poco más elaborados
+no os va a ser tanto trabajo siempre que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/392-4
+00:37:28.284 --> 00:37:29.615
+<v Roberto Fuertes L&#243;pez>tengáis en cuenta que.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/393-0
+00:37:29.855 --> 00:37:33.444
+<v Roberto Fuertes L&#243;pez>¿Entendéis las fuentes?
+¿Entendéis los requisitos de clientes?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/393-1
+00:37:33.444 --> 00:37:36.976
+<v Roberto Fuertes L&#243;pez>¿Entendéis cuáles son las reglas de
+negocio? Es vital, vital.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/393-2
+00:37:36.976 --> 00:37:41.248
+<v Roberto Fuertes L&#243;pez>¿Seguís teniendo vuestro puesto de
+trabajo mientras seáis vosotros los que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/393-3
+00:37:41.248 --> 00:37:43.015
+<v Roberto Fuertes L&#243;pez>pilotéis toda esa lógica, vale?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/394-0
+00:37:44.975 --> 00:37:48.695
+<v Roberto Fuertes L&#243;pez>Vale, pues este es el output que nos da.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/395-0
+00:37:49.935 --> 00:37:51.535
+<v Roberto Fuertes L&#243;pez>Para el primer par.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/398-0
+00:37:52.815 --> 00:37:54.655
+<v Roberto Fuertes L&#243;pez>Él dice que es true.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/399-0
+00:37:56.815 --> 00:37:57.375
+<v Roberto Fuertes L&#243;pez>Er.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/402-0
+00:37:58.495 --> 00:38:01.055
+<v Roberto Fuertes L&#243;pez>No sé si me gusta mucho este output que
+me ha preparado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/405-0
+00:38:02.095 --> 00:38:04.895
+<v Roberto Fuertes L&#243;pez>Ahora sí, vamos a verlo en un.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/406-0
+00:38:07.215 --> 00:38:08.495
+<v Roberto Fuertes L&#243;pez>Hello.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/407-0
+00:38:13.015 --> 00:38:13.375
+<v Roberto Fuertes L&#243;pez>Vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/410-0
+00:38:17.535 --> 00:38:22.775
+<v Roberto Fuertes L&#243;pez>¿Es la misma entidad? Sí, confianza un 0,
+16. ¿Por qué? Por el nombre.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/413-0
+00:38:23.615 --> 00:38:28.235
+<v Roberto Fuertes L&#243;pez>Al final coincide el teléfono.
+Ya veo que ya veis que si esto ya empieza</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/413-1
+00:38:28.235 --> 00:38:32.222
+<v Roberto Fuertes L&#243;pez>a fallar un poco, vale,
+estamos viendo como la I A ni siquiera</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/413-2
+00:38:32.222 --> 00:38:35.893
+<v Roberto Fuertes L&#243;pez>con un plom tan preciso nos está dando
+información buena,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/413-3
+00:38:35.893 --> 00:38:40.007
+<v Roberto Fuertes L&#243;pez>porque lo hemos dicho claramente que si
+el teléfono es idéntico,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/413-4
+00:38:40.007 --> 00:38:42.855
+<v Roberto Fuertes L&#243;pez>lo de por bueno y es una señal de
+confianza.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/416-0
+00:38:43.255 --> 00:38:47.272
+<v Roberto Fuertes L&#243;pez>Grande. Por lo tanto,
+es importante ver que lo que os está</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/416-1
+00:38:47.272 --> 00:38:52.379
+<v Roberto Fuertes L&#243;pez>arrojando coincide con el prompt.
+No me voy a poder a pensar ahora rehacer</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/416-2
+00:38:52.379 --> 00:38:55.511
+<v Roberto Fuertes L&#243;pez>el prompt,
+lo haré y os dejaré uno mejor y os</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/416-3
+00:38:55.511 --> 00:38:57.895
+<v Roberto Fuertes L&#243;pez>explicaré por qué en algún fichero.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/423-0
+00:38:59.695 --> 00:39:04.291
+<v Roberto Fuertes L&#243;pez>Pero vamos a lo que es el core. Vale,
+imaginaros que el prompt entiende</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/423-1
+00:39:04.291 --> 00:39:09.206
+<v Roberto Fuertes L&#243;pez>exactamente lo que queremos y nos da
+buenos resultados y al final nos da una</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/423-2
+00:39:09.206 --> 00:39:13.484
+<v Roberto Fuertes L&#243;pez>justificación aquí que para nosotros es
+bastante fácil de revisar.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/423-3
+00:39:13.484 --> 00:39:18.144
+<v Roberto Fuertes L&#243;pez>Esto es una revisión humana de este
+output y validamos que las reglas de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/423-4
+00:39:18.144 --> 00:39:18.655
+<v Roberto Fuertes L&#243;pez>negocio.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/425-0
+00:39:20.575 --> 00:39:24.262
+<v Roberto Fuertes L&#243;pez>Coincide confianza alta porque es el
+nombre idéntico,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/425-1
+00:39:24.262 --> 00:39:28.975
+<v Roberto Fuertes L&#243;pez>confianza media por el lado no sé qué,
+cada uno de los outputs vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/427-0
+00:39:32.735 --> 00:39:36.495
+<v Roberto Fuertes L&#243;pez>¿Por qué hacemos esto o cuál es el
+objetivo de llegar a este punto?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/430-0
+00:39:37.455 --> 00:39:42.386
+<v Roberto Fuertes L&#243;pez>¿Creéis que con este output,
+si vosotros tenéis detrás un script en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/430-1
+00:39:42.386 --> 00:39:45.215
+<v Roberto Fuertes L&#243;pez>Python o volcáis este JSON a una tabla?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/431-0
+00:39:46.415 --> 00:39:50.994
+<v Roberto Fuertes L&#243;pez>Vuestro proceso va a poder
+automáticamente hacer match o descartar</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/431-1
+00:39:50.994 --> 00:39:51.815
+<v Roberto Fuertes L&#243;pez>identidades.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/432-0
+00:39:54.655 --> 00:39:57.695
+<v Roberto Fuertes L&#243;pez>Sí, pero vais a poder poner reglas en eso.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/433-0
+00:39:58.975 --> 00:40:04.858
+<v Roberto Fuertes L&#243;pez>Y confianza es menor de cero 80,
+es un caso dudoso. Si es mayor de cero 80,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/433-1
+00:40:04.858 --> 00:40:08.575
+<v Roberto Fuertes L&#243;pez>automáticamente voy a dar por bueno ese
+macheo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/436-0
+00:40:10.495 --> 00:40:13.095
+<v Roberto Fuertes L&#243;pez>No sé si entendéis la importancia de esto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/439-0
+00:40:19.375 --> 00:40:19.815
+<v Roberto Fuertes L&#243;pez>Joan.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/442-0
+00:40:20.535 --> 00:40:24.227
+<v Roberto Fuertes L&#243;pez>Imaginaros esto en un proceso,
+llega el proceso, lee el output,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/442-1
+00:40:24.227 --> 00:40:27.055
+<v Roberto Fuertes L&#243;pez>este Python que tenéis ahí leyendo
+outputs dice.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/445-0
+00:40:27.975 --> 00:40:33.297
+<v Roberto Fuertes L&#243;pez>La confianza es mayor, mayor de cero 80.
+Bueno, es menor de cero 80. Sí,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/445-1
+00:40:33.297 --> 00:40:38.327
+<v Roberto Fuertes L&#243;pez>automáticamente vamos a enviar esos
+registros a una revisión humana.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/445-2
+00:40:38.327 --> 00:40:43.868
+<v Roberto Fuertes L&#243;pez>El cliente va a tener que poner una
+persona que en caso de duda decida si 2</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/445-3
+00:40:43.868 --> 00:40:47.295
+<v Roberto Fuertes L&#243;pez>personas son la misma o no.
+Esto es algo como.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/446-0
+00:40:47.295 --> 00:40:49.335
+<v Roberto Fuertes L&#243;pez>Las registrados que tenemos al proyecto,
+vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/447-0
+00:40:50.095 --> 00:40:53.295
+<v Roberto Fuertes L&#243;pez>Entonces nuestro proceso de carga va a
+coger los ficheros.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/449-0
+00:40:54.175 --> 00:41:00.014
+<v Roberto Fuertes L&#243;pez>Para hacer el bloqueado para quedarnos
+solo con los probablemente sean iguales,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/449-1
+00:41:00.014 --> 00:41:04.831
+<v Roberto Fuertes L&#243;pez>se lo va a pasar a cloud.
+Cloud me va a devolver un JSON con unos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/449-2
+00:41:04.831 --> 00:41:10.525
+<v Roberto Fuertes L&#243;pez>campos estructurados que voy a poder
+parsear a posteriori y una vez que tengo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/449-3
+00:41:10.525 --> 00:41:14.175
+<v Roberto Fuertes L&#243;pez>esos campos,
+tomo decisiones dentro del pipeline.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/450-0
+00:41:14.415 --> 00:41:19.608
+<v Roberto Fuertes L&#243;pez>Si la confianza es mayor de cero 80,
+va para dentro, cero 85 va para dentro.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/450-1
+00:41:19.608 --> 00:41:21.295
+<v Roberto Fuertes L&#243;pez>Si la confianza es menor.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/451-0
+00:41:22.095 --> 00:41:26.462
+<v Roberto Fuertes L&#243;pez>Esos registros no los muevo,
+los dejo en una zona temporal que se</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/451-1
+00:41:26.462 --> 00:41:31.029
+<v Roberto Fuertes L&#243;pez>llame pendientes de machear,
+donde habrá alguien de clientes o algún</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/451-2
+00:41:31.029 --> 00:41:35.198
+<v Roberto Fuertes L&#243;pez>becario de nuestra empresa que diga,
+venga, sí, esta sí, vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/451-3
+00:41:35.198 --> 00:41:40.625
+<v Roberto Fuertes L&#243;pez>y con eso vamos a poder ir automatizando
+al mismo tiempo el macheo de identidades</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/451-4
+00:41:40.625 --> 00:41:42.015
+<v Roberto Fuertes L&#243;pez>que Daniel las dudas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/452-0
+00:41:42.055 --> 00:41:45.055
+<v Roberto Fuertes L&#243;pez>Para que sean revisadas por una persona.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/453-0
+00:41:47.375 --> 00:41:51.295
+<v Roberto Fuertes L&#243;pez>¿Se entiende todo lo que hemos hecho y
+para qué hemos hecho esto?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/454-0
+00:41:52.615 --> 00:41:57.175
+<v Roberto Fuertes L&#243;pez>Porque básicamente esto va a ser un poco
+el la primera sesión, ¿vale?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/457-0
+00:41:59.055 --> 00:42:02.460
+<v Roberto Fuertes L&#243;pez>Lo acabo de decir,
+pues lo dejo aquí como reglas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/457-1
+00:42:02.460 --> 00:42:07.160
+<v Roberto Fuertes L&#243;pez>Primero reducimos candidatos, o sea,
+a la I A solo le vamos a dar lo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/457-2
+00:42:07.160 --> 00:42:11.315
+<v Roberto Fuertes L&#243;pez>estrictamente necesario.
+Si le dais 30000 pares de usuarios,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/457-3
+00:42:11.315 --> 00:42:14.857
+<v Roberto Fuertes L&#243;pez>se va a pulir los créditos de la cuenta
+Test Price,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/457-4
+00:42:14.857 --> 00:42:17.855
+<v Roberto Fuertes L&#243;pez>va a venir Ote y nos va a tirar las
+orejas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/458-0
+00:42:18.095 --> 00:42:22.170
+<v Roberto Fuertes L&#243;pez>Por tanto,
+el uso o lo que delegéis a la IA siempre</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/458-1
+00:42:22.170 --> 00:42:25.775
+<v Roberto Fuertes L&#243;pez>tiene que ser en un formato un poco
+reducido.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/459-0
+00:42:27.935 --> 00:42:31.508
+<v Roberto Fuertes L&#243;pez>Y tenemos con los clientes,
+definimos bien las reglas y todas esas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/459-1
+00:42:31.508 --> 00:42:35.081
+<v Roberto Fuertes L&#243;pez>reglas de negocio tiene que estar tanto
+en prompt como en queries.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/459-2
+00:42:35.081 --> 00:42:36.415
+<v Roberto Fuertes L&#243;pez>Ese es el objetivo, vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/464-0
+00:42:38.815 --> 00:42:44.709
+<v Roberto Fuertes L&#243;pez>Entonces, bueno, esto es un poco el final.
+Hemos respetado que sabemos de nuestras</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/464-1
+00:42:44.709 --> 00:42:47.834
+<v Roberto Fuertes L&#243;pez>fuentes.
+Hemos visto un proceso de macho de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/464-2
+00:42:47.834 --> 00:42:51.243
+<v Roberto Fuertes L&#243;pez>clientes.
+No sé si os parece un caso real o no.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/464-3
+00:42:51.243 --> 00:42:55.007
+<v Roberto Fuertes L&#243;pez>Yo os puedo decir que es un caso
+absolutamente real.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/464-4
+00:42:55.007 --> 00:42:59.055
+<v Roberto Fuertes L&#243;pez>Hicimos una RFP hace 2 años con un grupo
+que se llamaba.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/465-0
+00:42:59.775 --> 00:43:04.832
+<v Roberto Fuertes L&#243;pez>O mascotas o todo animal o algo así,
+el típico grupo que compra tiendas de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/465-1
+00:43:04.832 --> 00:43:09.215
+<v Roberto Fuertes L&#243;pez>animales y los va incorporando a su
+empresa y lo que tenían era.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/466-0
+00:43:10.335 --> 00:43:13.331
+<v Roberto Fuertes L&#243;pez>Leads,
+gente que compraba en una de sus marcas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/466-1
+00:43:13.331 --> 00:43:17.265
+<v Roberto Fuertes L&#243;pez>también en otra de sus marcas y también
+en otra de sus marcas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/466-2
+00:43:17.265 --> 00:43:22.259
+<v Roberto Fuertes L&#243;pez>y de repente tenían 3 fuentes de clientes
+que los tenían duplicados porque como</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/466-3
+00:43:22.259 --> 00:43:26.754
+<v Roberto Fuertes L&#243;pez>eran tiendas diferentes y lo que querían,
+además de aquella edad que le</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/466-4
+00:43:26.754 --> 00:43:31.375
+<v Roberto Fuertes L&#243;pez>propusiéramos un sistema de macheo de
+engades, no nos dieron el proyecto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/467-0
+00:43:32.095 --> 00:43:37.917
+<v Roberto Fuertes L&#243;pez>Seguramente porque no teníamos esto como
+alternativa al final,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/467-1
+00:43:37.917 --> 00:43:44.570
+<v Roberto Fuertes L&#243;pez>porque no deja de ser, o sea,
+las reglas que tú puedes aplicar con SQLs</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/467-2
+00:43:44.570 --> 00:43:50.855
+<v Roberto Fuertes L&#243;pez>para decidir si 2 usuarios matchean es
+interminable e inmantenible.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/468-0
+00:43:51.135 --> 00:43:56.631
+<v Roberto Fuertes L&#243;pez>Cada vez que encuentres una casuística y
+tienes que afinar ahí es algo que en SQL</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/468-1
+00:43:56.631 --> 00:44:02.060
+<v Roberto Fuertes L&#243;pez>no se puede mantener y al final no está
+puesta de la SQL y obviamente pues no le</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/468-2
+00:44:02.060 --> 00:44:06.484
+<v Roberto Fuertes L&#243;pez>gusta demasiado al cliente.
+Si a un cliente le dices que le vas a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/468-3
+00:44:06.484 --> 00:44:08.495
+<v Roberto Fuertes L&#243;pez>filtrar casi todo el matching.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/469-0
+00:44:09.855 --> 00:44:12.795
+<v Roberto Fuertes L&#243;pez>Primero,
+por esas lógicas de negocio que él está</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/469-1
+00:44:12.795 --> 00:44:17.295
+<v Roberto Fuertes L&#243;pez>de acuerdo que se pueden aplicar y que
+las dudas las vas a resolver con IA</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/469-2
+00:44:17.295 --> 00:44:20.835
+<v Roberto Fuertes L&#243;pez>porque la tienes entrenada para resolver
+esas incidencias,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/469-3
+00:44:20.835 --> 00:44:25.575
+<v Roberto Fuertes L&#243;pez>pues seguramente hubieran comprado el
+proyecto porque automáticamente le estás</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/469-4
+00:44:25.575 --> 00:44:28.575
+<v Roberto Fuertes L&#243;pez>diciendo cuáles son los que no pachean.
+¿Por qué?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/470-0
+00:44:28.775 --> 00:44:32.945
+<v Roberto Fuertes L&#243;pez>¿Cuál es la confianza?
+Revísame este dato y a ver qué hacemos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/470-1
+00:44:32.945 --> 00:44:37.317
+<v Roberto Fuertes L&#243;pez>con este cliente y de ahí puede haber
+otro proceso automatizado,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/470-2
+00:44:37.317 --> 00:44:42.833
+<v Roberto Fuertes L&#243;pez>alguien que dice sí y se hace el matching
+y viaja a nuestro data lake o dice no y</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/470-3
+00:44:42.833 --> 00:44:46.398
+<v Roberto Fuertes L&#243;pez>viaja la información,
+pero como registros separados,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/470-4
+00:44:46.398 --> 00:44:49.695
+<v Roberto Fuertes L&#243;pez>pero resuelve la identidad con cierta
+confianza.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/473-0
+00:44:52.095 --> 00:44:57.485
+<v Roberto Fuertes L&#243;pez>Vale, esto es un poco la sesión de hoy.
+Ya veis el quiz que os he preparado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/473-1
+00:44:57.485 --> 00:45:01.825
+<v Roberto Fuertes L&#243;pez>Son 9 preguntas que como os he repetido
+las cosas 1000 veces,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/473-2
+00:45:01.825 --> 00:45:04.975
+<v Roberto Fuertes L&#243;pez>seguramente lo podéis hacer en un
+minutillo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/473-3
+00:45:04.975 --> 00:45:09.315
+<v Roberto Fuertes L&#243;pez>¿Os acordáis que tienes 10 minutos para
+hacer el quiz? O sea,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/473-4
+00:45:09.315 --> 00:45:12.815
+<v Roberto Fuertes L&#243;pez>cuando empecéis hacerlo,
+que solo hay una opción.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/474-0
+00:45:13.055 --> 00:45:15.495
+<v Roberto Fuertes L&#243;pez>Válida y que solo hay un intento.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/475-0
+00:45:16.215 --> 00:45:20.361
+<v Roberto Fuertes L&#243;pez>El CUIT tiene,
+me parece que era un peso de un 15% sobre</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/475-1
+00:45:20.361 --> 00:45:23.854
+<v Roberto Fuertes L&#243;pez>la nota final, pero está poco.
+No sé si sabéis,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/475-2
+00:45:23.854 --> 00:45:29.456
+<v Roberto Fuertes L&#243;pez>os habéis visto un poco cómo se va a
+evaluar el track a nivel general de qué</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/475-3
+00:45:29.456 --> 00:45:35.712
+<v Roberto Fuertes L&#243;pez>porcentaje va el trabajo de fin de máster,
+qué porcentaje son las asistencia a clase,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/475-4
+00:45:35.712 --> 00:45:37.095
+<v Roberto Fuertes L&#243;pez>resolución de CUIT.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/478-0
+00:45:37.495 --> 00:45:43.164
+<v Roberto Fuertes L&#243;pez>Resolución de problemas. ¿Lo tenéis claro?
+Al final el 60% va al máster y luego se</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/476-0
+00:45:40.015 --> 00:45:40.775
+<v Fernando David Gomez Ortega>Si.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/478-1
+00:45:43.164 --> 00:45:48.013
+<v Roberto Fuertes L&#243;pez>hay un 10 o un 15% de asistencia,
+otro 10 o un 15% de quiz y un par de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/477-0
+00:45:43.375 --> 00:45:43.775
+<v Fernando David Gomez Ortega>Mhm.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/478-2
+00:45:48.013 --> 00:45:51.019
+<v Roberto Fuertes L&#243;pez>ejercicios que os voy a proponer.
+De hecho,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/478-3
+00:45:51.019 --> 00:45:56.415
+<v Roberto Fuertes L&#243;pez>la próxima sesión va a venir con un
+ejercicio. Os voy a intentar no dar mucho.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/479-0
+00:45:56.455 --> 00:46:00.497
+<v Roberto Fuertes L&#243;pez>Por saco, vale,
+ni siquiera vais a tener que desarrollar</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/479-1
+00:46:00.497 --> 00:46:03.618
+<v Roberto Fuertes L&#243;pez>nada.
+Va a ser un ejercicio de comprensión,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/479-2
+00:46:03.618 --> 00:46:04.895
+<v Roberto Fuertes L&#243;pez>o sea, yo os pido.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/480-0
+00:46:05.935 --> 00:46:10.780
+<v Roberto Fuertes L&#243;pez>Que si queréis complementar estas clases,
+pongáis esos prompts por si inventáis</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/480-1
+00:46:10.780 --> 00:46:14.838
+<v Roberto Fuertes L&#243;pez>alguno, cogéis un fichero de muestra,
+lo hagáis 2 o 3 situaciones,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/480-2
+00:46:14.838 --> 00:46:19.078
+<v Roberto Fuertes L&#243;pez>dediquéis media hora a leer lo que se
+está escumpliendo del chat para</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/480-3
+00:46:19.078 --> 00:46:22.591
+<v Roberto Fuertes L&#243;pez>entenderos, vale,
+y para a lo mejor reformular un poco el</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/480-4
+00:46:22.591 --> 00:46:25.135
+<v Roberto Fuertes L&#243;pez>prompt y ya empezáis a tener un poco unas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/481-0
+00:46:25.215 --> 00:46:28.436
+<v Roberto Fuertes L&#243;pez>Mini tools,
+unos mini prompts por ahí ha guardado en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/481-1
+00:46:28.436 --> 00:46:31.415
+<v Roberto Fuertes L&#243;pez>ciertas ocasiones.
+Me llega un fichero de nuevo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/481-2
+00:46:31.415 --> 00:46:35.123
+<v Roberto Fuertes L&#243;pez>pues yo tengo aquí un prompt perfecto que
+lo tengo depurado,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/481-3
+00:46:35.123 --> 00:46:39.803
+<v Roberto Fuertes L&#243;pez>se lo voy a pasar a ver qué me devuelve.
+Ya tengo un prompt que hace, sabes,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/481-4
+00:46:39.803 --> 00:46:43.207
+<v Roberto Fuertes L&#243;pez>y es una forma más o menos fácil de
+agilizar las cosas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/481-5
+00:46:43.207 --> 00:46:45.335
+<v Roberto Fuertes L&#243;pez>se las tienes más o menos escritas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/482-0
+00:46:45.695 --> 00:46:48.764
+<v Roberto Fuertes L&#243;pez>Con el output que quieres,
+los pasos que quieres que siga,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/482-1
+00:46:48.764 --> 00:46:52.095
+<v Roberto Fuertes L&#243;pez>es fácil llevar de un proyecto a otro o
+de una tabla a otra. o.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/483-0
+00:46:54.335 --> 00:46:58.576
+<v Roberto Fuertes L&#243;pez>Entonces, nada, por terminar,
+pequeño adelanto para mañana,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/483-1
+00:46:58.576 --> 00:47:03.947
+<v Roberto Fuertes L&#243;pez>entre hoy y el jueves hemos estado
+hablando con el clientes de todas muchas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/483-2
+00:47:03.947 --> 00:47:07.199
+<v Roberto Fuertes L&#243;pez>cosas.
+¿Y cuáles son los siguientes pasos que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/483-3
+00:47:07.199 --> 00:47:11.016
+<v Roberto Fuertes L&#243;pez>necesitamos?
+¿Recordáis que vamos a construir un ROI?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/483-4
+00:47:11.016 --> 00:47:15.822
+<v Roberto Fuertes L&#243;pez>Entonces lo que necesitaremos son más
+fuentes, fuentes de campañas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/483-5
+00:47:15.822 --> 00:47:17.095
+<v Roberto Fuertes L&#243;pez>fuentes de ventas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/484-0
+00:47:17.535 --> 00:47:21.726
+<v Roberto Fuertes L&#243;pez>¿Fuentes de cuáles eran los puntos de
+contacto con el cliente?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/484-1
+00:47:21.726 --> 00:47:26.118
+<v Roberto Fuertes L&#243;pez>Hemos estado con ellos,
+ya os cuento mañana más en detalle cuáles</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/484-2
+00:47:26.118 --> 00:47:29.977
+<v Roberto Fuertes L&#243;pez>son las nuevas fuentes y cuáles son los
+siguientes pasos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/484-3
+00:47:29.977 --> 00:47:33.037
+<v Roberto Fuertes L&#243;pez>que es modelar nuestro nuestra base de
+datos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/484-4
+00:47:33.037 --> 00:47:37.895
+<v Roberto Fuertes L&#243;pez>proponer un modelo de entidad de relación,
+cómo son las tablas entre sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/485-0
+00:47:38.335 --> 00:47:43.170
+<v Roberto Fuertes L&#243;pez>Como lo organizaría y todo esto nos lo va
+a decir claro y nosotros lo validaremos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/485-1
+00:47:43.170 --> 00:47:44.335
+<v Roberto Fuertes L&#243;pez>por supuesto, Sibel.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/486-0
+00:47:46.175 --> 00:47:47.615
+<v Roberto Fuertes L&#243;pez>No te oigo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/487-0
+00:47:49.455 --> 00:47:51.815
+<v Roberto Fuertes L&#243;pez>Yo te digo, ahora sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/488-0
+00:47:49.455 --> 00:47:58.055
+<v Bel&#233;n Gonz&#225;lez Agudo>Perdón, sí, ahora no, ahora vale,
+respecto a los quiz, hay que entregarlos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/489-0
+00:47:58.815 --> 00:48:02.775
+<v Roberto Fuertes L&#243;pez>Yo creo que los quiz se están en el
+portal publicados.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/492-0
+00:48:00.495 --> 00:48:04.236
+<v Bel&#233;n Gonz&#225;lez Agudo>A mí me dijeron que era, vale,
+que eran antes del TFM,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/492-1
+00:48:04.236 --> 00:48:08.862
+<v Bel&#233;n Gonz&#225;lez Agudo>sí que había que tenerlos entregados,
+pero que tampoco había, vale,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/491-0
+00:48:05.655 --> 00:48:07.095
+<v Roberto Fuertes L&#243;pez>Eso es, eso es.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/494-0
+00:48:08.015 --> 00:48:12.838
+<v Roberto Fuertes L&#243;pez>Yo os recomiendo si no os ahorréis 10
+minutos ahora y contestéis dentro de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/492-2
+00:48:08.862 --> 00:48:09.815
+<v Bel&#233;n Gonz&#225;lez Agudo>es igual esto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/494-1
+00:48:12.838 --> 00:48:16.567
+<v Roberto Fuertes L&#243;pez>cuatro semanas,
+porque las preguntas son muy relacionadas</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/493-0
+00:48:14.095 --> 00:48:14.615
+<v Bel&#233;n Gonz&#225;lez Agudo>Yeah.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/494-2
+00:48:16.567 --> 00:48:20.683
+<v Roberto Fuertes L&#243;pez>con lo que os he contado.
+Ya veis que en la presentación no hay</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/494-3
+00:48:20.683 --> 00:48:21.455
+<v Roberto Fuertes L&#243;pez>tanto texto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/499-0
+00:48:22.495 --> 00:48:26.135
+<v Roberto Fuertes L&#243;pez>Pero os lo he dicho,
+entonces habrán muchas cosas que si os</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/499-1
+00:48:26.135 --> 00:48:30.139
+<v Roberto Fuertes L&#243;pez>ponéis hoy, mañana o pasado,
+podéis hacer así porque os acordáis,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/499-2
+00:48:30.139 --> 00:48:35.054
+<v Roberto Fuertes L&#243;pez>pero si lo dejas para dentro de 3 semanas
+antes del TFM o para dentro de 2 meses</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/499-3
+00:48:35.054 --> 00:48:39.059
+<v Roberto Fuertes L&#243;pez>antes de entregar el TFM,
+no te acordarás y ojalá es la que es mi</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/498-0
+00:48:36.815 --> 00:48:42.815
+<v Bel&#233;n Gonz&#225;lez Agudo>Me tengo que volver a leer el vídeo, sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/499-4
+00:48:39.059 --> 00:48:42.092
+<v Roberto Fuertes L&#243;pez>consejo.
+Cada uno ya sé que la disponibilidad del</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/499-5
+00:48:42.092 --> 00:48:44.095
+<v Roberto Fuertes L&#243;pez>tiempo que cada uno ha escuchado.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/501-0
+00:48:44.735 --> 00:48:49.427
+<v Bel&#233;n Gonz&#225;lez Agudo>Gracias. Y otra pregunta, vale,
+porque de la sesión llevándolo un poco a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/500-0
+00:48:46.655 --> 00:48:47.095
+<v Roberto Fuertes L&#243;pez>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/501-1
+00:48:49.427 --> 00:48:54.698
+<v Bel&#233;n Gonz&#225;lez Agudo>mi terreno, porque yo trabajo con claro,
+yo trabajo con soluciones que hacen esto</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/501-2
+00:48:54.698 --> 00:48:57.912
+<v Bel&#233;n Gonz&#225;lez Agudo>a priori,
+no el pues por ejemplo con Datacloud de</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/501-3
+00:48:57.912 --> 00:49:02.669
+<v Bel&#233;n Gonz&#225;lez Agudo>con Data 360 de Salesforce. O sea,
+al final esto sería una alternativa al</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/501-4
+00:49:02.669 --> 00:49:03.055
+<v Bel&#233;n Gonz&#225;lez Agudo>mismo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/505-0
+00:49:03.135 --> 00:49:07.447
+<v Bel&#233;n Gonz&#225;lez Agudo>Proceso que están haciendo estas
+soluciones de software ya construidas,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/505-1
+00:49:07.447 --> 00:49:10.382
+<v Bel&#233;n Gonz&#225;lez Agudo>hacer una solución para un ejemplo más
+sencillo,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/505-2
+00:49:10.382 --> 00:49:14.635
+<v Bel&#233;n Gonz&#225;lez Agudo>pero los conceptos son similares.
+Lo que Lo único que te ayude Cloud a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/502-0
+00:49:13.175 --> 00:49:13.935
+<v Roberto Fuertes L&#243;pez>Lo mismo.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/505-3
+00:49:14.635 --> 00:49:19.547
+<v Bel&#233;n Gonz&#225;lez Agudo>montar esa solución para que tú no tengas,
+digamos, que ir a como palos de ciego.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/503-0
+00:49:16.575 --> 00:49:17.215
+<v Roberto Fuertes L&#243;pez>Receptor.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/505-4
+00:49:19.547 --> 00:49:22.482
+<v Bel&#233;n Gonz&#225;lez Agudo>¿Cuáles son tus reglas de criterios de
+matching,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/505-5
+00:49:22.482 --> 00:49:26.735
+<v Bel&#233;n Gonz&#225;lez Agudo>de resolución de identidad y que y que
+bueno Cloud o la IA en general?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/504-0
+00:49:22.775 --> 00:49:23.495
+<v Roberto Fuertes L&#243;pez>Correcto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/506-0
+00:49:26.975 --> 00:49:32.255
+<v Bel&#233;n Gonz&#225;lez Agudo>¿Te de unas guías de cómo agilizar la
+construcción de esa solución, no?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/507-0
+00:49:32.255 --> 00:49:37.793
+<v Roberto Fuertes L&#243;pez>Sí, justo. Además, ese tipo de cosas,
+lo que tienes que hacer o lo el objetivo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/507-1
+00:49:37.793 --> 00:49:39.055
+<v Roberto Fuertes L&#243;pez>bueno es que aquí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/514-0
+00:49:40.095 --> 00:49:45.418
+<v Roberto Fuertes L&#243;pez>Tengas un contexto un poco más específico
+si lo vas a querer utilizar en Salesforce,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/514-1
+00:49:45.418 --> 00:49:48.799
+<v Roberto Fuertes L&#243;pez>por ejemplo,
+porque tiene una serie de requisitos del</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/510-0
+00:49:45.895 --> 00:49:46.455
+<v Bel&#233;n Gonz&#225;lez Agudo>Mm.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/514-2
+00:49:48.799 --> 00:49:53.747
+<v Roberto Fuertes L&#243;pez>nombre de campos o yo que sé, sabes.
+No conozco esa parte como para decir que,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/514-3
+00:49:53.747 --> 00:49:58.757
+<v Roberto Fuertes L&#243;pez>pero a lo mejor si quieres decir bueno,
+observa que en la salida o la propuesta</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/511-0
+00:49:54.175 --> 00:49:54.735
+<v Bel&#233;n Gonz&#225;lez Agudo>sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/514-4
+00:49:58.757 --> 00:50:00.135
+<v Roberto Fuertes L&#243;pez>que me tienes que dar.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/517-0
+00:50:00.415 --> 00:50:03.854
+<v Roberto Fuertes L&#243;pez>Tiene que ocurrir esto,
+tiene que ocurrir esto y tiene que</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/515-0
+00:50:01.935 --> 00:50:02.215
+<v Bel&#233;n Gonz&#225;lez Agudo>Mhm.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/517-1
+00:50:03.854 --> 00:50:07.294
+<v Roberto Fuertes L&#243;pez>ocurrir esto porque lo necesito para mi
+tecnología. O sea,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/517-2
+00:50:07.294 --> 00:50:10.850
+<v Roberto Fuertes L&#243;pez>esto no va orientado a GCP ni Amazon Web
+Services ni a nada.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/517-3
+00:50:10.850 --> 00:50:14.930
+<v Roberto Fuertes L&#243;pez>Es una propuesta de tengo una data,
+necesito construir un modelo y en</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/516-0
+00:50:11.215 --> 00:50:12.135
+<v Bel&#233;n Gonz&#225;lez Agudo>Sí, Federico.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/517-4
+00:50:14.930 --> 00:50:18.895
+<v Roberto Fuertes L&#243;pez>cualquier software que puedas hacer eso,
+pues puedes aplicar estas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/518-0
+00:50:19.455 --> 00:50:23.215
+<v Roberto Fuertes L&#243;pez>Estas mecanismos para aclarar un poco.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/519-0
+00:50:23.855 --> 00:50:25.615
+<v Bel&#233;n Gonz&#225;lez Agudo>Vale, muchas gracias, Roberto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/520-0
+00:50:25.455 --> 00:50:29.335
+<v Roberto Fuertes L&#243;pez>Vale, pues por último, sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/522-0
+00:50:28.015 --> 00:50:31.002
+<v Adri&#225;n Iborra Rizo>Roberto, una cosa,
+has pasado el código QR,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/522-1
+00:50:31.002 --> 00:50:36.636
+<v Adri&#225;n Iborra Rizo>no sé si podrías pasar la URL por el chat
+de esta sesión y así que es más sencillo</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/521-0
+00:50:35.135 --> 00:50:36.535
+<v Roberto Fuertes L&#243;pez>sí, claro.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/522-2
+00:50:36.636 --> 00:50:37.655
+<v Adri&#225;n Iborra Rizo>ahí, por favor.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/523-0
+00:50:40.175 --> 00:50:41.135
+<v Roberto Fuertes L&#243;pez>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/525-0
+00:50:40.415 --> 00:50:43.199
+<v Adri&#225;n Iborra Rizo>Si no es ahora,
+cuando después no pasa nada,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/528-0
+00:50:43.055 --> 00:50:47.190
+<v Roberto Fuertes L&#243;pez>Vale, sí que tengo,
+está en el portal en algún sitio que la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/525-1
+00:50:43.199 --> 00:50:44.375
+<v Adri&#225;n Iborra Rizo>lo digo porque así.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/528-1
+00:50:47.190 --> 00:50:51.602
+<v Roberto Fuertes L&#243;pez>tengo por ahí compartida.
+Ahora mismo la pego en este chat y la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/528-2
+00:50:51.602 --> 00:50:55.462
+<v Roberto Fuertes L&#243;pez>dejo ahí. Vale,
+yo en cuanto suba la grabación os voy a</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/528-3
+00:50:55.462 --> 00:51:00.770
+<v Roberto Fuertes L&#243;pez>suplir un pequeño zip con la estructura
+que hemos visto. Vale, que es bueno,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/528-4
+00:51:00.770 --> 00:51:01.735
+<v Roberto Fuertes L&#243;pez>tengo aquí ya.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/531-0
+00:51:02.215 --> 00:51:06.573
+<v Roberto Fuertes L&#243;pez>Habrá alguna cosa más que a lo mejor
+tengo que limpiar, pero vamos,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/531-1
+00:51:06.573 --> 00:51:07.855
+<v Roberto Fuertes L&#243;pez>los ficheros de CSV.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/539-0
+00:51:09.455 --> 00:51:15.542
+<v Roberto Fuertes L&#243;pez>Aquí tengo algunos ejemplos del output
+que me daba por si se me estrocaba la</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/539-1
+00:51:15.542 --> 00:51:20.522
+<v Roberto Fuertes L&#243;pez>cosa. Aquí tienes las SQLs,
+algunas SQLs que he utilizado para</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/539-2
+00:51:20.522 --> 00:51:26.215
+<v Roberto Fuertes L&#243;pez>verificar cosas, el contexto del equipo,
+los prompts en modo plantilla.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/542-0
+00:51:27.495 --> 00:51:30.626
+<v Roberto Fuertes L&#243;pez>Y los prompts rellenados en este caso
+inconcreto.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/542-1
+00:51:30.626 --> 00:51:35.261
+<v Roberto Fuertes L&#243;pez>Todo esto lo dejo ahí y lo podéis
+consultar y usar para vuestras cositas.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/542-2
+00:51:35.261 --> 00:51:35.575
+<v Roberto Fuertes L&#243;pez>vale.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/543-0
+00:51:37.415 --> 00:51:38.775
+<v Roberto Fuertes L&#243;pez>Bueno.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/547-0
+00:51:39.855 --> 00:51:44.321
+<v Roberto Fuertes L&#243;pez>¿Os ha gustado o creéis que va bien
+enfocada la sesión? En serio,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/547-1
+00:51:44.321 --> 00:51:49.464
+<v Roberto Fuertes L&#243;pez>todavía estamos a tiempo de cambiar.
+No la del jueves porque os juro que he</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/546-0
+00:51:48.135 --> 00:51:48.455
+<v Adri&#225;n Iborra Rizo>Yeah.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/547-2
+00:51:49.464 --> 00:51:54.811
+<v Roberto Fuertes L&#243;pez>estado todo el fin de semana afinando
+todas las sesiones para que los prompts,</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/547-3
+00:51:54.811 --> 00:51:59.480
+<v Roberto Fuertes L&#243;pez>los datos y las cosas tengan cierto
+sentido y tenga cierta claridad.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/547-4
+00:51:59.480 --> 00:52:03.135
+<v Roberto Fuertes L&#243;pez>¿Veis razonablemente bien que con esta
+línea podemos?</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/548-0
+00:52:03.255 --> 00:52:06.335
+<v Roberto Fuertes L&#243;pez>Aprender a utilizar la vida de nuestro
+entorno.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/555-0
+00:52:08.055 --> 00:52:13.515
+<v Roberto Fuertes L&#243;pez>Sí, estaba un poco nervioso,
+estaba un poco nervioso porque hay</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/549-0
+00:52:08.695 --> 00:52:09.295
+<v Bel&#233;n Gonz&#225;lez Agudo>Sí.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/551-0
+00:52:09.735 --> 00:52:10.295
+<v Adri&#225;n Iborra Rizo>Yeah.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/550-0
+00:52:10.135 --> 00:52:10.415
+<v Fernando David Gomez Ortega>Mhm.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/552-0
+00:52:11.575 --> 00:52:12.855
+<v Bel&#233;n Gonz&#225;lez Agudo>Sí, yo vamos.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/555-1
+00:52:13.515 --> 00:52:19.658
+<v Roberto Fuertes L&#243;pez>ciertas cosas que son, o sea,
+a mí y entre nosotros ahora que nadie nos</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/554-0
+00:52:13.815 --> 00:52:14.855
+<v Bel&#233;n Gonz&#225;lez Agudo>Yo sí lo veo bien.</v>
+
+9a6458c9-a829-4f3f-91e7-db9cb6d37010/555-2
+00:52:19.658 --> 00:52:24.095
+<v Roberto Fuertes L&#243;pez>está escuchando porque no voy a parar la
+grabación.</v>
