@@ -2,6 +2,7 @@
 .venv/
 __pycache__/
 *.py[cod]
+*.egg-info/
 .ipynb_checkpoints/
 
 # Sistema y editor
@@ -10,3 +11,6 @@ Thumbs.db
 desktop.ini
 .vscode/
 original.xlsx
+
+# Credenciales
+*.postman_environment.json
