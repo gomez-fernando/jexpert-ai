@@ -1,0 +1,6 @@
+manifest formularios_web_enmascarado.csv — redacción para uso secundario
+envíos: 55
+valores enmascarados: 80 {'EMAIL': 62, 'TELEFONO': 9, 'PERSONA': 8, 'DNI': 1}
+tokens opacos asignados: 40 {'EMAIL': 25, 'TELEFONO': 9, 'PERSONA': 5, 'DNI': 1}
+el original permanece en el sistema operativo; no se genera tabla de reversión
+self-check: OK (0 coincidencias restantes de email/teléfono/DNI; ids únicos)

@@ -1,0 +1,23 @@
+log — workflow ingesta_ventas_offline ejecutado EN VERDE (2026-09-28)
+
+Despliegue: revision 000002-fa5, proyecto jakamedy-data-ia, europe-west1.
+
+$ gcloud workflows run ingesta_ventas_offline --location=europe-west1
+
+Ejecución e1d6aaa5-e41c-47a4-954a-d4feb2f24369:
+
+  state:     SUCCEEDED
+  result:    "ok"
+  startTime: 2026-09-28T08:34:03Z
+  endTime:   2026-09-28T08:34:13Z              (11 s end-to-end)
+
+Pasos ejecutados (todos ok): init → cargar_fichero (GCS→raw, 30.000 filas,
+WRITE_TRUNCATE) → modelo_stg (30.000 filas con _fuente/_cargado_en) →
+modelo_fct (incremental: guarda MAX(fecha) → 0 filas nuevas, los datos
+ya estaban; idempotencia real) → assert_unique_key (0 violaciones) →
+assert_non_null (0) → validar_assertions → hecho.
+
+Historial honesto: la primera ejecución (8fc3785e) salió FAILED por un bug
+en la condición de las assertions (acceso a rows cuando no hay filas);
+el agente lo corrigió — ambas assertions devuelven filas SOLO si violan.
+También esto es operación: el bug lo cazó la primera ejecución real.

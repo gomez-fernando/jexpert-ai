@@ -1,0 +1,115 @@
+erDiagram
+    dim_contacto ||--o{ fct_venta : "0..N ventas (o desconocido)"
+    dim_contacto ||--o{ fct_interaccion_campana : "N interacciones"
+    dim_contacto ||--o{ dim_segmento_contacto_hist : "historial de segmento"
+    dim_contacto ||--o{ bridge_contacto_origen : "trazabilidad origen"
+
+    dim_campana ||--o{ fct_interaccion_campana : "N interacciones"
+    dim_campana ||--o{ fct_spend_campana_diario : "N filas de spend diario"
+    dim_campana ||--o{ fct_atribucion_venta_campana : "N atribuciones"
+
+    fct_venta ||--o{ fct_atribucion_venta_campana : "0..N atribuciones (multi-touch)"
+
+    dim_tienda ||--o{ fct_venta : "N ventas"
+
+    dim_fecha ||--o{ fct_venta : ""
+    dim_fecha ||--o{ fct_interaccion_campana : ""
+    dim_fecha ||--o{ fct_spend_campana_diario : ""
+    dim_fecha ||--o{ fct_atribucion_venta_campana : ""
+
+    dim_contacto {
+        string sk_contacto PK
+        string contacto_id
+        string nombre
+        string apellido
+        string email
+        string telefono
+        string empresa
+        date fecha_alta
+    }
+
+    bridge_contacto_origen {
+        string contacto_id FK
+        string source_system
+        string source_record_id
+        string candidate_pair_id
+        string decision_status
+        float confidence
+        string approved_by
+        timestamp approved_at
+    }
+
+    dim_segmento_contacto_hist {
+        string sk_segmento_contacto PK
+        string contacto_id FK
+        string segmento
+        date fecha_desde
+        date fecha_hasta
+        boolean flag_vigente
+        string modelo_segmentacion_version
+        float score
+    }
+
+    dim_campana {
+        string sk_campana PK
+        string campana_id
+        string nombre
+        string marca
+        string canal
+        date fecha_inicio
+        date fecha_fin
+        string estado
+    }
+
+    dim_tienda {
+        string sk_tienda PK
+        string tienda_id
+    }
+
+    dim_fecha {
+        string sk_fecha PK
+        date fecha
+    }
+
+    fct_venta {
+        string ticket_id PK
+        string sk_contacto FK
+        string sk_tienda FK
+        string sk_fecha FK
+        float importe_bruto
+        float importe_devuelto
+        float importe_neto
+        string moneda
+        boolean is_test
+    }
+
+    fct_atribucion_venta_campana {
+        string ticket_id FK
+        string sk_campana FK
+        string sk_fecha FK
+        string modelo_atribucion
+        int ventana_dias
+        float peso_atribucion
+    }
+
+    fct_interaccion_campana {
+        string interaccion_id PK
+        string sk_contacto FK
+        string sk_campana FK
+        string sk_fecha FK
+        string tipo
+        string dispositivo
+        boolean is_test
+    }
+
+    fct_spend_campana_diario {
+        string sk_campana FK
+        string sk_fecha FK
+        string segmento_objetivo
+        int impresiones
+        int clics
+        float coste_sin_iva
+        float iva_importe
+        string moneda
+        boolean is_test
+    }

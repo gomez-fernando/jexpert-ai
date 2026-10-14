@@ -1,0 +1,20 @@
+q04 — Demo B: el parche mergeado corre en verde (job real, 2026-09-28)
+
+Tras la verificación (q03) y la aprobación humana, se ejecutó
+sql/normalizar_importes_parcheado.sql (job s5_normalizar_verde_02_parcheado):
+
+  Waiting on s5_normalizar_verde_02_parcheado ... DONE
+  Number of affected rows: 5000        <- particiones 16–30 sep incorporadas
+
+Post-check sobre demo_ops.fct_ingesta_diaria:
+
++------------+------------+-------+------+-------+
+| fecha_min  | fecha_max  | filas | dias | nulos |
++------------+------------+-------+------+-------+
+| 2026-09-01 | 2026-09-30 |  9500 |   30 |     0 |
++------------+------------+-------+------+-------+
+
+= 4.500 filas históricas (01–15 sep, pre-rename) + 5.000 nuevas (16–30 sep).
+
+Recordatorio de la sesión: el alias es un PARCHE para volver a verde; la
+solución es actualizar el contrato de esquema con el equipo origen (S3).

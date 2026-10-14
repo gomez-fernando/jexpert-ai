@@ -1,0 +1,27 @@
+log — workflow ingesta_diaria ejecutado EN ROJO (2026-09-28, ejecución real)
+
+Despliegue: revision 000003-883 (backoff reducido a 5 s para la demo;
+en producción los defaults viejos eran 600 s y el canon actual son 900 s).
+
+$ gcloud workflows run ingesta_diaria --location=europe-west1
+
+Ejecución 0fae9815-914a-4b1b-a34e-d5b4037946e8:
+
+  state:     FAILED
+  duration:  46,2 s   (intento + 3 reintentos del canon viejo)
+  error:     HTTP server responded with error code 400
+             in step "normalizar_importes" … "propagar"
+
+  payload (recortado):
+    "message": "Unrecognized name: importe_total at [8:8]",
+    "reason":  "invalidQuery",
+    "status":  "INVALID_ARGUMENT"
+
+La misma evidencia a nivel job queda en INFORMATION_SCHEMA.JOBS
+(output/q00_jobs_historial.txt): cada intento del workflow aparece como un
+job independiente en rojo con el mismo mensaje.
+
+Nota didáctica: con el backoff de 5 s toda la cadena (fallo → reintentos →
+alerta) dura 46 segundos y se puede enseñar completa. En producción, los
+reintentos en minutos existen para dar tiempo a que se resuelva un fallo
+transitorio sin despertar a nadie.

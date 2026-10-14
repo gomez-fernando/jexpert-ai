@@ -1,0 +1,31 @@
+# Contrato semántico roi_campana_mes
+# Redactado desde la tabla de firmas de negocio (contexto.md §11). La query
+# solo puede derivarse de este fichero; nada de aquí lo decide el LLM.
+# Nombres de tablas: modelo v2 real (ensayo), no la referencia de §9.
+metrica: roi_campana_mes
+grano: campana + mes
+owner: marketing-analytics
+
+numerador:
+  formula: ingresos_netos_atribuidos - coste_sin_iva
+
+denominador:
+  formula: coste_sin_iva
+
+ingresos_netos_atribuidos:
+  fuente: fct_venta + fct_atribucion_venta_campana
+  formula: SUM(importe_neto * peso_atribucion)
+
+coste_sin_iva:
+  fuente: fct_spend_campana_diario
+  formula: SUM(coste_sin_iva)
+
+filtros_obligatorios:
+  - is_test = FALSE
+
+segmento:
+  regla: usar la fila SCD vigente en fecha de venta
+
+casos_limite:
+  - coste_sin_iva = 0 → ROI null
+  - venta sin atribución → no entra en ROI de campaña

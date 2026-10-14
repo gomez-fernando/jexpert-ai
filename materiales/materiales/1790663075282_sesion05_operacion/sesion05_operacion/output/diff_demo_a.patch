@@ -1,0 +1,68 @@
+diff --git a/repo_demo/sesion05_operacion/output/_primer_intento/workflows/ingesta_ventas_offline.yaml b/repo_demo/sesion05_operacion/output/workflows/ingesta_ventas_offline.yaml
+index 446a301..d2b2974 100644
+--- a/repo_demo/sesion05_operacion/output/_primer_intento/workflows/ingesta_ventas_offline.yaml
++++ b/repo_demo/sesion05_operacion/output/workflows/ingesta_ventas_offline.yaml
+@@ -1,12 +1,14 @@
+ # Workflow de ingesta diaria: ventas_offline.csv (GCS) → raw → stg → fct_ventas_diarias.
+ #
+-# PRIMERA VERSIÓN real del agente (v0), tal y como se desplegó en la primera
+-# ejecución. Contiene el bug que la ejecución cazó: la condición de las
+-# assertions lee `rows`, que no existe cuando la query devuelve cero filas
+-# (que es justo cuando TODO va bien). Corregida en output/workflows/.
++# Generado por el coding agent a partir de
++# templates/workflow_ingesta_template.yaml, siguiendo contexto_equipo.md
++# (stack, naming, defaults de retry/cron/idempotencia), contexto_kpis.md
++# (grano "Ventas diarias por tienda": tienda × día, tickets/unidades/
++# importe_total/tickets_campana) y contexto_calidad.md (assertions
++# uniqueKey + nonNull, validadas por totalRows).
+ #
+-# Canon comprobado en revisión: cron 17 3 en INFRA, retry del canon, esquema
+-# declarado, WRITE_TRUNCATE, _nk, auditoría, incremental, assertions.
++# Sin decisiones abiertas: nombre de tabla, columna de fecha, clave y
++# frecuencia ya estaban fijados por el canon y por el encargo.
+ #
+ # CONFIG aplicada:
+ #   WORKFLOW_ID = ingesta_ventas_offline
+@@ -15,7 +17,7 @@
+ #   STG  = demo_ops.stg_ventas_offline (normalizada + _fuente + _cargado_en)
+ #   FCT  = demo_ops.fct_ventas_diarias (grano tienda × día, incremental)
+ #
+-# INFRA (canon, revisado en PR):
++# INFRA (canon, sin tocar):
+ #   gcloud workflows deploy ingesta_ventas_offline \
+ #     --source=workflows/ingesta_ventas_offline.yaml --location=europe-west1
+ #   gcloud scheduler jobs create http ingesta_ventas_offline-cron \
+@@ -63,11 +65,11 @@ main:
+         except:
+           as: e
+           steps:
+-            - alertar:
++            - alertar:                       # en producción: webhook del canal del equipo
+                 call: sys.log
+                 args:
+                   severity: "ERROR"
+-                  text: "FALLO ingesta_ventas_offline en cargar_fichero"
++                  text: "FALLO ingesta_ventas_offline en cargar_fichero (tras agotar reintentos)"
+             - propagar:
+                 raise: ${e}
+ 
+@@ -153,16 +155,16 @@ main:
+             useLegacySql: false
+             location: "EU"
+             query: |
+-              SELECT COUNT(*) AS nulos
++              SELECT fecha, tienda_nk
+               FROM `jakamedy-data-ia.demo_ops.fct_ventas_diarias`
+               WHERE fecha IS NULL OR tienda_nk IS NULL
+         result: nulos
+ 
+     - validar_assertions:
+         switch:
+-          - condition: ${len(unicidad.rows) > 0 or int(nulos.rows[0].nulos) > 0}
++          - condition: ${int(unicidad.totalRows) > 0 or int(nulos.totalRows) > 0}
+             steps:
+-              - alertar_calidad:
++              - alertar_calidad:            # en producción: webhook del canal del equipo
+                   call: sys.log
+                   args:
+                     severity: "ERROR"

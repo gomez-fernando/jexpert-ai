@@ -1,0 +1,12 @@
++--------------------+------------------+---------------+-----------+
+|     table_name     | ordinal_position |  column_name  | data_type |
++--------------------+------------------+---------------+-----------+
+| fct_ingesta_diaria |                1 | registro_nk   | STRING    |
+| fct_ingesta_diaria |                2 | fecha         | DATE      |
+| fct_ingesta_diaria |                3 | importe       | FLOAT64   |
+| fct_ingesta_diaria |                4 | tienda_nk     | STRING    |
+| stg_ingesta_diaria |                1 | registro_id   | STRING    |
+| stg_ingesta_diaria |                2 | fecha         | DATE      |
+| stg_ingesta_diaria |                3 | total_importe | FLOAT64   |
+| stg_ingesta_diaria |                4 | tienda_id     | STRING    |
++--------------------+------------------+---------------+-----------+

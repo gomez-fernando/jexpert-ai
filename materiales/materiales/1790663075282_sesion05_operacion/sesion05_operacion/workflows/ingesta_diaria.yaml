@@ -1,0 +1,65 @@
+# WORKFLOW de ingesta_diaria — el pipeline viejo de producción (montado a mano
+# antes de que existiera el canon actual).
+#
+# Por eso conserva defaults anteriores al canon (cron "0 6 * * *" en el
+# comentario de despliegue y max_attempts 4): no es una referencia para nada
+# nuevo. Lo vigente está en contexto_equipo.md y en templates/.
+#
+# Estado: EN ROJO desde el 22/09/2026. El paso normalizar_importes ejecuta
+# un SQL que espera la columna importe_total, y el equipo origen renombró la
+# columna a total_importe el lunes 21/09 sin aviso ni cambio de contrato
+# (es exactamente sql/normalizar_importes.sql).
+#
+# NO corregir antes de la sesión: el fallo ES la demo B.
+#
+# Despliegue heredado (defaults viejos — NO copiar):
+#   gcloud workflows deploy ingesta_diaria --source=workflows/ingesta_diaria.yaml \
+#     --location=europe-west1
+#   gcloud scheduler jobs create http ingesta_diaria-cron --schedule="0 6 * * *" ...
+
+main:
+  steps:
+    - init:
+        assign:
+          - project_id: ${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}
+
+    - normalizar_importes:
+        try:
+          steps:
+            - intento:
+                try:
+                  call: googleapis.bigquery.v2.jobs.query
+                  args:
+                    projectId: ${project_id}
+                    body:
+                      useLegacySql: false
+                      location: "EU"
+                      timeoutMs: 60000
+                      query: |
+                        INSERT INTO `jakamedy-data-ia.demo_ops.fct_ingesta_diaria`
+                          (registro_nk, fecha, importe, tienda_nk)
+                        SELECT
+                          CAST(registro_id AS STRING) AS registro_nk,
+                          fecha,
+                          -- la fuente renombró esta columna el lunes 21/09:
+                          -- antes importe_total → ahora total_importe
+                          CAST(importe_total AS FLOAT64) AS importe,
+                          tienda_id AS tienda_nk
+                        FROM `jakamedy-data-ia.demo_ops.stg_ingesta_diaria`
+                retry:                       # defaults VIEJOS, heredados:
+                  max_attempts: 4            # 3 reintentos (canon actual: 2)
+                  backoff:
+                    initial_delay: 5         # 5 s — reducido para la demo: agota reintentos
+                                             # en segundos. En producción el desfase viejo
+                                             # canon era de minutos (600 s) y el canon
+                                             # actual son 900 s.
+        except:
+          as: e
+          steps:
+            - alertar:                       # en producción: webhook del canal del equipo
+                call: sys.log
+                args:
+                  severity: "ERROR"
+                  text: "FALLO ingesta_diaria en normalizar_importes (tras agotar reintentos)"
+            - propagar:
+                raise: ${e}

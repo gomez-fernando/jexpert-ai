@@ -1,0 +1,3 @@
+Waiting on s5_normalizar_rojo_01 ... (0s) Current status: RUNNING                                                                 Waiting on s5_normalizar_rojo_01 ... (0s) Current status: DONE   
+Error in query string: Error processing job 'jakamedy-data-
+ia:s5_normalizar_rojo_01': Unrecognized name: importe_total at [11:8]

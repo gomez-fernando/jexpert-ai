@@ -1,0 +1,392 @@
+[
+  {
+    "par_id": 1,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email_dominio"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Acme Retail); el nombre «Marti Gómez» es una variante compatible de «Marta Gómez»."
+  },
+  {
+    "par_id": 2,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Vela Hogar); el nombre «Javier Á.» es una variante compatible de «Javier Álvarez»."
+  },
+  {
+    "par_id": 3,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email_dominio"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Acme Retail); el nombre «Carlitos Fernández» es una variante compatible de «Carlos Fernández»."
+  },
+  {
+    "par_id": 4,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email_dominio"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Acme Retail); el nombre «lucía garcía» es una variante compatible de «Lucía García»."
+  },
+  {
+    "par_id": 5,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Grupo Meridiano); el nombre «Marti Domínguez» es una variante compatible de «Marta Domínguez»."
+  },
+  {
+    "par_id": 6,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (TecnoAndar); el nombre «MARTA LÓPEZ» es una variante compatible de «Marta López»."
+  },
+  {
+    "par_id": 7,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (TecnoAndar); el nombre «CARMEN ÁLVAREZ» es una variante compatible de «Carmen Álvarez»."
+  },
+  {
+    "par_id": 8,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Grupo Meridiano); el nombre «carmen fernández» es una variante compatible de «Carmen Fernández»."
+  },
+  {
+    "par_id": 9,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (TecnoAndar); el nombre «Pablo Muñoz» es una variante compatible de «Pablo Muñoz»."
+  },
+  {
+    "par_id": 10,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Grupo Meridiano); el nombre «Javi Navarro» es una variante compatible de «Javier Navarro»."
+  },
+  {
+    "par_id": 11,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Nordika Moda); el nombre «marta ruiz» es una variante compatible de «Marta Ruiz»."
+  },
+  {
+    "par_id": 12,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Nordika Moda); el nombre «P. Gómez» es una variante compatible de «Pablo Gómez»."
+  },
+  {
+    "par_id": 13,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Nordika Moda); el nombre «Lucía N.» es una variante compatible de «Lucía Navarro»."
+  },
+  {
+    "par_id": 14,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Vela Hogar); el nombre «Marta M.» es una variante compatible de «Marta Moreno»."
+  },
+  {
+    "par_id": 15,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email_dominio"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Acme Retail); el nombre «laura hernández» es una variante compatible de «Laura Hernández»."
+  },
+  {
+    "par_id": 16,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Vela Hogar); el nombre «MARTA GARCÍA» es una variante compatible de «Marta García»."
+  },
+  {
+    "par_id": 17,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Grupo Meridiano); el nombre «E. García» es una variante compatible de «Elena García»."
+  },
+  {
+    "par_id": 18,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Nordika Moda); el nombre «P. Romero» es una variante compatible de «Pablo Romero»."
+  },
+  {
+    "par_id": 19,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Vela Hogar); el nombre «Laura D.» es una variante compatible de «Laura Domínguez»."
+  },
+  {
+    "par_id": 20,
+    "es_misma_entidad": true,
+    "confianza": 0.96,
+    "campos_en_conflicto": [
+      "email"
+    ],
+    "justificacion": "Coinciden teléfono y empresa (Nordika Moda); el nombre «JAVIER ALONSO» es una variante compatible de «Javier Alonso»."
+  },
+  {
+    "par_id": 21,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Nordika Moda) coinciden; falta el teléfono en eventos y el email usa otra construcción (jgomez@nordika.com)."
+  },
+  {
+    "par_id": 22,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Vela Hogar) coinciden; falta el teléfono en eventos y el email usa otra construcción (llopez@velahogar.es)."
+  },
+  {
+    "par_id": 23,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Nordika Moda) coinciden; falta el teléfono en eventos y el email usa otra construcción (lperez@nordika.com)."
+  },
+  {
+    "par_id": 24,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Grupo Meridiano) coinciden; falta el teléfono en eventos y el email usa otra construcción (calonso@gmeridiano.com)."
+  },
+  {
+    "par_id": 25,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Acme Retail) coinciden; falta el teléfono en eventos y el email usa otra construcción (slopez@acme.es)."
+  },
+  {
+    "par_id": 26,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Grupo Meridiano) coinciden; falta el teléfono en eventos y el email usa otra construcción (dgutierrez@gmeridiano.com)."
+  },
+  {
+    "par_id": 27,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Nordika Moda) coinciden; falta el teléfono en eventos y el email usa otra construcción (lalonso@nordika.com)."
+  },
+  {
+    "par_id": 28,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (TecnoAndar) coinciden; falta el teléfono en eventos y el email usa otra construcción (adiaz@tecnoandar.com)."
+  },
+  {
+    "par_id": 29,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (Acme Retail) coinciden; falta el teléfono en eventos y el email usa otra construcción (plopez@acme.es)."
+  },
+  {
+    "par_id": 30,
+    "es_misma_entidad": true,
+    "confianza": 0.86,
+    "campos_en_conflicto": [
+      "telefono_ausente",
+      "email"
+    ],
+    "justificacion": "Nombre y empresa (TecnoAndar) coinciden; falta el teléfono en eventos y el email usa otra construcción (mnavarro@tecnoandar.com)."
+  },
+  {
+    "par_id": 31,
+    "es_misma_entidad": false,
+    "confianza": 0.68,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "Coinciden nombre y empresa, pero apellido, email y teléfono requieren revisión humana."
+  },
+  {
+    "par_id": 32,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 611 432 664 / +34629530860); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 33,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 646 617 554 / +34663790620); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 34,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 680 319 380 / +34649542170); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 35,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 623 428 707 / +34618242668); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 36,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 626 568 108 / +34613794776); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 37,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 658 117 196 / +34620859617); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 38,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 678 186 201 / +34670668426); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 39,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 696 118 986 / +34637374786); no hay evidencia de identidad común."
+  },
+  {
+    "par_id": 40,
+    "es_misma_entidad": false,
+    "confianza": 0.94,
+    "campos_en_conflicto": [
+      "apellido",
+      "email",
+      "telefono"
+    ],
+    "justificacion": "El apellido, el email y el teléfono son distintos (+34 637 489 291 / +34689140658); no hay evidencia de identidad común."
+  }
+]

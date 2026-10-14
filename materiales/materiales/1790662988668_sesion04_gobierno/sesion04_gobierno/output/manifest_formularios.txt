@@ -1,0 +1,7 @@
+manifest formularios_web.csv — seed 20260923
+envíos: 55 (normales 52 + rival 3)
+motivos: {'duda_pedido': 15, 'alta_cuenta': 18, 'facturacion': 10, 'ser_proveedor': 7, 'prensa': 2, 'otro': 3}
+PII sembrada: 9 teléfonos, 7 emails en cuerpo, 1 DNI
+rival (Surtidal Mayoristas): sondeo 12/06, sondeo 21/07, ATAQUE 2026-09-08 (FL378709)
+FK: todos los envíos duda_pedido cuelgan de pedidos_dorado (S3)
+self-check: OK (ids únicos, fechas ISO, FK íntegra, arco rival ordenado)

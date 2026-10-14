@@ -1,0 +1,45 @@
+{
+  "creationTime": "1790579851384",
+  "etag": "9W3u24WNgaj3Xpe/DrFptg==",
+  "id": "jakamedy-data-ia:demo_ops.stg_ingesta_diaria",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1790579867008",
+  "location": "EU",
+  "numActiveLogicalBytes": "170000",
+  "numBytes": "170000",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numRows": "5000",
+  "numTotalLogicalBytes": "170000",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "registro_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "fecha",
+        "type": "DATE"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "total_importe",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tienda_id",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/jakamedy-data-ia/datasets/demo_ops/tables/stg_ingesta_diaria",
+  "tableReference": {
+    "datasetId": "demo_ops",
+    "projectId": "jakamedy-data-ia",
+    "tableId": "stg_ingesta_diaria"
+  },
+  "type": "TABLE"
+}

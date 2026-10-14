@@ -1,0 +1,351 @@
+contacto_id,source_system,source_record_id,candidate_pair_id,decision_status,confidence,approved_by,approved_at
+CT000048,crm,L344942,33,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000192,crm,L850069,,sin_candidato,,,
+CT000129,crm,L605407,8,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000029,crm,L248560,,sin_candidato,,,
+CT000042,crm,L308764,,sin_candidato,,,
+CT000089,crm,L488341,,sin_candidato,,,
+CT000069,crm,L418958,,sin_candidato,,,
+CT000157,crm,L711705,,sin_candidato,,,
+CT000074,crm,L432907,21,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000046,crm,L342013,,sin_candidato,,,
+CT000117,crm,L574112,,sin_candidato,,,
+CT000116,crm,L570513,,sin_candidato,,,
+CT000025,crm,L209976,,sin_candidato,,,
+CT000055,crm,L367174,,sin_candidato,,,
+CT000123,crm,L591683,,sin_candidato,,,
+CT000037,crm,L276297,,sin_candidato,,,
+CT000182,crm,L820933,,sin_candidato,,,
+CT000066,crm,L404215,,sin_candidato,,,
+CT000027,crm,L226555,1,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000091,crm,L499481,,sin_candidato,,,
+CT000108,crm,L546967,22,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000130,crm,L610556,9,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000050,crm,L349922,,sin_candidato,,,
+CT000071,crm,L424949,,sin_candidato,,,
+CT000163,crm,L749154,25,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000021,crm,L194608,,sin_candidato,,,
+CT000072,crm,L427715,,sin_candidato,,,
+CT000018,crm,L188584,,sin_candidato,,,
+CT000077,crm,L453869,,sin_candidato,,,
+CT000092,crm,L501714,5,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000141,crm,L654619,,sin_candidato,,,
+CT000058,crm,L379559,,sin_candidato,,,
+CT000146,crm,L674079,,sin_candidato,,,
+CT000109,crm,L548351,,sin_candidato,,,
+CT000142,crm,L655565,,sin_candidato,,,
+CT000007,crm,L136135,,sin_candidato,,,
+CT000194,crm,L853130,,sin_candidato,,,
+CT000177,crm,L805977,,sin_candidato,,,
+CT000022,crm,L196565,,sin_candidato,,,
+CT000171,crm,L783204,,sin_candidato,,,
+CT000153,crm,L702363,,sin_candidato,,,
+CT000178,crm,L816742,,sin_candidato,,,
+CT000008,crm,L143460,,sin_candidato,,,
+CT000024,crm,L207561,,sin_candidato,,,
+CT000154,crm,L704119,,sin_candidato,,,
+CT000096,crm,L516916,,sin_candidato,,,
+CT000087,crm,L483613,,sin_candidato,,,
+CT000079,crm,L458734,,sin_candidato,,,
+CT000064,crm,L399213,,sin_candidato,,,
+CT000053,crm,L364569,,sin_candidato,,,
+CT000056,crm,L374133,,sin_candidato,,,
+CT000158,crm,L721669,,sin_candidato,,,
+CT000063,crm,L396882,,sin_candidato,,,
+CT000038,crm,L288247,,sin_candidato,,,
+CT000167,crm,L771525,,sin_candidato,,,
+CT000193,crm,L852911,,sin_candidato,,,
+CT000062,crm,L391071,,sin_candidato,,,
+CT000200,crm,L896705,,sin_candidato,,,
+CT000131,crm,L610651,,sin_candidato,,,
+CT000084,crm,L476892,,sin_candidato,,,
+CT000033,crm,L267055,,sin_candidato,,,
+CT000001,crm,L106888,,sin_candidato,,,
+CT000125,crm,L596984,37,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000144,crm,L669727,,sin_candidato,,,
+CT000036,crm,L271739,32,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000135,crm,L622083,,sin_candidato,,,
+CT000052,crm,L362032,3,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000155,crm,L704273,,sin_candidato,,,
+CT000073,crm,L429813,,sin_candidato,,,
+CT000138,crm,L639827,,sin_candidato,,,
+CT000148,crm,L684828,12,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000054,crm,L366255,,sin_candidato,,,
+CT000110,crm,L551790,,sin_candidato,,,
+CT000190,crm,L845455,,sin_candidato,,,
+CT000187,crm,L839572,,sin_candidato,,,
+CT000006,crm,L128304,,sin_candidato,,,
+CT000020,crm,L193231,,sin_candidato,,,
+CT000199,crm,L887778,,sin_candidato,,,
+CT000169,crm,L779675,26,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000014,crm,L174512,,sin_candidato,,,
+CT000150,crm,L691359,13,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000170,crm,L781691,,sin_candidato,,,
+CT000028,crm,L229536,31,rejected_match,0.68,marketing_ops,2026-09-09 10:15:00 UTC
+CT000133,crm,L615853,,sin_candidato,,,
+CT000127,crm,L601865,,sin_candidato,,,
+CT000102,crm,L532486,7,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000030,crm,L253112,,sin_candidato,,,
+CT000188,crm,L839944,29,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000044,crm,L324334,,sin_candidato,,,
+CT000165,crm,L757019,,sin_candidato,,,
+CT000119,crm,L581057,,sin_candidato,,,
+CT000002,crm,L106980,,sin_candidato,,,
+CT000147,crm,L683097,38,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000106,crm,L546818,,sin_candidato,,,
+CT000040,crm,L294800,,sin_candidato,,,
+CT000009,crm,L144018,,sin_candidato,,,
+CT000017,crm,L187657,,sin_candidato,,,
+CT000075,crm,L445051,,sin_candidato,,,
+CT000164,crm,L749935,39,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000176,crm,L805974,,sin_candidato,,,
+CT000031,crm,L258066,,sin_candidato,,,
+CT000128,crm,L602441,,sin_candidato,,,
+CT000015,crm,L175638,,sin_candidato,,,
+CT000004,crm,L108821,,sin_candidato,,,
+CT000065,crm,L401751,,sin_candidato,,,
+CT000151,crm,L696014,,sin_candidato,,,
+CT000094,crm,L505270,,sin_candidato,,,
+CT000088,crm,L484869,,sin_candidato,,,
+CT000051,crm,L354807,,sin_candidato,,,
+CT000003,crm,L108219,,sin_candidato,,,
+CT000082,crm,L469276,,sin_candidato,,,
+CT000149,crm,L687830,,sin_candidato,,,
+CT000104,crm,L538712,,sin_candidato,,,
+CT000132,crm,L612209,10,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000120,crm,L583668,36,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000078,crm,L456116,,sin_candidato,,,
+CT000159,crm,L730912,,sin_candidato,,,
+CT000140,crm,L645593,11,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000196,crm,L874115,19,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000179,crm,L817185,,sin_candidato,,,
+CT000161,crm,L748147,,sin_candidato,,,
+CT000137,crm,L639297,24,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000026,crm,L212281,,sin_candidato,,,
+CT000168,crm,L773830,,sin_candidato,,,
+CT000093,crm,L505206,6,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000098,crm,L523483,,sin_candidato,,,
+CT000083,crm,L471489,,sin_candidato,,,
+CT000124,crm,L594903,23,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000057,crm,L374425,,sin_candidato,,,
+CT000118,crm,L576458,,sin_candidato,,,
+CT000112,crm,L557785,,sin_candidato,,,
+CT000080,crm,L460639,,sin_candidato,,,
+CT000068,crm,L415861,,sin_candidato,,,
+CT000156,crm,L709205,,sin_candidato,,,
+CT000049,crm,L347346,,sin_candidato,,,
+CT000107,crm,L546938,,sin_candidato,,,
+CT000035,crm,L269041,,sin_candidato,,,
+CT000095,crm,L512278,,sin_candidato,,,
+CT000160,crm,L733038,,sin_candidato,,,
+CT000045,crm,L332182,,sin_candidato,,,
+CT000126,crm,L597361,,sin_candidato,,,
+CT000067,crm,L409927,,sin_candidato,,,
+CT000061,crm,L390175,4,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000172,crm,L787858,14,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000101,crm,L527620,,sin_candidato,,,
+CT000191,crm,L849636,18,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000032,crm,L263909,,sin_candidato,,,
+CT000081,crm,L468124,34,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000183,crm,L822394,,sin_candidato,,,
+CT000143,crm,L667961,,sin_candidato,,,
+CT000162,crm,L748878,,sin_candidato,,,
+CT000060,crm,L385230,,sin_candidato,,,
+CT000184,crm,L827758,28,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000076,crm,L452017,,sin_candidato,,,
+CT000023,crm,L197101,,sin_candidato,,,
+CT000181,crm,L817694,,sin_candidato,,,
+CT000197,crm,L875379,30,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000145,crm,L672650,,sin_candidato,,,
+CT000097,crm,L519830,,sin_candidato,,,
+CT000174,crm,L796752,15,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000198,crm,L879415,20,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000016,crm,L187215,,sin_candidato,,,
+CT000013,crm,L173562,,sin_candidato,,,
+CT000139,crm,L644919,,sin_candidato,,,
+CT000186,crm,L834081,,sin_candidato,,,
+CT000166,crm,L763582,40,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000111,crm,L556192,,sin_candidato,,,
+CT000059,crm,L383224,,sin_candidato,,,
+CT000152,crm,L698085,,sin_candidato,,,
+CT000115,crm,L567597,,sin_candidato,,,
+CT000189,crm,L844041,17,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000085,crm,L479492,35,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000086,crm,L483352,,sin_candidato,,,
+CT000134,crm,L616632,,sin_candidato,,,
+CT000043,crm,L316362,,sin_candidato,,,
+CT000011,crm,L152562,,sin_candidato,,,
+CT000041,crm,L294996,,sin_candidato,,,
+CT000090,crm,L498844,,sin_candidato,,,
+CT000180,crm,L817378,,sin_candidato,,,
+CT000103,crm,L537651,,sin_candidato,,,
+CT000136,crm,L623794,,sin_candidato,,,
+CT000034,crm,L268110,,sin_candidato,,,
+CT000173,crm,L792832,27,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000099,crm,L524058,,sin_candidato,,,
+CT000100,crm,L525041,,sin_candidato,,,
+CT000195,crm,L855325,,sin_candidato,,,
+CT000010,crm,L145121,,sin_candidato,,,
+CT000122,crm,L591575,,sin_candidato,,,
+CT000012,crm,L167495,,sin_candidato,,,
+CT000005,crm,L122095,,sin_candidato,,,
+CT000019,crm,L191524,,sin_candidato,,,
+CT000039,crm,L291597,2,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000113,crm,L558869,,sin_candidato,,,
+CT000070,crm,L424286,,sin_candidato,,,
+CT000105,crm,L540557,,sin_candidato,,,
+CT000175,crm,L799245,16,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000114,crm,L559060,,sin_candidato,,,
+CT000047,crm,L344352,,sin_candidato,,,
+CT000185,crm,L831867,,sin_candidato,,,
+CT000121,crm,L585614,,sin_candidato,,,
+CT000240,evento,EV41850,,sin_candidato,,,
+CT000169,evento,EV82269,26,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000061,evento,EV21813,4,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000093,evento,EV75939,6,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000205,evento,EV14731,,sin_candidato,,,
+CT000229,evento,EV29719,,sin_candidato,,,
+CT000286,evento,EV68326,,sin_candidato,,,
+CT000254,evento,EV51116,,sin_candidato,,,
+CT000150,evento,EV36927,13,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000223,evento,EV27982,,sin_candidato,,,
+CT000300,evento,EV76539,,sin_candidato,,,
+CT000196,evento,EV79065,19,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000318,evento,EV88591,33,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000174,evento,EV56664,15,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000188,evento,EV76342,29,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000284,evento,EV66646,,sin_candidato,,,
+CT000124,evento,EV83899,23,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000222,evento,EV27801,,sin_candidato,,,
+CT000248,evento,EV46393,,sin_candidato,,,
+CT000285,evento,EV67471,,sin_candidato,,,
+CT000218,evento,EV24860,,sin_candidato,,,
+CT000319,evento,EV89110,,sin_candidato,,,
+CT000234,evento,EV34770,,sin_candidato,,,
+CT000130,evento,EV74265,9,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000209,evento,EV16952,,sin_candidato,,,
+CT000259,evento,EV53531,,sin_candidato,,,
+CT000252,evento,EV49654,,sin_candidato,,,
+CT000224,evento,EV28596,34,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000278,evento,EV64594,35,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000204,evento,EV13855,,sin_candidato,,,
+CT000270,evento,EV59464,40,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000027,evento,EV21749,1,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000256,evento,EV52257,,sin_candidato,,,
+CT000052,evento,EV65554,3,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000232,evento,EV33483,37,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000307,evento,EV80396,,sin_candidato,,,
+CT000228,evento,EV29298,,sin_candidato,,,
+CT000233,evento,EV33977,,sin_candidato,,,
+CT000281,evento,EV65209,,sin_candidato,,,
+CT000277,evento,EV63917,,sin_candidato,,,
+CT000201,evento,EV11079,,sin_candidato,,,
+CT000206,evento,EV15514,,sin_candidato,,,
+CT000288,evento,EV69299,,sin_candidato,,,
+CT000175,evento,EV61137,16,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000311,evento,EV82315,36,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000247,evento,EV46097,,sin_candidato,,,
+CT000295,evento,EV73300,,sin_candidato,,,
+CT000219,evento,EV24996,,sin_candidato,,,
+CT000312,evento,EV82934,,sin_candidato,,,
+CT000221,evento,EV27514,,sin_candidato,,,
+CT000314,evento,EV84143,,sin_candidato,,,
+CT000203,evento,EV13317,,sin_candidato,,,
+CT000102,evento,EV48468,7,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000303,evento,EV78523,,sin_candidato,,,
+CT000215,evento,EV21916,,sin_candidato,,,
+CT000276,evento,EV62895,,sin_candidato,,,
+CT000208,evento,EV16417,,sin_candidato,,,
+CT000225,evento,EV28760,,sin_candidato,,,
+CT000214,evento,EV20716,,sin_candidato,,,
+CT000310,evento,EV82247,,sin_candidato,,,
+CT000230,evento,EV30502,,sin_candidato,,,
+CT000108,evento,EV50342,22,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000213,evento,EV20489,,sin_candidato,,,
+CT000267,evento,EV58568,,sin_candidato,,,
+CT000280,evento,EV65119,,sin_candidato,,,
+CT000262,evento,EV55540,,sin_candidato,,,
+CT000305,evento,EV79096,,sin_candidato,,,
+CT000226,evento,EV29158,,sin_candidato,,,
+CT000216,evento,EV23327,,sin_candidato,,,
+CT000316,evento,EV85706,,sin_candidato,,,
+CT000198,evento,EV39270,20,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000294,evento,EV73033,,sin_candidato,,,
+CT000258,evento,EV53279,,sin_candidato,,,
+CT000191,evento,EV55369,18,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000189,evento,EV82582,17,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000297,evento,EV73712,,sin_candidato,,,
+CT000298,evento,EV75705,,sin_candidato,,,
+CT000184,evento,EV55730,28,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000292,evento,EV71804,,sin_candidato,,,
+CT000272,evento,EV59552,,sin_candidato,,,
+CT000039,evento,EV36248,2,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000129,evento,EV86787,8,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000313,evento,EV83113,,sin_candidato,,,
+CT000241,evento,EV42626,39,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000283,evento,EV66102,,sin_candidato,,,
+CT000266,evento,EV58307,,sin_candidato,,,
+CT000273,evento,EV59748,,sin_candidato,,,
+CT000290,evento,EV69594,,sin_candidato,,,
+CT000271,evento,EV59514,,sin_candidato,,,
+CT000299,evento,EV75923,,sin_candidato,,,
+CT000220,evento,EV26452,,sin_candidato,,,
+CT000264,evento,EV58195,,sin_candidato,,,
+CT000140,evento,EV41823,11,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000197,evento,EV34475,30,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000227,evento,EV29230,,sin_candidato,,,
+CT000287,evento,EV69153,,sin_candidato,,,
+CT000132,evento,EV58386,10,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000231,evento,EV31302,,sin_candidato,,,
+CT000163,evento,EV62411,25,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000239,evento,EV41415,,sin_candidato,,,
+CT000207,evento,EV16053,,sin_candidato,,,
+CT000092,evento,EV68861,5,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000268,evento,EV58607,,sin_candidato,,,
+CT000251,evento,EV47671,,sin_candidato,,,
+CT000244,evento,EV44510,,sin_candidato,,,
+CT000308,evento,EV80457,,sin_candidato,,,
+CT000291,evento,EV70901,,sin_candidato,,,
+CT000211,evento,EV20149,31,rejected_match,0.68,marketing_ops,2026-09-09 10:15:00 UTC
+CT000148,evento,EV57151,12,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000274,evento,EV61805,,sin_candidato,,,
+CT000237,evento,EV40602,,sin_candidato,,,
+CT000245,evento,EV44671,,sin_candidato,,,
+CT000265,evento,EV58223,,sin_candidato,,,
+CT000212,evento,EV20431,,sin_candidato,,,
+CT000306,evento,EV79889,,sin_candidato,,,
+CT000202,evento,EV13237,,sin_candidato,,,
+CT000250,evento,EV47160,,sin_candidato,,,
+CT000243,evento,EV43853,,sin_candidato,,,
+CT000293,evento,EV72337,,sin_candidato,,,
+CT000279,evento,EV64882,,sin_candidato,,,
+CT000257,evento,EV52362,,sin_candidato,,,
+CT000210,evento,EV18553,,sin_candidato,,,
+CT000301,evento,EV77381,,sin_candidato,,,
+CT000246,evento,EV44894,,sin_candidato,,,
+CT000261,evento,EV54824,,sin_candidato,,,
+CT000137,evento,EV86550,24,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000304,evento,EV78946,,sin_candidato,,,
+CT000217,evento,EV23902,32,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000255,evento,EV51425,,sin_candidato,,,
+CT000263,evento,EV56751,,sin_candidato,,,
+CT000269,evento,EV58944,,sin_candidato,,,
+CT000289,evento,EV69512,,sin_candidato,,,
+CT000309,evento,EV81363,,sin_candidato,,,
+CT000249,evento,EV46696,,sin_candidato,,,
+CT000317,evento,EV86656,38,rejected_match,0.94,marketing_ops,2026-09-08 18:30:00 UTC
+CT000236,evento,EV37791,,sin_candidato,,,
+CT000275,evento,EV61922,,sin_candidato,,,
+CT000302,evento,EV78198,,sin_candidato,,,
+CT000282,evento,EV65269,,sin_candidato,,,
+CT000172,evento,EV36447,14,approved_match,0.96,marketing_ops,2026-09-08 18:30:00 UTC
+CT000238,evento,EV40942,,sin_candidato,,,
+CT000315,evento,EV85585,,sin_candidato,,,
+CT000173,evento,EV78823,27,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000296,evento,EV73378,,sin_candidato,,,
+CT000074,evento,EV27887,21,approved_match,0.86,marketing_ops,2026-09-08 18:30:00 UTC
+CT000253,evento,EV50010,,sin_candidato,,,
+CT000242,evento,EV43780,,sin_candidato,,,
+CT000320,evento,EV89650,,sin_candidato,,,
+CT000235,evento,EV35469,,sin_candidato,,,
+CT000260,evento,EV53823,,sin_candidato,,,

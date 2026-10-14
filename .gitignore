@@ -14,3 +14,7 @@ original.xlsx
 
 # Credenciales
 *.postman_environment.json
+
+# Datos extraídos de la sandbox dev. Se pueden volver a sacar con el paquete aep/, y lo que se
+# concluye de ellos está en status/inventario-sandbox-dev.md
+status/sandbox-dev/

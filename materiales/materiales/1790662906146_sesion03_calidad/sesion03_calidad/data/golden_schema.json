@@ -1,0 +1,10 @@
+[
+  {"name": "source_row_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "pedido_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "fecha_pedido", "type": "DATE", "mode": "NULLABLE"},
+  {"name": "importe", "type": "NUMERIC", "mode": "NULLABLE"},
+  {"name": "categoria", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "cliente_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "unidades", "type": "INT64", "mode": "REQUIRED"},
+  {"name": "expected_route", "type": "STRING", "mode": "REQUIRED"}
+]

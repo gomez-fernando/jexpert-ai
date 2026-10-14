@@ -1,0 +1,17 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "source_row_id": {"type": "string"},
+      "pedido_id": {"type": "string"},
+      "case_type": {"enum": ["fecha_ambigua", "importe_vacio", "duplicado_conflictivo", "outlier"]},
+      "normalized_value": {"type": ["string", "number", "null"]},
+      "requires_review": {"const": true},
+      "recommended_action": {"enum": ["human_review", "ask_source"]},
+      "reason": {"type": "string", "maxLength": 200}
+    },
+    "required": ["source_row_id", "pedido_id", "case_type", "normalized_value", "requires_review", "recommended_action", "reason"],
+    "additionalProperties": false
+  }
+}

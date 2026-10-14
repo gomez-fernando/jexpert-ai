@@ -1,0 +1,29 @@
++----------------------------------+----------+-------+---------------------+------------+-----------------------+--------------------------------------------+
+|              job_id              | job_type | state |    creation_time    | duracion_s | total_bytes_processed |                   error                    |
++----------------------------------+----------+-------+---------------------+------------+-----------------------+--------------------------------------------+
+| s5_ddl_fct_ingesta               | QUERY    | DONE  | 2026-09-28 07:17:22 |          0 |                     0 | NULL                                       |
+| s5_normalizar_verde_01           | QUERY    | DONE  | 2026-09-28 07:17:36 |          1 |                153000 | NULL                                       |
+| s5_normalizar_rojo_01            | QUERY    | DONE  | 2026-09-28 07:18:01 |          0 |                  NULL | Unrecognized name: importe_total at [11:8] |
+| s5_normalizar_rojo_02            | QUERY    | DONE  | 2026-09-28 07:18:10 |          0 |                  NULL | Unrecognized name: importe_total at [11:8] |
+| s5_normalizar_rojo_03            | QUERY    | DONE  | 2026-09-28 07:18:14 |          0 |                  NULL | Unrecognized name: importe_total at [11:8] |
+| s5_q03a                          | QUERY    | DONE  | 2026-09-28 07:24:03 |          0 |                 76000 | NULL                                       |
+| s5_q03b                          | QUERY    | DONE  | 2026-09-28 07:24:07 |          0 |                152000 | NULL                                       |
+| s5_normalizar_verde_02_parcheado | QUERY    | DONE  | 2026-09-28 07:24:20 |          1 |                170000 | NULL                                       |
+| s5_q04_postcheck_2               | QUERY    | DONE  | 2026-09-28 07:24:45 |          1 |                152000 | NULL                                       |
+| job_EAExkXjIsyzblE8tE8_A8E9ld-0q | QUERY    | DONE  | 2026-09-28 08:30:06 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_V1RTi1-wOjjomNf2Jqs0jU9OoQme | QUERY    | DONE  | 2026-09-28 08:40:07 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_xjn3DKqCFcus1ov117rkJdNeZgWG | QUERY    | DONE  | 2026-09-28 08:50:08 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_3HfUXucHglvGy3X77zlkAuJXFAeI | QUERY    | DONE  | 2026-09-28 09:00:09 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_6Hob9KodRtbRSL4tJMDOVGErhnMn | QUERY    | DONE  | 2026-09-28 09:02:09 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_B6JFFpE9SvB3Eg3JeD_W5P6w3BbF | QUERY    | DONE  | 2026-09-28 09:03:11 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_57f2G97ekf5BHIBL_iFk8EDJ_hV0 | QUERY    | DONE  | 2026-09-28 09:04:11 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_dF8jmz5z63x0L2tylRRor2Vm4V_L | QUERY    | DONE  | 2026-09-28 09:05:12 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_9xxGdA19jqIlheGKVG3cdR1pifKh | QUERY    | DONE  | 2026-09-28 09:06:13 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_qN1E7FNEDajRCz0b1Pv9tBaM520n | QUERY    | DONE  | 2026-09-28 09:06:51 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_FjtnXHNE3MO7Rw7-MAO_CeTW2N-N | QUERY    | DONE  | 2026-09-28 09:06:57 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_2fgnOp770qRt9hNXgLEp0xov3nsn | QUERY    | DONE  | 2026-09-28 09:07:04 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_0qvsoHZ8vlHC2DDbJie61fVS4wbG | QUERY    | DONE  | 2026-09-28 09:07:13 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_RJ8MXsVH59M87q3ie8yUASExuYBD | QUERY    | DONE  | 2026-09-28 09:07:14 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_j1AqaFqP7IL6RNpABvjhX_KLSGZS | QUERY    | DONE  | 2026-09-28 09:07:23 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
+| job_hgJU6IMqU1F5d-ziE2a39YGMtsn6 | QUERY    | DONE  | 2026-09-28 09:07:36 |          0 |                  NULL | Unrecognized name: importe_total at [8:8]  |
++----------------------------------+----------+-------+---------------------+------------+-----------------------+--------------------------------------------+

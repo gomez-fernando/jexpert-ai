@@ -1,0 +1,39 @@
+{
+  "seed": 20260907,
+  "generado": "2026-09-07",
+  "filas": {
+    "identity_crosswalk.csv": 350,
+    "contactos.csv": 320,
+    "segmentos_contacto_hist.csv": 448,
+    "campanas.csv": 60,
+    "spend_campana_diario.csv": 3433,
+    "interacciones_campana.csv": 20000,
+    "ventas_offline.csv": 5000,
+    "atribucion_venta_campana.csv": 5103
+  },
+  "crosswalk_estados": {
+    "rejected_match": 20,
+    "sin_candidato": 270,
+    "approved_match": 60
+  },
+  "ventas": {
+    "anonimas": 2000,
+    "pct_anonimas": 0.4,
+    "test": 100,
+    "con_devolucion": 250,
+    "atribuidas": 1851,
+    "identificadas_sin_atribuir": 1049,
+    "pct_tickets_multi_campana": 0.3614
+  },
+  "self_checks": {
+    "q1_filas_eq_tickets_eq_tickets_dia": true,
+    "q2_pct_anonimas_0.40": true,
+    "q3_un_vigente_por_contacto": true,
+    "q4_sin_solapes_scd2": true,
+    "q5_pesos_suman_1": true,
+    "q6_cero_huerfanos": true,
+    "interacciones_dentro_vigencia_y_post_alta": true,
+    "spend_solo_dentro_vigencia": true,
+    "atribucion_solo_identificados_no_test": true
+  }
+}

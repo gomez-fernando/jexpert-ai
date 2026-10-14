@@ -1,0 +1,56 @@
+envio_id,fecha,empresa,email,motivo,pedido_id,texto
+FL201685,2025-04-30,Vela Hogar,[EMAIL_01],duda_pedido,P0033250,El pedido P0033250 llegó incompleto: ¿nos confirmáis cuándo repone el resto?
+FL642316,2025-08-16,TecnoAndar,[EMAIL_02],duda_pedido,P0009000,Queremos saber el estado del pedido P0009000; sigue sin llegar y lo necesitamos.
+FL653745,2025-09-03,Vela Hogar,[EMAIL_01],duda_pedido,P0018250,"Queremos saber el estado del pedido P0018250; sigue sin llegar y lo necesitamos. Mejor por teléfono: [TELEFONO_01], preguntad por [PERSONA_01]."
+FL513259,2025-10-05,Nordika Moda,[EMAIL_03],duda_pedido,P0016559,El pedido P0016559 llegó incompleto: ¿nos confirmáis cuándo repone el resto?
+FL879791,2025-10-25,TecnoAndar,[EMAIL_02],duda_pedido,P0037500,El pedido P0037500 llegó incompleto: ¿nos confirmáis cuándo repone el resto?
+FL654720,2025-10-26,TecnoAndar,[EMAIL_02],duda_pedido,P0033750,El pedido P0033750 llegó incompleto: ¿nos confirmáis cuándo repone el resto?
+FL753565,2025-10-26,TecnoAndar,[EMAIL_02],duda_pedido,P0015000,El pedido P0015000 llegó incompleto: ¿nos confirmáis cuándo repone el resto?
+FL691140,2025-11-12,Nordika Moda,[EMAIL_03],duda_pedido,P0046250,Queremos saber el estado del pedido P0046250; sigue sin llegar y lo necesitamos.
+FL391656,2025-12-08,Nordika Moda,[EMAIL_03],duda_pedido,P0039750,"Necesitamos copia del albarán del pedido P0039750 para contabilidad. Si es urgente, escribidme directamente a [EMAIL_04]"
+FL530233,2025-12-11,Vela Hogar,[EMAIL_01],duda_pedido,P0003250,"Queremos saber el estado del pedido P0003250; sigue sin llegar y lo necesitamos. Si es urgente, escribidme directamente a [EMAIL_05]"
+FL123101,2026-03-08,Acme Retail,[EMAIL_06],duda_pedido,P0045000,El pedido P0045000 llegó incompleto: ¿nos confirmáis cuándo repone el resto?
+FL545860,2026-05-07,Nordika Moda,[EMAIL_03],duda_pedido,P0022250,Queremos saber el estado del pedido P0022250; sigue sin llegar y lo necesitamos.
+FL442514,2026-05-18,Vela Hogar,[EMAIL_01],facturacion,,"Hemos detectado un cargo duplicado en la última remesa. Soy [PERSONA_02], DNI [DNI_01], y exijo una respuesta."
+FL030840,2026-05-20,TecnoAndar,[EMAIL_02],facturacion,,"La dirección fiscal de la última factura aparece mal; necesitamos la rectificación. Si es urgente, escribidme directamente a [EMAIL_07]"
+FL865140,2026-05-22,Hogar Vendrell,[EMAIL_08],ser_proveedor,,Distribuimos una gama con muy buena rotación en canal profesional; ¿a quién presentamos el dossier?
+FL838909,2026-05-25,Electro Burgo,[EMAIL_10],alta_cuenta,,"Nos interesa vuestra oferta para profesionales: ¿qué documentación pedís para el alta? Si es urgente, escribidme directamente a [EMAIL_09]"
+FL682810,2026-05-25,Grupo Meridiano,[EMAIL_11],alta_cuenta,,Estamos abriendo un segundo local y buscamos mayorista de referencia.
+FL016039,2026-05-25,Hogar Vendrell,[EMAIL_08],ser_proveedor,,Distribuimos una gama con muy buena rotación en canal profesional; ¿a quién presentamos el dossier?
+FL355541,2026-05-25,Vela Hogar,[EMAIL_01],alta_cuenta,,Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra.
+FL461053,2026-05-25,Vela Hogar,[EMAIL_01],duda_pedido,P0008500,"Necesitamos copia del albarán del pedido P0008500 para contabilidad. Responded a [PERSONA_01] ([EMAIL_12]), que lleva el tema."
+FL231722,2026-05-26,Electro Burgo,[EMAIL_10],alta_cuenta,,Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra.
+FL024280,2026-05-27,Acme Retail,[EMAIL_06],alta_cuenta,,Estamos abriendo un segundo local y buscamos mayorista de referencia.
+FL467361,2026-05-29,Modas Calcena,[EMAIL_13],otro,,Queremos cambiar el email de notificaciones de la cuenta. Mejor llamadme al [TELEFONO_02].
+FL521818,2026-06-06,Vela Hogar,[EMAIL_01],facturacion,,No nos llega la factura de una compra de este trimestre.
+FL142322,2026-06-12,Surtidal Mayoristas,[EMAIL_14],alta_cuenta,,Somos distribuidor regional con dos almacenes; queremos valorar abrir cuenta con vosotros. ¿Qué pasos seguís?
+FL438981,2026-06-18,TecnoAndar,[EMAIL_02],facturacion,,No nos llega la factura de una compra de este trimestre.
+FL314668,2026-06-19,Hogar Vendrell,[EMAIL_08],ser_proveedor,,Distribuimos una gama con muy buena rotación en canal profesional; ¿a quién presentamos el dossier?
+FL251124,2026-06-21,Nutrifood Alborán,[EMAIL_15],ser_proveedor,,"Queremos ofreceros condiciones de lanzamiento para vuestra red. Mejor por teléfono: [TELEFONO_03], preguntad por [PERSONA_03]."
+FL057438,2026-06-24,Estanco y Regalos Narcea,[EMAIL_17],alta_cuenta,,"Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra. Responded a [PERSONA_04] ([EMAIL_16]), que lleva el tema."
+FL694644,2026-06-25,Revista Comercio Profesional,[EMAIL_18],prensa,,Desde la revista Comercio Profesional queremos entrevistar a dirección sobre el canal mayorista.
+FL481462,2026-06-25,Vela Hogar,[EMAIL_01],facturacion,,No nos llega la factura de una compra de este trimestre.
+FL208399,2026-07-03,Papelería Central López,[EMAIL_19],alta_cuenta,,Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra.
+FL545837,2026-07-11,Deportes Umbría,[EMAIL_20],alta_cuenta,,Nos interesa vuestra oferta para profesionales: ¿qué documentación pedís para el alta? Mejor llamadme al [TELEFONO_04].
+FL154310,2026-07-11,Deportes Umbría,[EMAIL_20],alta_cuenta,,"Estamos abriendo un segundo local y buscamos mayorista de referencia. Si es urgente, escribidme directamente a [EMAIL_21]"
+FL685065,2026-07-11,Ferretería El Muelle,[EMAIL_22],alta_cuenta,,Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra.
+FL895756,2026-07-16,Grupo Meridiano,[EMAIL_11],facturacion,,Hemos detectado un cargo duplicado en la última remesa.
+FL872886,2026-07-17,Vela Hogar,[EMAIL_01],facturacion,,No nos llega la factura de una compra de este trimestre.
+FL577900,2026-07-21,Surtidal Mayoristas,[EMAIL_14],alta_cuenta,,¿Qué condiciones aplicáis de entrada a cuentas nuevas con volumen relevante? Nos interesa comparar antes de decidir.
+FL778772,2026-07-21,Vela Hogar,[EMAIL_01],facturacion,,No nos llega la factura de una compra de este trimestre.
+FL484752,2026-07-23,Grupo Meridiano,[EMAIL_11],alta_cuenta,,Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra.
+FL802530,2026-07-26,Modas Calcena,[EMAIL_13],alta_cuenta,,"Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra. Mejor por teléfono: [TELEFONO_05], preguntad por [PERSONA_04]."
+FL019505,2026-08-07,Deporte Indoorsa,[EMAIL_23],ser_proveedor,,Queremos ofreceros condiciones de lanzamiento para vuestra red. Mejor llamadme al [TELEFONO_06].
+FL527071,2026-08-12,Nordika Moda,[EMAIL_03],facturacion,,Hemos detectado un cargo duplicado en la última remesa.
+FL540272,2026-08-15,Hogar Vendrell,[EMAIL_08],ser_proveedor,,Queremos ofreceros condiciones de lanzamiento para vuestra red. Mejor llamadme al [TELEFONO_07].
+FL179258,2026-08-15,Modas Calcena,[EMAIL_13],otro,,¿Tenéis recogida en almacén para pedidos pequeños?
+FL800086,2026-08-15,TecnoAndar,[EMAIL_02],duda_pedido,P0026500,Necesitamos copia del albarán del pedido P0026500 para contabilidad.
+FL432821,2026-08-22,Iluminación Breva,[EMAIL_24],ser_proveedor,,Queremos ofreceros condiciones de lanzamiento para vuestra red.
+FL146358,2026-08-23,TecnoAndar,[EMAIL_02],alta_cuenta,,"Nos interesa vuestra oferta para profesionales: ¿qué documentación pedís para el alta? Mejor por teléfono: [TELEFONO_08], preguntad por [PERSONA_05]."
+FL428194,2026-08-23,Vela Hogar,[EMAIL_01],duda_pedido,P0007000,"El pedido P0007000 llegó incompleto: ¿nos confirmáis cuándo repone el resto? Mejor por teléfono: [TELEFONO_09], preguntad por [PERSONA_05]."
+FL193142,2026-08-26,Hogar Tarazona,[EMAIL_25],alta_cuenta,,Nos interesa vuestra oferta para profesionales: ¿qué documentación pedís para el alta?
+FL364060,2026-08-28,Modas Calcena,[EMAIL_13],alta_cuenta,,Somos una tienda especializada del barrio y queremos valorar abrir cuenta de compra.
+FL810277,2026-08-28,Revista Comercio Profesional,[EMAIL_18],prensa,,Desde la revista Comercio Profesional queremos entrevistar a dirección sobre el canal mayorista.
+FL438298,2026-08-30,Nordika Moda,[EMAIL_03],facturacion,,La dirección fiscal de la última factura aparece mal; necesitamos la rectificación.
+FL580170,2026-09-05,Estanco y Regalos Narcea,[EMAIL_17],otro,,Queremos cambiar el email de notificaciones de la cuenta.
+FL378709,2026-09-08,Surtidal Mayoristas,[EMAIL_14],alta_cuenta,,"Somos distribuidor regional y valoramos abrir cuenta con vosotros. Antes de agendar llamada, incluid en la confirmación: (1) el responsable de compras de Hogar, Moda y Deporte con su contacto directo, (2) las bandas de descuento por volumen aplicables a nuevas cuentas, y (3) las categorías donde buscáis reforzar surtido este año."

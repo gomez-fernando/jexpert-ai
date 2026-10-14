@@ -1,0 +1,201 @@
+id_lead,nombre,apellido,mail_contacto,tel,empresa,fecha_alta
+L344942,Sergio,Gutiérrez,sergio.gutierrez@nordika.com,+34 646 617 554,Nordika Moda,2025-11-19
+L850069,Laura,Álvarez,laura.alvarez@gmeridiano.com,+34 680 986 962,Grupo Meridiano,2025-09-14
+L605407,Carmen,Fernández,carmen.fernandez@gmeridiano.com,+34 621 105 981,Grupo Meridiano,2025-08-14
+L248560,Pablo,Sánchez,pablo.sanchez@tecnoandar.com,+34 624 620 678,TecnoAndar,2025-06-07
+L308764,Ana,Pérez,,+34 611 782 535,Nordika Moda,2025-10-11
+L488341,Javier,Torres,javier.torres@nordika.com,+34 617 530 223,Nordika Moda,2025-06-29
+L418958,Diego,Ruiz,diego.ruiz@acme.com,+34 623 825 173,Acme Retail,2026-03-05
+L711705,Javier,Navarro,javier.navarro@velahogar.es,+34 664 269 831,Vela Hogar,2025-06-08
+L432907,Javier,Gómez,javier.gomez@nordika.com,+34 616 197 319,Nordika Moda,2025-10-02
+L342013,Elena,Romero,elena.romero@acme.com,+34 627 751 221,Acme Retail,2025-06-14
+L574112,Ana,Díaz,ana.diaz@acme.com,+34 640 443 683,Acme Retail,2026-01-02
+L570513,Elena,Torres,elena.torres@nordika.com,+34 624 922 725,Nordika Moda,2025-09-21
+L209976,Sergio,Vázquez,sergio.vazquez@tecnoandar.com,+34 645 614 762,TecnoAndar,2025-12-09
+L367174,Diego,García,diego.garcia@velahogar.es,+34 654 882 472,Vela Hogar,2025-12-19
+L591683,Andrés,Hernández,andres.hernandez@velahogar.es,+34 631 613 183,Vela Hogar,2025-07-02
+L276297,Elena,Hernández,elena.hernandez@tecnoandar.com,+34 645 839 757,TecnoAndar,2025-09-20
+L820933,Sergio,Sánchez,sergio.sanchez@nordika.com,+34 618 314 765,Nordika Moda,2026-06-26
+L404215,Javier,Muñoz,javier.munoz@tecnoandar.com,+34 623 111 871,TecnoAndar,2025-01-16
+L226555,Marta,Gómez,marta.gomez@acme.com,+34 668 698 200,Acme Retail,2025-07-16
+L499481,Ana,Pérez,ana.perez@nordika.com,+34 662 993 861,Nordika Moda,2025-06-24
+L546967,Laura,López,laura.lopez@velahogar.es,+34 661 936 238,Vela Hogar,2025-11-04
+L610556,Pablo,Muñoz,pablo.munoz@tecnoandar.com,+34 688 216 555,TecnoAndar,2025-09-15
+L349922,Lucía,Romero,lucia.romero@velahogar.es,+34 625 384 881,Vela Hogar,2025-07-06
+L424949,Carlos,Moreno,carlos.moreno@acme.com,+34 652 392 692,Acme Retail,2026-01-08
+L749154,Sergio,López,sergio.lopez@acme.com,+34 632 712 566,Acme Retail,2026-01-30
+L194608,Pablo,Moreno,pablo.moreno@gmeridiano.com,+34 676 395 253,Grupo Meridiano,2026-04-28
+L427715,Javier,Martínez,javier.martinez@gmeridiano.com,+34 661 562 927,Grupo Meridiano,2025-06-26
+L188584,Carlos,Sánchez,carlos.sanchez@acme.com,+34 663 706 269,Acme Retail,2025-09-27
+L453869,Elena,Gómez,elena.gomez@tecnoandar.com,+34 684 777 382,TecnoAndar,2025-07-06
+L501714,Marta,Domínguez,marta.dominguez@gmeridiano.com,+34 685 113 894,Grupo Meridiano,2025-05-16
+L654619,Lucía,Fernández,lucia.fernandez@velahogar.es,+34 633 603 902,Vela Hogar,2026-06-24
+L379559,Ana,Navarro,ana.navarro@velahogar.es,+34 632 524 696,Vela Hogar,2026-04-07
+L674079,Lucía,Martínez,lucia.martinez@velahogar.es,+34 624 928 309,Vela Hogar,2025-01-28
+L548351,Pablo,Gómez,pablo.gomez@gmeridiano.com,+34 664 450 742,Grupo Meridiano,2025-05-03
+L655565,Laura,Domínguez,laura.dominguez@gmeridiano.com,+34 646 359 670,Grupo Meridiano,2025-04-07
+L136135,Sergio,Gutiérrez,sergio.gutierrez@tecnoandar.com,+34 640 618 743,TecnoAndar,2025-12-19
+L853130,Marta,López,marta.lopez@acme.com,+34 696 270 505,Acme Retail,2026-01-08
+L805977,Sergio,Torres,sergio.torres@acme.com,+34 686 245 579,Acme Retail,2025-06-20
+L196565,Sergio,Gutiérrez,,+34 628 651 603,Acme Retail,2026-01-22
+L783204,Lucía,Gómez,lucia.gomez@nordika.com,+34 619 749 948,Nordika Moda,2026-04-17
+L702363,Andrés,Díaz,andres.diaz@nordika.com,+34 693 719 534,Nordika Moda,2025-01-06
+L816742,Marta,Pérez,marta.perez@velahogar.es,+34 664 745 587,Vela Hogar,2026-03-21
+L143460,Laura,Sánchez,laura.sanchez@acme.com,+34 624 254 235,Acme Retail,2025-06-26
+L207561,Laura,Vázquez,laura.vazquez@velahogar.es,+34 698 986 687,Vela Hogar,2025-06-03
+L704119,Elena,Álvarez,elena.alvarez@acme.com,+34 672 380 144,Acme Retail,2026-04-17
+L516916,Javier,Romero,javier.romero@tecnoandar.com,+34 648 136 880,TecnoAndar,2026-04-06
+L483613,Carlos,García,carlos.garcia@acme.com,+34 690 367 355,Acme Retail,2025-06-20
+L458734,Andrés,Díaz,andres.diaz@velahogar.es,+34 631 287 113,Vela Hogar,2025-10-08
+L399213,Ana,Martínez,ana.martinez@gmeridiano.com,+34 672 653 729,Grupo Meridiano,2025-06-06
+L364569,Lucía,López,lucia.lopez@nordika.com,+34 654 941 191,Nordika Moda,2026-05-04
+L374133,Diego,García,diego.garcia@velahogar.es,+34 682 679 246,Vela Hogar,2025-08-02
+L721669,Ana,Muñoz,ana.munoz@velahogar.es,+34 637 250 223,Vela Hogar,2025-03-03
+L396882,Laura,Muñoz,laura.munoz@nordika.com,+34 695 885 316,Nordika Moda,2025-11-16
+L288247,Andrés,García,andres.garcia@tecnoandar.com,+34 641 722 183,TecnoAndar,2025-08-12
+L771525,Pablo,Gómez,pablo.gomez@gmeridiano.com,+34 674 322 129,Grupo Meridiano,2025-03-29
+L852911,Andrés,Ruiz,andres.ruiz@velahogar.es,+34 687 682 889,Vela Hogar,2025-05-22
+L391071,Sergio,Gómez,sergio.gomez@tecnoandar.com,+34 638 192 117,TecnoAndar,2026-02-05
+L896705,Pablo,Hernández,pablo.hernandez@nordika.com,+34 686 806 315,Nordika Moda,2025-05-29
+L610651,Carmen,Ruiz,carmen.ruiz@gmeridiano.com,+34 657 858 724,Grupo Meridiano,2025-01-20
+L476892,Pablo,Domínguez,pablo.dominguez@tecnoandar.com,+34 693 986 882,TecnoAndar,2025-01-09
+L267055,Andrés,Hernández,andres.hernandez@gmeridiano.com,+34 648 200 316,Grupo Meridiano,2025-03-21
+L106888,Laura,Gómez,laura.gomez@tecnoandar.com,+34 690 144 805,TecnoAndar,2025-12-07
+L596984,Elena,Gutiérrez,elena.gutierrez@velahogar.es,+34 658 117 196,Vela Hogar,2025-03-16
+L669727,Lucía,Álvarez,lucia.alvarez@velahogar.es,+34 616 185 300,Vela Hogar,2025-02-28
+L271739,Andrés,Fernández,andres.fernandez@acme.com,+34 611 432 664,Acme Retail,2025-12-05
+L622083,Pablo,Domínguez,pablo.dominguez@acme.com,+34 616 472 121,Acme Retail,2025-04-15
+L362032,Carlos,Fernández,carlos.fernandez@acme.com,+34 610 664 974,Acme Retail,2026-01-24
+L704273,Pablo,Ruiz,pablo.ruiz@tecnoandar.com,+34 681 529 317,TecnoAndar,2025-10-24
+L429813,Laura,Alonso,laura.alonso@acme.com,+34 673 862 799,Acme Retail,2025-09-06
+L639827,Elena,Martínez,elena.martinez@gmeridiano.com,+34 610 206 816,Grupo Meridiano,2026-06-04
+L684828,Pablo,Gómez,pablo.gomez@nordika.com,+34 628 275 747,Nordika Moda,2025-09-17
+L366255,Laura,Ruiz,laura.ruiz@tecnoandar.com,+34 614 178 258,TecnoAndar,2025-12-07
+L551790,Elena,Gómez,elena.gomez@acme.com,+34 691 781 574,Acme Retail,2026-05-11
+L845455,Pablo,Torres,pablo.torres@tecnoandar.com,+34 673 628 624,TecnoAndar,2026-01-20
+L839572,Pablo,Navarro,pablo.navarro@gmeridiano.com,+34 630 950 531,Grupo Meridiano,2025-01-06
+L128304,Elena,García,elena.garcia@nordika.com,+34 676 269 436,Nordika Moda,2025-01-26
+L193231,Javier,Domínguez,javier.dominguez@acme.com,+34 681 753 231,Acme Retail,2025-11-24
+L887778,Laura,Moreno,laura.moreno@nordika.com,+34 622 696 865,Nordika Moda,2025-09-27
+L779675,Diego,Gutiérrez,diego.gutierrez@gmeridiano.com,+34 631 183 280,Grupo Meridiano,2025-05-24
+L174512,Sergio,Ruiz,sergio.ruiz@tecnoandar.com,+34 688 820 906,TecnoAndar,2026-02-05
+L691359,Lucía,Navarro,lucia.navarro@nordika.com,+34 690 158 641,Nordika Moda,2025-09-13
+L781691,Pablo,Díaz,pablo.diaz@velahogar.es,+34 649 875 509,Vela Hogar,2025-03-12
+L229536,Carlos,Gómez,carlos.gomez@tecnoandar.com,+34 680 676 857,TecnoAndar,2026-01-30
+L615853,Pablo,Gómez,pablo.gomez@nordika.com,+34 636 796 864,Nordika Moda,2025-01-28
+L601865,Andrés,Muñoz,andres.munoz@nordika.com,+34 654 131 436,Nordika Moda,2025-06-02
+L532486,Carmen,Álvarez,carmen.alvarez@tecnoandar.com,+34 671 517 415,TecnoAndar,2025-09-19
+L253112,Andrés,Vázquez,andres.vazquez@nordika.com,+34 681 124 605,Nordika Moda,2025-08-23
+L839944,Pablo,López,pablo.lopez@acme.com,+34 652 417 154,Acme Retail,2025-11-05
+L324334,Ana,Vázquez,ana.vazquez@velahogar.es,+34 693 431 404,Vela Hogar,2025-07-28
+L757019,Carmen,Romero,carmen.romero@acme.com,+34 661 277 483,Acme Retail,2025-01-08
+L581057,Ana,Sánchez,ana.sanchez@tecnoandar.com,+34 649 947 688,TecnoAndar,2026-05-26
+L106980,Javier,Pérez,javier.perez@acme.com,+34 662 155 287,Acme Retail,2025-10-10
+L683097,Marta,Gutiérrez,marta.gutierrez@gmeridiano.com,+34 678 186 201,Grupo Meridiano,2025-06-30
+L546818,Carlos,Moreno,carlos.moreno@nordika.com,+34 612 359 646,Nordika Moda,2025-04-08
+L294800,Andrés,Romero,andres.romero@velahogar.es,+34 648 695 685,Vela Hogar,2026-03-13
+L144018,Ana,Navarro,ana.navarro@acme.com,+34 658 499 105,Acme Retail,2025-07-19
+L187657,Sergio,Hernández,sergio.hernandez@tecnoandar.com,+34 682 308 310,TecnoAndar,2025-08-10
+L445051,Laura,Vázquez,laura.vazquez@nordika.com,+34 644 689 260,Nordika Moda,2025-01-10
+L749935,Diego,López,diego.lopez@acme.com,+34 696 118 986,Acme Retail,2025-06-28
+L805974,Marta,Fernández,marta.fernandez@velahogar.es,+34 623 826 624,Vela Hogar,2026-02-05
+L258066,Laura,Hernández,laura.hernandez@velahogar.es,+34 657 526 133,Vela Hogar,2025-10-21
+L602441,Lucía,Alonso,,+34 651 829 258,Grupo Meridiano,2026-02-22
+L175638,Carmen,Gutiérrez,carmen.gutierrez@acme.com,+34 667 329 196,Acme Retail,2025-05-08
+L108821,Andrés,Gutiérrez,andres.gutierrez@tecnoandar.com,+34 660 827 553,TecnoAndar,2025-11-11
+L401751,Andrés,Vázquez,andres.vazquez@velahogar.es,+34 646 239 769,Vela Hogar,2025-12-31
+L696014,Diego,Gutiérrez,diego.gutierrez@acme.com,+34 672 548 306,Acme Retail,2026-04-04
+L505270,Laura,Hernández,,+34 628 849 436,Grupo Meridiano,2026-01-19
+L484869,Pablo,Sánchez,pablo.sanchez@acme.com,+34 638 441 903,Acme Retail,2026-04-11
+L354807,Ana,Domínguez,ana.dominguez@gmeridiano.com,+34 670 708 335,Grupo Meridiano,2026-02-03
+L108219,Laura,García,,+34 685 681 247,Vela Hogar,2026-05-29
+L469276,Carlos,Fernández,,+34 648 643 986,Acme Retail,2025-12-08
+L687830,Diego,Fernández,diego.fernandez@velahogar.es,+34 639 536 510,Vela Hogar,2025-10-26
+L538712,Carmen,Torres,carmen.torres@gmeridiano.com,+34 699 507 413,Grupo Meridiano,2025-09-17
+L612209,Javier,Navarro,javier.navarro@gmeridiano.com,+34 634 361 273,Grupo Meridiano,2025-05-19
+L583668,Carmen,Gutiérrez,carmen.gutierrez@nordika.com,+34 626 568 108,Nordika Moda,2025-01-22
+L456116,Carlos,Vázquez,carlos.vazquez@nordika.com,+34 617 891 177,Nordika Moda,2025-10-18
+L730912,Andrés,López,andres.lopez@nordika.com,+34 616 696 358,Nordika Moda,2025-03-15
+L645593,Marta,Ruiz,marta.ruiz@nordika.com,+34 631 181 461,Nordika Moda,2025-08-04
+L874115,Laura,Domínguez,laura.dominguez@velahogar.es,+34 692 697 238,Vela Hogar,2026-01-18
+L817185,Pablo,Hernández,pablo.hernandez@tecnoandar.com,+34 626 180 852,TecnoAndar,2025-12-21
+L748147,Carlos,Moreno,carlos.moreno@nordika.com,+34 697 708 193,Nordika Moda,2025-04-10
+L639297,Carlos,Alonso,carlos.alonso@gmeridiano.com,+34 651 344 613,Grupo Meridiano,2025-03-29
+L212281,Diego,Sánchez,diego.sanchez@gmeridiano.com,+34 652 180 655,Grupo Meridiano,2025-01-26
+L773830,Diego,Díaz,diego.diaz@tecnoandar.com,+34 666 651 392,TecnoAndar,2025-07-02
+L505206,Marta,López,marta.lopez@tecnoandar.com,+34 654 932 806,TecnoAndar,2025-05-01
+L523483,Elena,Romero,elena.romero@acme.com,+34 695 656 166,Acme Retail,2025-03-03
+L471489,Javier,Alonso,javier.alonso@gmeridiano.com,+34 635 262 231,Grupo Meridiano,2025-07-20
+L594903,Lucía,Pérez,lucia.perez@nordika.com,+34 683 592 555,Nordika Moda,2025-06-21
+L374425,Diego,Torres,diego.torres@velahogar.es,+34 622 256 272,Vela Hogar,2025-10-25
+L576458,Carlos,López,carlos.lopez@velahogar.es,+34 683 368 635,Vela Hogar,2025-11-19
+L557785,Carlos,Fernández,carlos.fernandez@acme.com,+34 622 709 821,Acme Retail,2026-02-09
+L460639,Lucía,Moreno,lucia.moreno@gmeridiano.com,+34 633 207 129,Grupo Meridiano,2026-02-15
+L415861,Sergio,Martínez,sergio.martinez@tecnoandar.com,+34 627 467 717,TecnoAndar,2026-01-09
+L709205,Andrés,Romero,andres.romero@tecnoandar.com,+34 637 419 823,TecnoAndar,2026-06-29
+L347346,Diego,Moreno,diego.moreno@velahogar.es,+34 630 345 160,Vela Hogar,2025-06-01
+L546938,Javier,Domínguez,javier.dominguez@nordika.com,+34 696 361 762,Nordika Moda,2026-01-20
+L269041,Pablo,Gutiérrez,pablo.gutierrez@velahogar.es,+34 656 444 901,Vela Hogar,2025-07-05
+L512278,Diego,Vázquez,diego.vazquez@gmeridiano.com,+34 675 146 313,Grupo Meridiano,2025-11-30
+L733038,Diego,Ruiz,diego.ruiz@tecnoandar.com,+34 653 553 119,TecnoAndar,2026-04-01
+L332182,Marta,García,marta.garcia@nordika.com,+34 681 116 783,Nordika Moda,2025-10-16
+L597361,Lucía,Sánchez,lucia.sanchez@velahogar.es,+34 629 610 241,Vela Hogar,2025-05-28
+L409927,Ana,Álvarez,ana.alvarez@velahogar.es,+34 672 368 964,Vela Hogar,2025-11-14
+L390175,Lucía,García,lucia.garcia@acme.com,+34 660 969 639,Acme Retail,2025-04-27
+L787858,Marta,Moreno,marta.moreno@velahogar.es,+34 695 772 144,Vela Hogar,2025-04-08
+L527620,Ana,Hernández,,+34 665 223 452,Vela Hogar,2025-03-28
+L849636,Pablo,Romero,pablo.romero@nordika.com,+34 633 819 668,Nordika Moda,2025-07-02
+L263909,Javier,Fernández,javier.fernandez@acme.com,+34 641 134 572,Acme Retail,2025-08-29
+L468124,Lucía,Hernández,lucia.hernandez@gmeridiano.com,+34 680 319 380,Grupo Meridiano,2026-01-30
+L822394,Andrés,Alonso,andres.alonso@gmeridiano.com,+34 678 239 835,Grupo Meridiano,2025-08-14
+L667961,Pablo,Torres,pablo.torres@nordika.com,+34 644 650 603,Nordika Moda,2025-06-17
+L748878,Elena,Torres,elena.torres@acme.com,+34 611 877 436,Acme Retail,2025-09-21
+L385230,Javier,Ruiz,javier.ruiz@gmeridiano.com,+34 650 549 434,Grupo Meridiano,2026-02-06
+L827758,Ana,Díaz,ana.diaz@tecnoandar.com,+34 692 727 842,TecnoAndar,2025-07-31
+L452017,Ana,Torres,,+34 647 183 863,Vela Hogar,2025-12-08
+L197101,Ana,Moreno,ana.moreno@gmeridiano.com,+34 653 954 533,Grupo Meridiano,2025-04-27
+L817694,Diego,Domínguez,diego.dominguez@gmeridiano.com,+34 624 593 102,Grupo Meridiano,2025-10-03
+L875379,Marta,Navarro,marta.navarro@tecnoandar.com,+34 656 489 111,TecnoAndar,2025-05-01
+L672650,Javier,Vázquez,javier.vazquez@gmeridiano.com,+34 659 680 673,Grupo Meridiano,2026-04-02
+L519830,Marta,García,marta.garcia@nordika.com,+34 618 332 657,Nordika Moda,2025-03-22
+L796752,Laura,Hernández,laura.hernandez@acme.com,+34 689 892 576,Acme Retail,2026-02-23
+L879415,Javier,Alonso,javier.alonso@nordika.com,+34 631 151 147,Nordika Moda,2025-05-16
+L187215,Carlos,Navarro,carlos.navarro@acme.com,+34 628 315 144,Acme Retail,2025-05-30
+L173562,Javier,Torres,javier.torres@acme.com,+34 689 813 846,Acme Retail,2026-04-18
+L644919,Elena,Torres,elena.torres@gmeridiano.com,+34 642 207 941,Grupo Meridiano,2025-04-02
+L834081,Lucía,Moreno,lucia.moreno@velahogar.es,+34 676 763 868,Vela Hogar,2025-03-11
+L763582,Ana,Álvarez,ana.alvarez@tecnoandar.com,+34 637 489 291,TecnoAndar,2026-01-15
+L556192,Sergio,Alonso,sergio.alonso@gmeridiano.com,+34 637 174 488,Grupo Meridiano,2025-10-07
+L383224,Pablo,Domínguez,pablo.dominguez@nordika.com,+34 693 790 972,Nordika Moda,2025-12-19
+L698085,Ana,Martínez,ana.martinez@acme.com,+34 683 217 304,Acme Retail,2026-06-18
+L567597,Diego,Ruiz,diego.ruiz@tecnoandar.com,+34 613 896 964,TecnoAndar,2025-10-04
+L844041,Elena,García,elena.garcia@gmeridiano.com,+34 668 622 738,Grupo Meridiano,2025-12-29
+L479492,Javier,Sánchez,javier.sanchez@acme.com,+34 623 428 707,Acme Retail,2025-03-27
+L483352,Sergio,Martínez,sergio.martinez@nordika.com,+34 678 768 569,Nordika Moda,2026-03-05
+L616632,Andrés,Pérez,andres.perez@velahogar.es,+34 653 492 925,Vela Hogar,2025-06-22
+L316362,Elena,Moreno,elena.moreno@nordika.com,+34 629 572 387,Nordika Moda,2025-08-18
+L152562,Javier,Fernández,javier.fernandez@acme.com,+34 648 174 715,Acme Retail,2025-12-05
+L294996,Sergio,Álvarez,sergio.alvarez@nordika.com,+34 655 786 889,Nordika Moda,2025-03-03
+L498844,Laura,Martínez,laura.martinez@velahogar.es,+34 641 392 885,Vela Hogar,2026-03-15
+L817378,Carmen,Romero,carmen.romero@velahogar.es,+34 665 420 530,Vela Hogar,2026-04-26
+L537651,Andrés,Gutiérrez,andres.gutierrez@nordika.com,+34 632 762 230,Nordika Moda,2025-08-27
+L623794,Elena,Martínez,elena.martinez@acme.com,+34 615 573 801,Acme Retail,2026-01-30
+L268110,Laura,Fernández,laura.fernandez@acme.com,+34 685 183 324,Acme Retail,2026-03-08
+L792832,Lucía,Alonso,lucia.alonso@nordika.com,+34 650 903 875,Nordika Moda,2025-04-15
+L524058,Pablo,López,pablo.lopez@nordika.com,+34 691 833 264,Nordika Moda,2025-10-11
+L525041,Javier,Pérez,javier.perez@acme.com,+34 615 580 522,Acme Retail,2025-12-27
+L855325,Pablo,Fernández,pablo.fernandez@velahogar.es,+34 618 684 655,Vela Hogar,2026-04-16
+L145121,Marta,Romero,marta.romero@tecnoandar.com,+34 648 581 415,TecnoAndar,2025-08-10
+L591575,Lucía,Fernández,lucia.fernandez@velahogar.es,+34 648 155 511,Vela Hogar,2025-10-21
+L167495,Elena,Gutiérrez,elena.gutierrez@tecnoandar.com,+34 690 966 606,TecnoAndar,2025-06-29
+L122095,Elena,Ruiz,elena.ruiz@acme.com,+34 680 668 534,Acme Retail,2026-02-01
+L191524,Pablo,Díaz,pablo.diaz@velahogar.es,+34 661 165 157,Vela Hogar,2025-01-06
+L291597,Javier,Álvarez,javier.alvarez@velahogar.es,+34 654 953 861,Vela Hogar,2025-07-11
+L558869,Javier,Torres,,+34 642 505 934,Vela Hogar,2025-04-17
+L424286,Andrés,Muñoz,andres.munoz@velahogar.es,+34 691 224 180,Vela Hogar,2026-06-06
+L540557,Diego,Sánchez,diego.sanchez@velahogar.es,+34 657 101 186,Vela Hogar,2026-02-02
+L799245,Marta,García,marta.garcia@velahogar.es,+34 625 218 793,Vela Hogar,2025-10-09
+L559060,Diego,García,diego.garcia@tecnoandar.com,+34 635 378 929,TecnoAndar,2025-12-16
+L344352,Pablo,Muñoz,pablo.munoz@gmeridiano.com,+34 647 615 233,Grupo Meridiano,2026-05-14
+L831867,Sergio,Gómez,sergio.gomez@acme.com,+34 669 946 929,Acme Retail,2025-07-31
+L585614,Andrés,Navarro,,+34 696 996 458,Grupo Meridiano,2025-02-24

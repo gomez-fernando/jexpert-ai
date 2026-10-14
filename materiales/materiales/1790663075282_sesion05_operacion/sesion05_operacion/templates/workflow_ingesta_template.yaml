@@ -1,0 +1,149 @@
+# PLANTILLA DEL EQUIPO — workflow de ingesta fichero → BigQuery → modelos → assertions.
+#
+# Los defaults reflejan el canon de sesion05_operacion/contexto_equipo.md.
+# NO editarlos sin aprobación del lead. Uso: copiar, renombrar y ajustar SOLO
+# lo marcado como CONFIG.
+#
+# Un workflow = un fichero autocontenido por ingesta: carga, modelos y
+# assertions viven aquí dentro, versionados juntos en el repo.
+#
+# ---------------------------------------------------------------------------
+# CONFIG — lo único que se toca al crear un workflow nuevo
+# ---------------------------------------------------------------------------
+#   WORKFLOW_ID    = "ingesta_<fuente>"       p. ej. ingesta_ventas_offline
+#   SOURCE_URI     = "gs://<bucket>/raw/<fichero>.csv"
+#   BQ_DATASET     = "demo_ops"
+#   RAW_TABLE      = "raw_<fuente>"           llegada en crudo (espejo del fichero)
+#   STG_TABLE      = "stg_<fuente>"           normalizada + auditoría
+#   FCT_TABLE      = "fct_<nombre>"           hechos gold, incremental
+#   ESQUEMA_RAW    = columnas del CSV (se declaran, no se adivinan)
+#
+# INFRA (despliegue y cron — canon, NO TOCAR):
+#   gcloud workflows deploy WORKFLOW_ID --source=... --location=europe-west1
+#   gcloud scheduler jobs create http WORKFLOW_ID-cron \
+#     --schedule="17 3 * * *" --time-zone="Europe/Madrid" ...   # 03:17, NUNCA en punto:
+#                                                             # esquiva el pico de
+#                                                             # plataforma de los crons
+#                                                             # en punto
+# ---------------------------------------------------------------------------
+
+main:
+  steps:
+    - init:
+        assign:
+          - project_id: ${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}
+
+    - cargar_fichero:
+        try:
+          steps:
+            - intento:
+                try:
+                  call: googleapis.bigquery.v2.jobs.insert
+                  args:
+                    projectId: ${project_id}
+                    body:
+                      configuration:
+                        load:
+                          sourceUris: ["gs://<bucket>/raw/<fichero>.csv"]   # CONFIG: SOURCE_URI
+                          destinationTable:
+                            projectId: ${project_id}
+                            datasetId: "demo_ops"
+                            tableId: "raw_<fuente>"                          # CONFIG: RAW_TABLE
+                          sourceFormat: "CSV"
+                          skipLeadingRows: 1
+                          autodetect: false   # el esquema se declara, no se adivina
+                          writeDisposition: "WRITE_TRUNCATE"   # idempotencia de la carga
+                          # CONFIG: ESQUEMA_RAW
+                          schema:
+                            fields:
+                              - {name: "<col1>", type: "STRING"}
+                retry:                       # ── CANON, no tocar ──
+                  max_attempts: 3            # 1 intento + 2 reintentos
+                  backoff:
+                    initial_delay: 900       # 15 min entre reintentos
+        except:
+          as: e
+          steps:
+            - alertar:                       # en producción: webhook del canal del equipo
+                call: sys.log
+                args:
+                  severity: "ERROR"
+                  text: "FALLO del workflow en cargar_fichero (tras agotar reintentos)"
+            - propagar:
+                raise: ${e}
+
+    - modelo_stg:                            # CONFIG: STG_TABLE. Canon: _fuente + _cargado_en
+        call: googleapis.bigquery.v2.jobs.query
+        args:
+          projectId: ${project_id}
+          body:
+            useLegacySql: false
+            location: "EU"
+            timeoutMs: 60000
+            query: |
+              CREATE OR REPLACE TABLE `jakamedy-data-ia.demo_ops.stg_<fuente>` AS
+              SELECT
+                CAST(<col_id> AS STRING) AS <clave>_nk,
+                fecha,
+                <resto_de_columnas>,
+                "gs://<bucket>/raw/<fichero>.csv" AS _fuente,
+                CURRENT_TIMESTAMP() AS _cargado_en
+              FROM `jakamedy-data-ia.demo_ops.raw_<fuente>`
+
+    - modelo_fct:                            # CONFIG: FCT_TABLE. Incremental con guarda MAX(fecha)
+        call: googleapis.bigquery.v2.jobs.query
+        args:
+          projectId: ${project_id}
+          body:
+            useLegacySql: false
+            location: "EU"
+            timeoutMs: 60000
+            query: |
+              INSERT INTO `jakamedy-data-ia.demo_ops.fct_<nombre>` (...)
+              SELECT ...
+              FROM `jakamedy-data-ia.demo_ops.stg_<fuente>`
+              WHERE fecha > COALESCE(
+                (SELECT MAX(fecha) FROM `jakamedy-data-ia.demo_ops.fct_<nombre>`),
+                DATE '1900-01-01')
+
+    - assert_unique_key:                     # assertion: cero filas o el workflow va a rojo
+        call: googleapis.bigquery.v2.jobs.query
+        args:
+          projectId: ${project_id}
+          body:
+            useLegacySql: false
+            location: "EU"
+            query: |
+              SELECT <clave>_nk, fecha, COUNT(*) AS duplicados       # CONFIG: clave real
+              FROM `jakamedy-data-ia.demo_ops.fct_<nombre>`
+              GROUP BY <clave>_nk, fecha
+              HAVING COUNT(*) > 1
+        result: unicidad
+
+    - assert_non_null:                       # también devuelve filas SOLO si viola
+        call: googleapis.bigquery.v2.jobs.query
+        args:
+          projectId: ${project_id}
+          body:
+            useLegacySql: false
+            location: "EU"
+            query: |
+              SELECT fecha, <clave>_nk
+              FROM `jakamedy-data-ia.demo_ops.fct_<nombre>`
+              WHERE <clave>_nk IS NULL OR fecha IS NULL              # CONFIG
+        result: nulos
+
+    - validar_assertions:
+        switch:
+          - condition: ${int(unicidad.totalRows) > 0 or int(nulos.totalRows) > 0}
+            steps:
+              - alertar_calidad:              # en producción: webhook del canal del equipo
+                  call: sys.log
+                  args:
+                    severity: "ERROR"
+                    text: "ASSERTION FAILED: revisar antes de dar por buena la ejecución"
+              - fallar:
+                  raise: "assertions violadas"
+
+    - hecho:
+        return: "ok"

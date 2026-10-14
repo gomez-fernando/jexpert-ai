@@ -1,0 +1,182 @@
+diff --git a/repo_demo/sesion05_operacion/output/workflows/ingesta_ventas_offline.yaml b/repo_demo/sesion05_operacion/output/workflows/ingesta_ventas_offline.yaml
+new file mode 100644
+index 0000000..d2b2974
+--- /dev/null
++++ b/repo_demo/sesion05_operacion/output/workflows/ingesta_ventas_offline.yaml
+@@ -0,0 +1,176 @@
++# Workflow de ingesta diaria: ventas_offline.csv (GCS) → raw → stg → fct_ventas_diarias.
++#
++# Generado por el coding agent a partir de
++# templates/workflow_ingesta_template.yaml, siguiendo contexto_equipo.md
++# (stack, naming, defaults de retry/cron/idempotencia), contexto_kpis.md
++# (grano "Ventas diarias por tienda": tienda × día, tickets/unidades/
++# importe_total/tickets_campana) y contexto_calidad.md (assertions
++# uniqueKey + nonNull, validadas por totalRows).
++#
++# Sin decisiones abiertas: nombre de tabla, columna de fecha, clave y
++# frecuencia ya estaban fijados por el canon y por el encargo.
++#
++# CONFIG aplicada:
++#   WORKFLOW_ID = ingesta_ventas_offline
++#   SOURCE_URI  = gs://jakamedy-data-ia-demo/raw/ventas_offline.csv
++#   RAW  = demo_ops.raw_ventas_offline (espejo del CSV)
++#   STG  = demo_ops.stg_ventas_offline (normalizada + _fuente + _cargado_en)
++#   FCT  = demo_ops.fct_ventas_diarias (grano tienda × día, incremental)
++#
++# INFRA (canon, sin tocar):
++#   gcloud workflows deploy ingesta_ventas_offline \
++#     --source=workflows/ingesta_ventas_offline.yaml --location=europe-west1
++#   gcloud scheduler jobs create http ingesta_ventas_offline-cron \
++#     --schedule="17 3 * * *" --time-zone="Europe/Madrid" ...   # 03:17: nunca en punto
++# ---------------------------------------------------------------------------
++
++main:
++  steps:
++    - init:
++        assign:
++          - project_id: ${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}
++
++    - cargar_fichero:
++        try:
++          steps:
++            - intento:
++                try:
++                  call: googleapis.bigquery.v2.jobs.insert
++                  args:
++                    projectId: ${project_id}
++                    body:
++                      configuration:
++                        load:
++                          sourceUris: ["gs://jakamedy-data-ia-demo/raw/ventas_offline.csv"]
++                          destinationTable:
++                            projectId: ${project_id}
++                            datasetId: "demo_ops"
++                            tableId: "raw_ventas_offline"
++                          sourceFormat: "CSV"
++                          skipLeadingRows: 1
++                          autodetect: false
++                          writeDisposition: "WRITE_TRUNCATE"
++                          schema:
++                            fields:
++                              - {name: "ticket_id",     type: "STRING"}
++                              - {name: "tienda_id",     type: "STRING"}
++                              - {name: "fecha",         type: "DATE"}
++                              - {name: "importe_total", type: "FLOAT64"}
++                              - {name: "unidades",      type: "INT64"}
++                              - {name: "campana_id",    type: "STRING"}
++                retry:                       # canon: 1 intento + 2 reintentos, 15 min
++                  max_attempts: 3
++                  backoff:
++                    initial_delay: 900
++        except:
++          as: e
++          steps:
++            - alertar:                       # en producción: webhook del canal del equipo
++                call: sys.log
++                args:
++                  severity: "ERROR"
++                  text: "FALLO ingesta_ventas_offline en cargar_fichero (tras agotar reintentos)"
++            - propagar:
++                raise: ${e}
++
++    - modelo_stg:
++        call: googleapis.bigquery.v2.jobs.query
++        args:
++          projectId: ${project_id}
++          body:
++            useLegacySql: false
++            location: "EU"
++            timeoutMs: 60000
++            query: |
++              CREATE OR REPLACE TABLE `jakamedy-data-ia.demo_ops.stg_ventas_offline` AS
++              SELECT
++                CAST(ticket_id AS STRING)      AS ticket_nk,
++                CAST(tienda_id AS STRING)      AS tienda_nk,
++                fecha,
++                CAST(importe_total AS FLOAT64) AS importe,
++                unidades,
++                campana_id,
++                "gs://jakamedy-data-ia-demo/raw/ventas_offline.csv" AS _fuente,
++                CURRENT_TIMESTAMP()            AS _cargado_en
++              FROM `jakamedy-data-ia.demo_ops.raw_ventas_offline`
++
++    - modelo_fct:
++        call: googleapis.bigquery.v2.jobs.query
++        args:
++          projectId: ${project_id}
++          body:
++            useLegacySql: false
++            location: "EU"
++            timeoutMs: 60000
++            query: |
++              CREATE TABLE IF NOT EXISTS `jakamedy-data-ia.demo_ops.fct_ventas_diarias` (
++                fecha           DATE    NOT NULL,
++                tienda_nk       STRING  NOT NULL,
++                tickets         INT64,
++                unidades        INT64,
++                importe_total   FLOAT64,
++                tickets_campana INT64
++              )
++              PARTITION BY fecha
++              CLUSTER BY tienda_nk
++              OPTIONS (
++                description = 'Ventas agregadas por tienda y dia. Grano: tienda x dia. Fuente: demo_ops.stg_ventas_offline.'
++              );
++
++              INSERT INTO `jakamedy-data-ia.demo_ops.fct_ventas_diarias`
++                (fecha, tienda_nk, tickets, unidades, importe_total, tickets_campana)
++              SELECT
++                fecha,
++                tienda_nk,
++                COUNT(DISTINCT ticket_nk) AS tickets,
++                SUM(unidades)             AS unidades,
++                ROUND(SUM(importe), 2)    AS importe_total,
++                COUNTIF(campana_id IS NOT NULL AND campana_id != "") AS tickets_campana
++              FROM `jakamedy-data-ia.demo_ops.stg_ventas_offline`
++              WHERE fecha > COALESCE(
++                (SELECT MAX(fecha) FROM `jakamedy-data-ia.demo_ops.fct_ventas_diarias`),
++                DATE '1900-01-01'
++              )
++              GROUP BY fecha, tienda_nk
++
++    - assert_unique_key:
++        call: googleapis.bigquery.v2.jobs.query
++        args:
++          projectId: ${project_id}
++          body:
++            useLegacySql: false
++            location: "EU"
++            query: |
++              SELECT fecha, tienda_nk, COUNT(*) AS duplicados
++              FROM `jakamedy-data-ia.demo_ops.fct_ventas_diarias`
++              GROUP BY fecha, tienda_nk
++              HAVING COUNT(*) > 1
++        result: unicidad
++
++    - assert_non_null:
++        call: googleapis.bigquery.v2.jobs.query
++        args:
++          projectId: ${project_id}
++          body:
++            useLegacySql: false
++            location: "EU"
++            query: |
++              SELECT fecha, tienda_nk
++              FROM `jakamedy-data-ia.demo_ops.fct_ventas_diarias`
++              WHERE fecha IS NULL OR tienda_nk IS NULL
++        result: nulos
++
++    - validar_assertions:
++        switch:
++          - condition: ${int(unicidad.totalRows) > 0 or int(nulos.totalRows) > 0}
++            steps:
++              - alertar_calidad:            # en producción: webhook del canal del equipo
++                  call: sys.log
++                  args:
++                    severity: "ERROR"
++                    text: "ASSERTION FAILED en fct_ventas_diarias"
++              - fallar:
++                  raise: "assertions violadas en fct_ventas_diarias"
++
++    - hecho:
++        return: "ok"

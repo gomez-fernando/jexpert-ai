@@ -1,0 +1,9 @@
+manifest fixture sesión 5 — generar_datos_s5.py
+seed: 20260928
+ventas_offline.csv:            30000 filas · 2025-04-01 – 2026-09-15 · importe_total
+stg_ingesta_diaria_prev.csv:    4500 filas · 2026-09-01 – 2026-09-15 · importe_total (ANTIGUA)
+stg_ingesta_diaria.csv:         5000 filas · 2026-09-16 – 2026-09-30 · total_importe (NUEVA)
+suma importes prev:    627,602.35
+suma importes nueva:   680,948.52
+tiendas: T001–T045 · campañas: C00001–C00200
+self-check: unicidad de IDs global, ventanas de fecha estrictas, rangos, conteos

@@ -1,0 +1,9 @@
+[
+  {"name": "source_row_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "pedido_id", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "fecha_pedido", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "importe", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "categoria", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "cliente_id", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "unidades", "type": "STRING", "mode": "NULLABLE"}
+]

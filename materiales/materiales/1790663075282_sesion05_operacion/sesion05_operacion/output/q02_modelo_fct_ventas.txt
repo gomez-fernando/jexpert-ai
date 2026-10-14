@@ -1,0 +1,17 @@
+q02 — Demo A: modelo fct_ventas_diarias materializado (2026-09-28, jobs reales)
+
+1) Assertion uniqueKey(fecha, tienda_nk) — violaciones encontradas:
+[]
+
+2) Assertion nonNull(fecha, tienda_nk) — claves nulas: ver columna claves_nulas.
+
+3) Resumen de la tabla materializada `demo_ops.fct_ventas_diarias`:
+
++-------+------+---------+---------------+---------+--------------+
+| filas | dias | tiendas | importe_total | tickets | claves_nulas |
++-------+------+---------+---------------+---------+--------------+
+| 17030 |  533 |      45 |    4150150.34 |   30000 |            0 |
++-------+------+---------+---------------+---------+--------------+
+
+Grano: tienda x dia. Particionada por fecha, cluster por tienda_nk.
+Fuente: demo_ops.stg_ventas_offline (30.000 tickets, 2025-04-01 a 2026-09-15).
