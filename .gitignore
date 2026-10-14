@@ -18,3 +18,7 @@ original.xlsx
 # Datos extraídos de la sandbox dev. Se pueden volver a sacar con el paquete aep/, y lo que se
 # concluye de ellos está en status/inventario-sandbox-dev.md
 status/sandbox-dev/
+
+# Inventario completo de la sandbox (scripts/extract_catalog.py --full-inventory). Lleva los nombres
+# de todos los datasets, también los de proyectos de clientes de Jakala
+inventario/

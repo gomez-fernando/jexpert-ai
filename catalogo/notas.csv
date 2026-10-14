@@ -1,0 +1,15 @@
+dataset,ruta,significado_nulo,notas
+fdg_tfm_bbank_profiledata,homeAddress.city,,"Valencia y València son valores distintos, así que hay que sumar los dos."
+fdg_tfm_bbank_profiledata,_valuelabemeaptrsd.financialDetail.branch_id,,"ZAR01, VLC01, MAL01 y OPO01 no tienen ficha en fdg_tfm_bbank_branch."
+fdg_tfm_bbank_profiledata,_valuelabemeaptrsd.financialDetail.product_ids[],,"Cada lista llega como un único texto (['597-824-395766967583']), así que no se puede filtrar por producto sin tratarla antes."
+fdg_tfm_bbank_profiledata,consents.marketing.email.val,"No hay consentimiento registrado, así que no se puede tratar como que acepta.","y acepta, n rechaza."
+fdg_tfm_bbank_profiledata,consents.marketing.call.val,"No hay consentimiento registrado, así que no se puede tratar como que acepta.","y acepta, n rechaza."
+fdg_tfm_bbank_applications,_valuelabemeaptrsd.ApplicationDetails.profileID,"Solicitud denegada: ninguna de las denegadas lleva profileID.","Las denegadas solo se pueden atribuir a un cliente cruzando _valuelabemeaptrsd.ApplicationDetails.Email con personalEmail.address de fdg_tfm_bbank_profiledata. El 2026-10-14, ese cruce daba 2.958 clientes de la base con alguna solicitud denegada."
+fdg_tfm_bbank_applications,_valuelabemeaptrsd.ApplicationDetails.Application.rejectionReason,"Solicitud aceptada: las aceptadas no llevan motivo de rechazo.","Como las denegadas no llevan profileID, su cobertura en clientes sale a 0. Para saber qué clientes tienen una solicitud denegada hay que cruzar por email (ver la nota de profileID)."
+fdg_tfm_bbank_applications,_valuelabemeaptrsd.ApplicationDetails.productID,,"597-824-395766967583 es Premium Account y 117-092-615581165598 es Standard Account (cuentas de ahorro). 590-882-735839612672 es Bbank Customized Cash Rewards, 816-504-258387688508 es Bbank Green Card y 102-349-853011058806 es Bbank Premium Card (tarjetas de crédito). Los nombres están en fdg_tfm_bbank_products."
+fdg_tfm_bbank_webinteractions,_valuelabemeaptrsd.transaction_identifiers.profile_id,"Evento sin cliente identificado por profile_id.","Muchos de esos eventos llevan el email, que permite cruzarlos con la base (ver el cruce por email en relaciones.csv)."
+fdg_tfm_bbank_webinteractions,_valuelabemeaptrsd.transaction_identifiers.product_id,,"Los mismos códigos de producto que _valuelabemeaptrsd.ApplicationDetails.productID de fdg_tfm_bbank_applications."
+fdg_tfm_bbank_fulfillment,_valuelabemeaptrsd.DetailsOfFulfillment.Fulfillment_.branchID_,"Entrega a domicilio, sin sucursal.",
+fdg_tfm_bbank_bankaccount,_valuelabemeaptrsd.BankAccountDetails.accountBalance,,"Saldo en el momento de la carga, sin histórico."
+fdg_tfm_bbank_loyalty,,,"500 de sus 502 clientes aparecen en dos filas con los mismos puntos, así que hay que contar clientes y no filas."
+fdg_tfm_bbank_propensity,,,"No cruza con ningún cliente de la base: ninguno de sus emails está en fdg_tfm_bbank_profiledata."

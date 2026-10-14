@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-10-14",
+  "sandbox": "dev",
+  "datasets": "^fdg_tfm_bbank_",
+  "base_clientes": "fdg_tfm_bbank_profiledata",
+  "campo_cliente": "personID",
+  "namespace_cliente": "TRBbankProfileID",
+  "datasets_perfilados": [
+    "fdg_tfm_bbank_applications",
+    "fdg_tfm_bbank_atminfo",
+    "fdg_tfm_bbank_atmtransactions",
+    "fdg_tfm_bbank_bankaccount",
+    "fdg_tfm_bbank_branch",
+    "fdg_tfm_bbank_fulfillment",
+    "fdg_tfm_bbank_loyalty",
+    "fdg_tfm_bbank_productinteractions",
+    "fdg_tfm_bbank_products",
+    "fdg_tfm_bbank_profiledata",
+    "fdg_tfm_bbank_propensity",
+    "fdg_tfm_bbank_webinteractions"
+  ],
+  "segundos": 127,
+  "errores": []
+}
