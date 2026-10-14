@@ -10,9 +10,7 @@ El TFM es una skill que decide si una petición de audiencia se puede crear, con
 
 Las fases 1 y 2 están cerradas: las 12 copias `fdg_tfm_bbank_*` (2,24 horas de clúster de las 2.000 de la licencia) y el catálogo en `catalogo/2026-10-14/`, generado con `scripts/extract_catalog.py` y commiteado por el usuario en `c13649a`. Lo más importante del catálogo para la skill es que las solicitudes denegadas solo se atribuyen a clientes por el email.
 
-Antes de empezar la skill quedó preparado el cumplimiento de la guía: `evidencias/` (fichas fechadas con el registro de Query Service, incidencias I01 a I06, capturas previstas y protocolo de la comparación), `documento/esqueleto-memoria.md` y el registro de IA con diez entradas. Falta que el usuario revise la decisión humana del registro, haga las capturas C01 a C03 y commitee lo de la tarde del 2026-10-14.
-
-El 2026-10-14 por la noche se sacaron de los ficheros del repositorio todas las referencias al proyecto de trabajo del usuario y a sus equipos. Lo que se necesita para trabajar y no se entrega está en `privado/`, fuera de git. El historial de git también está reescrito y ya no las tiene. Falta que el usuario borre el repo `jexpert-ai` en GitHub, que todavía tiene el historial anterior, lo cree de nuevo vacío y suba el nuevo.
+Antes de empezar la skill quedó preparado el cumplimiento de la guía: `evidencias/` (fichas fechadas con el registro de Query Service, incidencias I01 a I06, capturas previstas y protocolo de la comparación), `documento/esqueleto-memoria.md` y el registro de IA con diez entradas. El repositorio y su historial ya no tienen referencias al proyecto de trabajo del usuario: lo que no se entrega está en `privado/`, fuera de git, y `jexpert-ai` se recreó en GitHub con el historial limpio (`21f8a7c`). Falta que el usuario revise la decisión humana del registro y haga las capturas C01 a C03.
 
 ## Siguiente paso
 
@@ -76,19 +74,13 @@ Fase 3 de `status/plan-tfm.md`, del 2026-10-17 al 2026-10-21 (se puede adelantar
 - Anonimizar con el propio asistente, o fiar la protección de los datos a los ajustes de privacidad de la cuenta. Todo lo que lee el asistente viaja a los servidores de Anthropic, y para anonimizar un dato antes habría que leerlo. La norma del cliente y de Jakala tampoco depende de ese ajuste. No seguir por ahí.
 - Validar el acelerador del TFM contra el AEP del proyecto de trabajo del usuario. El profesor no tiene acceso a ese AEP y su licencia de Data Distiller estaba casi agotada (según Adobe, las horas las gastan las consultas batch, no las lecturas interactivas). No seguir por ahí. No aplica a la sandbox `dev` de Jakala, que se usa desde el 2026-10-10.
 
-## Dudas abiertas
-
-- Qué cuenta como input en Coworker y cuánto cuesta uno que ejecute SQL o lance un agente. Adobe no lo define, y el consumo recogido sugiere que parte del gasto no son inputs de 25 (sin confirmar). Pendiente de medirlo en el piloto con el dashboard de Monitoring o de preguntarlo a Adobe, desde 2026-10-02. Solo hace falta si se usa Coworker, que es opcional desde esa fecha.
-
 ## Pendiente
 
-- [ ] Solo si se usa Coworker, que es opcional desde el 2026-10-02: probar la subida de un `SKILL.md` mínimo, comprobar hasta dónde llegan las skills de Adobe en un caso real de CDP, pedir los tres permisos del dashboard de monitorización de Agentic AI, fijar el presupuesto de inputs por fase (unos 400 como máximo a 25 créditos por input) y medir el coste real de un input.
+- [ ] Solo si se usa Coworker, que es opcional desde el 2026-10-02: probar la subida de un `SKILL.md` mínimo, comprobar hasta dónde llegan las skills de Adobe en un caso real de CDP, pedir los tres permisos del dashboard de monitorización de Agentic AI, fijar el presupuesto de inputs por fase (unos 400 como máximo a 25 créditos por input) y medir el coste real de un input, también de uno que ejecute SQL o lance un agente, porque Adobe no define qué cuenta como input.
 - [ ] Comprobar en el campus las instrucciones de entrega.
 - [ ] Revisar la decisión humana de las entradas R01 a R10 de `registro-ia.md` y completarla con el porqué. Lo hace el usuario.
 - [ ] Hacer las capturas C01 y C02 y recortar y guardar la C03 (`evidencias/capturas.md`). Lo hace el usuario.
 - [ ] Hacer commit y push al cerrar cada día de trabajo, para que GitHub registre la fecha. Lo hace el usuario.
-- [ ] Borrar el repo `jexpert-ai` en GitHub, crearlo de nuevo con el mismo nombre, privado y vacío (sin README, sin `.gitignore` y sin licencia), y subir el historial reescrito con `git push -u origin main`. Lo hace el usuario.
-- [ ] Revisar y commitear `evidencias/`, `documento/`, `registro-ia.md` y los cambios de `scripts/extract_catalog.py` del 2026-10-14 por la tarde. El script, el catálogo y el `.gitignore` ya están en el commit `c13649a`. Lo hace el usuario.
 - [ ] Escribir la skill con sus dos modos, sus ficheros de referencia y el README (fase 3).
 - [ ] Escribir las cinco o seis peticiones de prueba con su respuesta esperada (fase 4).
 - [ ] Cronometrar de principio a fin una petición resuelta a mano, para calibrar la estimación de las horas a mano (fase 5).
@@ -160,3 +152,4 @@ Las rutas son relativas a esta carpeta.
 - 2026-10-14: se prepara el cumplimiento de la guía: `evidencias/` con cuatro fichas de ejecución fechadas con el registro de Query Service, seis incidencias, trece capturas previstas y el protocolo de la comparación; el esqueleto de la memoria y el registro de IA con diez entradas. `scripts/extract_catalog.py` pasa a guardar la hora de inicio y fin en UTC y a mostrar rutas relativas.
 - 2026-10-14: se sacan de los ficheros del repositorio las referencias al proyecto de trabajo del usuario y a sus equipos (`status.md`, `dudas-roberto.md` y la transcripción de la sesión 4). Se comprueba que no queda ninguna, tampoco nombres de su lista de contactos. El contexto que no se entrega pasa a `privado/`. Los cinco commits del historial siguen teniéndolas.
 - 2026-10-14: se reescribe el historial (`a45d87c` es el commit con las versiones limpias) y se comprueba que ningún commit tiene referencias al proyecto de trabajo del usuario ni nombres de su lista de contactos. El remoto `origin` apunta otra vez a `jexpert-ai` en GitHub, sin subir nada.
+- 2026-10-14: el usuario borra y recrea `jexpert-ai` en GitHub, commitea los cambios de la tarde (`21f8a7c`, 26 ficheros) y sube el historial reescrito. Se comprueba que GitHub tiene el mismo commit que el repo local, que no entra nada de `privado/` ni de `inventario/` y que el commit no tiene referencias al proyecto de trabajo del usuario.
