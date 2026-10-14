@@ -130,3 +130,14 @@ Lleva además nombre, apellidos, email, móvil, código postal, DNI e IBAN, todo
 2. No hay movimientos de tarjeta, evolución del saldo ni importe de las solicitudes. La fidelización cubre 500 clientes, las operaciones de cajero 321 y las interacciones con producto 55.
 3. El dataset de propensión no cruza con ningún cliente.
 4. Las incoherencias de los datos (la lista de productos guardada como texto, las sucursales sin ficha, las dos grafías de Valencia y los consentimientos al 32,7 %) son reales y se pueden usar como casos límite de la skill.
+
+## Acceso y particularidades de la API
+
+Pasó aquí desde Datos clave de `status.md` el 2026-10-14.
+
+- Host de Query Service `valuelabemeaptrsd.platform-query.adobe.io`, base `dev:all`. Comprobado el 2026-10-10: token IMS, lectura de Catalog y Schema Registry, `select 1` y 758 tablas visibles.
+- Sandbox Management responde 403 `SMS-2010-403`: la credencial no puede listar sandboxes.
+- El fichero de credenciales guarda `SCOPES` como lista JSON, y hay que enviarlos a IMS unidos por comas. Si se mandan como parámetro repetido, IMS concede solo el primero y toda la API responde 403 `403027` "User region is missing" (incidencia I01 de `evidencias/incidencias.md`).
+- Las tablas de Query Service solo tienen los campos que han recibido datos, que son los del `observableSchema` de Catalog. Catalog solo devuelve el `observableSchema` de un dataset por llamada (incidencia I04).
+- `/tenant/descriptors` corta en 300 y no pagina. Los descriptores de cada schema salen pidiéndolo con `Accept: application/vnd.adobe.xed-full-desc+json; version=1` (incidencia I02).
+- `matched` no vale como alias en Query Service.

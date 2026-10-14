@@ -19,6 +19,9 @@ original.xlsx
 # concluye de ellos está en status/inventario-sandbox-dev.md
 status/sandbox-dev/
 
+# Notas de trabajo que no se entregan con el TFM
+privado/
+
 # Inventario completo de la sandbox (scripts/extract_catalog.py --full-inventory). Lleva los nombres
 # de todos los datasets, también los de proyectos de clientes de Jakala
 inventario/

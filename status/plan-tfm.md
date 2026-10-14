@@ -14,6 +14,26 @@ Acordado con el usuario el 2026-10-14. La entrega es el 2026-10-30. Los requisit
 | 6. Evidencias | Durante las fases 3 a 5 | Ejecuciones fechadas con sus incidencias, capturas con pie y entradas del registro de uso de IA |
 | 7. Documento y entrega | 2026-10-26 a 2026-10-29, entrega el 2026-10-30 | Documento de 15 páginas como máximo, README para que otra persona instale la skill, repo `jexpert-ai` reproducible y vídeo opcional |
 
+## Cumplimiento de la guía
+
+Acordado con el usuario el 2026-10-14, antes de empezar la skill. Las evidencias se generan mientras se trabaja y no al final, porque la guía pide ejecuciones fechadas con sus incidencias reales y decisiones que el usuario pueda explicar.
+
+| Requisito de la guía | Cómo se cubre | Quién lo hace |
+| --- | --- | --- |
+| Documento de 15 páginas como máximo, con la estructura del apartado 5 | `documento/esqueleto-memoria.md`, con las ocho secciones y el reparto de páginas, que se rellena al cerrar cada fase | Claude prepara los hechos y los borradores, y el usuario escribe o corrige el análisis |
+| Capturas con un pie que diga qué se ve, qué demuestra y de qué fecha es | `evidencias/capturas.md`, con cada captura que hace falta, la sección que respalda y el pie redactado. Claude avisa en el momento de hacerla | El usuario hace las capturas |
+| Repositorio reproducible | La skill, `scripts/extract_catalog.py`, el catálogo con su fecha, las peticiones de prueba con su respuesta esperada y un script que compara las respuestas | Claude |
+| Evidencia de operación e incidencias | `evidencias/ejecuciones/`, con una ficha por ejecución fechada, y `evidencias/incidencias.md` | Claude, y el usuario lo valida |
+| Comparación sin y con la skill | `evidencias/comparacion/protocolo.md`, escrito antes de medir | Los dos. El usuario cronometra la petición hecha a mano |
+| Registro de uso de IA | `registro-ia.md`, con los seis campos de la guía y una entrada por intercambio relevante, anotada el mismo día | Claude prepara cada entrada y el usuario escribe la decisión humana |
+| Artefacto instalable | README con instrucciones, configuración, ejemplo, pruebas y límites conocidos | Claude lo escribe, y el usuario u otra persona lo prueba desde cero |
+
+El análisis crítico es del usuario. Al cerrar cada fase hay una revisión corta: Claude enseña qué ha hecho, qué ha comprobado y qué no, y el usuario decide qué acepta, qué cambia y por qué. Lo que diga va tal cual al campo de decisión humana del registro de IA, y de ahí sale la sección de conclusiones y límites.
+
+La skill separa en sus respuestas los hechos, las inferencias y las preguntas abiertas, y marca lo que no ha podido comprobar, como pide el apartado 8 de la guía. Así sus respuestas sirven de captura de evidencia.
+
+Las fechas de las evidencias se apoyan en registros que no dependen del usuario, sobre todo el registro de consultas de Query Service, como explica `evidencias/README.md`. Al cerrar cada día de trabajo, el usuario hace commit y push a GitHub.
+
 ## Catálogo
 
 El script lee las copias y genera el catálogo de atributos. De cada atributo recoge la ruta, la cobertura, los valores con su recuento, el dataset de origen, la ventana de datos, el significado del valor vacío y notas. Los recuentos por valor son los que usa la skill para estimar tamaños cuando no tiene acceso a la sandbox.

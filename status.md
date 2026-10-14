@@ -12,7 +12,7 @@ Las fases 1 y 2 están cerradas: las 12 copias `fdg_tfm_bbank_*` (2,24 horas de 
 
 Antes de empezar la skill quedó preparado el cumplimiento de la guía: `evidencias/` (fichas fechadas con el registro de Query Service, incidencias I01 a I06, capturas previstas y protocolo de la comparación), `documento/esqueleto-memoria.md` y el registro de IA con diez entradas. Falta que el usuario revise la decisión humana del registro, haga las capturas C01 a C03 y commitee lo de la tarde del 2026-10-14.
 
-El 2026-10-14 por la noche se sacaron de los ficheros del repositorio todas las referencias al proyecto de trabajo del usuario y a sus equipos. Lo que se necesita para trabajar y no se entrega está en `privado/`, fuera de git. Los cinco commits anteriores, ya subidos a GitHub, conservan esas referencias en `status.md`, `dudas-roberto.md` y la transcripción de la sesión 4, y falta que el usuario decida cómo limpiar el historial.
+El 2026-10-14 por la noche se sacaron de los ficheros del repositorio todas las referencias al proyecto de trabajo del usuario y a sus equipos. Lo que se necesita para trabajar y no se entrega está en `privado/`, fuera de git. El historial de git también está reescrito y ya no las tiene. Falta que el usuario borre el repo `jexpert-ai` en GitHub, que todavía tiene el historial anterior, lo cree de nuevo vacío y suba el nuevo.
 
 ## Siguiente paso
 
@@ -67,6 +67,7 @@ Fase 3 de `status/plan-tfm.md`, del 2026-10-17 al 2026-10-21 (se puede adelantar
 - 2026-10-14: el cumplimiento de la guía se prepara antes de la skill, con evidencias generadas durante el trabajo, una revisión del usuario al cerrar cada fase para el análisis crítico y el registro de IA anotado el mismo día. Detalle en `status/plan-tfm.md`. Decide el usuario ("Es MUY IMPORTANTE respetar y cumplir lo que se pide en la guía del TFM").
 - 2026-10-14: las fechas de las evidencias se apoyan en el registro de consultas de Query Service (ID y hora del servidor), los metadatos de Catalog, el push diario a GitHub y la fecha visible en las capturas, por ese orden. Las horas se anotan en UTC. Lo propone Claude a una pregunta del usuario. Un sello de tiempo de una autoridad externa (RFC 3161) se dejó como opción, sin adoptar.
 - 2026-10-14: se sacan del repositorio todas las referencias al proyecto de trabajo del usuario y a sus equipos. Lo que hace falta para trabajar y no se entrega queda en `privado/`, fuera de git, con la copia completa del `status.md` anterior a la limpieza. Decide el usuario.
+- 2026-10-14: se reescribe el historial de git: `status.md`, `dudas-roberto.md` y la transcripción de la sesión 4 se quitan de todos los commits con `git filter-repo`, y sus versiones limpias entran en el commit `a45d87c`. Los cinco commits anteriores conservan su fecha y cambian de identificador. En GitHub hay que borrar el repo y crearlo de nuevo, porque tras un force push la página Activity sigue enlazando el estado anterior. La copia del historial anterior está en `privado/` (`historial-anterior-2026-10-14.bundle` y `git-anterior-2026-10-14/`). Decide el usuario.
 - 2026-10-14: el registro de IA pasa de una tabla única a una tabla por entrada, porque los seis campos no caben en una fila legible. Las entradas R01 a R09 se reconstruyen del estado y de los registros de sesión, con la decisión humana pendiente de revisión del usuario.
 
 ## Líneas descartadas
@@ -78,7 +79,6 @@ Fase 3 de `status/plan-tfm.md`, del 2026-10-17 al 2026-10-21 (se puede adelantar
 ## Dudas abiertas
 
 - Qué cuenta como input en Coworker y cuánto cuesta uno que ejecute SQL o lance un agente. Adobe no lo define, y el consumo recogido sugiere que parte del gasto no son inputs de 25 (sin confirmar). Pendiente de medirlo en el piloto con el dashboard de Monitoring o de preguntarlo a Adobe, desde 2026-10-02. Solo hace falta si se usa Coworker, que es opcional desde esa fecha.
-- Cómo limpiar el historial de git de `jexpert-ai`. Los commits anteriores al 2026-10-14 por la noche, también los subidos a GitHub, conservan las referencias al proyecto de trabajo del usuario que se quitaron de los ficheros. Pendiente del usuario desde 2026-10-14.
 
 ## Pendiente
 
@@ -87,7 +87,7 @@ Fase 3 de `status/plan-tfm.md`, del 2026-10-17 al 2026-10-21 (se puede adelantar
 - [ ] Revisar la decisión humana de las entradas R01 a R10 de `registro-ia.md` y completarla con el porqué. Lo hace el usuario.
 - [ ] Hacer las capturas C01 y C02 y recortar y guardar la C03 (`evidencias/capturas.md`). Lo hace el usuario.
 - [ ] Hacer commit y push al cerrar cada día de trabajo, para que GitHub registre la fecha. Lo hace el usuario.
-- [ ] Elegir cómo limpiar el historial de git y, después, commitear la limpieza. Espera al usuario desde 2026-10-14.
+- [ ] Borrar el repo `jexpert-ai` en GitHub, crearlo de nuevo con el mismo nombre, privado y vacío (sin README, sin `.gitignore` y sin licencia), y subir el historial reescrito con `git push -u origin main`. Lo hace el usuario.
 - [ ] Revisar y commitear `evidencias/`, `documento/`, `registro-ia.md` y los cambios de `scripts/extract_catalog.py` del 2026-10-14 por la tarde. El script, el catálogo y el `.gitignore` ya están en el commit `c13649a`. Lo hace el usuario.
 - [ ] Escribir la skill con sus dos modos, sus ficheros de referencia y el README (fase 3).
 - [ ] Escribir las cinco o seis peticiones de prueba con su respuesta esperada (fase 4).
@@ -159,3 +159,4 @@ Las rutas son relativas a esta carpeta.
 - 2026-10-14: el usuario commitea el script, el catálogo y el `.gitignore` (`c13649a`, 16:12 UTC).
 - 2026-10-14: se prepara el cumplimiento de la guía: `evidencias/` con cuatro fichas de ejecución fechadas con el registro de Query Service, seis incidencias, trece capturas previstas y el protocolo de la comparación; el esqueleto de la memoria y el registro de IA con diez entradas. `scripts/extract_catalog.py` pasa a guardar la hora de inicio y fin en UTC y a mostrar rutas relativas.
 - 2026-10-14: se sacan de los ficheros del repositorio las referencias al proyecto de trabajo del usuario y a sus equipos (`status.md`, `dudas-roberto.md` y la transcripción de la sesión 4). Se comprueba que no queda ninguna, tampoco nombres de su lista de contactos. El contexto que no se entrega pasa a `privado/`. Los cinco commits del historial siguen teniéndolas.
+- 2026-10-14: se reescribe el historial (`a45d87c` es el commit con las versiones limpias) y se comprueba que ningún commit tiene referencias al proyecto de trabajo del usuario ni nombres de su lista de contactos. El remoto `origin` apunta otra vez a `jexpert-ai` en GitHub, sin subir nada.

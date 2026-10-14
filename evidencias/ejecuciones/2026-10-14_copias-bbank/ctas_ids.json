@@ -1,0 +1,68 @@
+{
+  "fdg_tfm_bbank_profiledata": {
+    "id": "ae1047ee-f1ee-4ce5-9a74-3afd9f637492",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:31.036122958Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_profiledata WITH (schema='Training_Bbank_ProfileData_sch_AbelPerez') AS (SELECT _valuelabemeaptrsd, consents, homeAddress, mobilePhone, person, personID, personalEmail FROM bbank_democja_bcr_profiledata)"
+  },
+  "fdg_tfm_bbank_applications": {
+    "id": "63482ac0-ad37-4181-86e7-79e3f75101c3",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:33.096877626Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_applications WITH (schema='Training_Bbank_Application') AS (SELECT _id, _valuelabemeaptrsd, identityMap, timestamp FROM bbank_democja_bcr_applications)"
+  },
+  "fdg_tfm_bbank_fulfillment": {
+    "id": "f2e6fe1e-b8d3-4c73-a1c3-55f703c67c03",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:34.890613291Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_fulfillment WITH (schema='Training_Bbank_Fulfillment_v2') AS (SELECT _id, _valuelabemeaptrsd, eventMergeId, timestamp FROM bbank_democja_bcr_fulfillment)"
+  },
+  "fdg_tfm_bbank_webinteractions": {
+    "id": "fe9d509f-82ac-464f-bc24-6c2268be7241",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:36.595086157Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_webinteractions WITH (schema='Training_BBank_WebInteractions6_sch_AbelPerez') AS (SELECT _id, _valuelabemeaptrsd, eventType, identityMap, timestamp FROM bbank_democja_bcr_webinteractions)"
+  },
+  "fdg_tfm_bbank_bankaccount": {
+    "id": "46fa32cb-2933-46dd-9b5f-2614325f9d47",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:38.436626646Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_bankaccount WITH (schema='Training_BBank_BankAccount_sch_AbelPerez') AS (SELECT _valuelabemeaptrsd, personID FROM bbank_bankaccount_demo_bc)"
+  },
+  "fdg_tfm_bbank_loyalty": {
+    "id": "97a4d673-091b-4d6c-93b7-c5fe982010f3",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:40.204194540Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_loyalty WITH (schema='Training_BBank_Loyalty_sch_AbelPerez') AS (SELECT loyalty, personID FROM training_bbank_loyalty_ds_abelperez)"
+  },
+  "fdg_tfm_bbank_atmtransactions": {
+    "id": "fffcbc5c-c392-4046-b781-93644efa82fe",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:42.193413985Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_atmtransactions WITH (schema='Training_BBank_ATM_Transactions_sch_AbelPerez') AS (SELECT _id, _valuelabemeaptrsd, timestamp FROM training_bbank_atmtransactions_ds_abelperez)"
+  },
+  "fdg_tfm_bbank_productinteractions": {
+    "id": "6d4dc879-1c86-4feb-b9be-191378c1fe3c",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:44.011801277Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_productinteractions WITH (schema='Training_BBank_ProductsTransactions_sch_AbelPerez') AS (SELECT _id, _valuelabemeaptrsd, eventType, timestamp FROM training_bbank_productinteractions_ds)"
+  },
+  "fdg_tfm_bbank_products": {
+    "id": "5946add6-b266-4c87-89c1-6fb9041d907b",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:45.760064245Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_products WITH (schema='Training_BBank_Products_sch_AbelPerez') AS (SELECT productCategoryName, productID, productName FROM training_bbank_products_ds_abelperez)"
+  },
+  "fdg_tfm_bbank_atminfo": {
+    "id": "a6188177-01a0-4565-9881-bf802fd768b6",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:47.485478410Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_atminfo WITH (schema='Training_BBank_ATMInfo_sch_AbelPerez') AS (SELECT _valuelabemeaptrsd, atmAddress, atmID, isAtmActive FROM training_bbank_atminfo_ds_abelperez)"
+  },
+  "fdg_tfm_bbank_propensity": {
+    "id": "27a1b6e6-2405-4634-a406-7d383709b445",
+    "state": "SUBMITTED",
+    "created": "2026-10-14T14:53:49.185883266Z",
+    "sql": "CREATE TABLE fdg_tfm_bbank_propensity WITH (schema='BBANK_Propensity') AS (SELECT _valuelabemeaptrsd, person, personalEmail FROM bbank_propensity_ds)"
+  }
+}

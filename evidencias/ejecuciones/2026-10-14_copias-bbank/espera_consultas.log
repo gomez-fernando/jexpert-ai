@@ -1,0 +1,25 @@
+16:55:03 {'SUBMITTED': 11}
+16:56:12 {'SUBMITTED': 11}
+16:57:22 {'SUBMITTED': 11}
+16:58:31 {'IN_PROGRESS': 9, 'SUBMITTED': 2}
+16:59:40 {'IN_PROGRESS': 9, 'SUBMITTED': 2}
+17:00:50 {'SUCCESS': 5, 'IN_PROGRESS': 4, 'SUBMITTED': 2}
+17:02:00 {'SUCCESS': 9, 'SUBMITTED': 2}
+17:03:09 {'SUCCESS': 9, 'IN_PROGRESS': 1, 'SUBMITTED': 1}
+17:04:18 {'SUCCESS': 9, 'IN_PROGRESS': 2}
+17:05:27 {'SUCCESS': 9, 'IN_PROGRESS': 2}
+17:06:35 {'SUCCESS': 9, 'IN_PROGRESS': 2}
+17:07:43 {'SUCCESS': 11}
+fdg_tfm_bbank_profiledata            SUCCESS      425 s {"executorVMSeconds": 234, "clusterCpuSeconds": 5616, "clusterVMHours": 0.12999999523162842, "driverVMSeconds": 234, "clusterVMSeconds": 468} 
+fdg_tfm_bbank_applications           SUCCESS      484 s {"executorVMSeconds": 266, "clusterCpuSeconds": 6384, "clusterVMHours": 0.14777778089046478, "driverVMSeconds": 266, "clusterVMSeconds": 532} 
+fdg_tfm_bbank_fulfillment            SUCCESS      482 s {"executorVMSeconds": 260, "clusterCpuSeconds": 6240, "clusterVMHours": 0.14444445073604584, "driverVMSeconds": 260, "clusterVMSeconds": 520} 
+fdg_tfm_bbank_webinteractions        SUCCESS      480 s {"executorVMSeconds": 255, "clusterCpuSeconds": 6120, "clusterVMHours": 0.14166666567325592, "driverVMSeconds": 255, "clusterVMSeconds": 510} 
+fdg_tfm_bbank_bankaccount            SUCCESS      779 s {"executorVMSeconds": 552, "clusterCpuSeconds": 13248, "clusterVMHours": 0.30666667222976685, "driverVMSeconds": 552, "clusterVMSeconds": 1104} 
+fdg_tfm_bbank_loyalty                SUCCESS      416 s {"executorVMSeconds": 235, "clusterCpuSeconds": 5640, "clusterVMHours": 0.13055555522441864, "driverVMSeconds": 235, "clusterVMSeconds": 470} 
+fdg_tfm_bbank_atmtransactions        SUCCESS      414 s {"executorVMSeconds": 235, "clusterCpuSeconds": 5640, "clusterVMHours": 0.13055555522441864, "driverVMSeconds": 235, "clusterVMSeconds": 470} 
+fdg_tfm_bbank_productinteractions    SUCCESS      473 s {"executorVMSeconds": 254, "clusterCpuSeconds": 6096, "clusterVMHours": 0.1411111056804657, "driverVMSeconds": 254, "clusterVMSeconds": 508} 
+fdg_tfm_bbank_products               SUCCESS      832 s {"executorVMSeconds": 615, "clusterCpuSeconds": 14760, "clusterVMHours": 0.34166666865348816, "driverVMSeconds": 615, "clusterVMSeconds": 1230} 
+fdg_tfm_bbank_atminfo                SUCCESS      409 s {"executorVMSeconds": 228, "clusterCpuSeconds": 5472, "clusterVMHours": 0.12666666507720947, "driverVMSeconds": 228, "clusterVMSeconds": 456} 
+fdg_tfm_bbank_propensity             SUCCESS      407 s {"executorVMSeconds": 233, "clusterCpuSeconds": 5592, "clusterVMHours": 0.1294444501399994, "driverVMSeconds": 233, "clusterVMSeconds": 466} 
+
+[exited with code 0]

@@ -1,0 +1,305 @@
+{
+  "fdg_tfm_bbank_profiledata": {
+    "dataset": "6acf9882c45f8bce17046ded",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_profiledata"
+    ],
+    "clase": "record",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      19,
+      19
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 7730,
+      "copia": 7730
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_applications": {
+    "dataset": "6acf98a434e4d258bab246a0",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_applications"
+    ],
+    "clase": "time-series",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      10,
+      10
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 40414,
+      "copia": 40414
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_fulfillment": {
+    "dataset": "6acf989d35953e0d1775cf3c",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_fulfillment"
+    ],
+    "clase": "time-series",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      8,
+      8
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 15577,
+      "copia": 15577
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_webinteractions": {
+    "dataset": "6acf98961e695f5e51febdbd",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_webinteractions"
+    ],
+    "clase": "time-series",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      15,
+      15
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 260627,
+      "copia": 260627
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_bankaccount": {
+    "dataset": "6acf99c5f07a3d91b7634513",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_bankaccount"
+    ],
+    "clase": "record",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      5,
+      5
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 2530,
+      "copia": 2530
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_loyalty": {
+    "dataset": "6acf9884230d559194bd933d",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_loyalty"
+    ],
+    "clase": "record",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      3,
+      3
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 1002,
+      "copia": 1002
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_atmtransactions": {
+    "dataset": "6acf988834e4d258bab2469f",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_atmtransactions"
+    ],
+    "clase": "time-series",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": false,
+    "campos": [
+      6,
+      6
+    ],
+    "solo_origen": [
+      [
+        "_id",
+        "string",
+        null
+      ]
+    ],
+    "solo_copia": [
+      [
+        "_id",
+        "string",
+        "uri-reference"
+      ]
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 1000,
+      "copia": 1000
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_productinteractions": {
+    "dataset": "6acf989a93227ab0b0fe4bc5",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_productinteractions"
+    ],
+    "clase": "time-series",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": false,
+    "campos": [
+      6,
+      6
+    ],
+    "solo_origen": [
+      [
+        "_id",
+        "string",
+        null
+      ]
+    ],
+    "solo_copia": [
+      [
+        "_id",
+        "string",
+        "uri-reference"
+      ]
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 315,
+      "copia": 315
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_products": {
+    "dataset": "6acf9a0393227ab0b0fe4da4",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_products"
+    ],
+    "clase": "record",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      3,
+      3
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 44,
+      "copia": 44
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_atminfo": {
+    "dataset": "6acf9881c45f8bce17046dec",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_atminfo"
+    ],
+    "clase": "record",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      4,
+      4
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 43,
+      "copia": 43
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  },
+  "fdg_tfm_bbank_propensity": {
+    "dataset": "6acf9882f2ff6682a927e6fe",
+    "mismo_schema": true,
+    "perfil": null,
+    "identidad": null,
+    "tabla_qs": [
+      "fdg_tfm_bbank_propensity"
+    ],
+    "clase": "record",
+    "createdClient": "acp_foundation_queryService_write",
+    "campos_iguales": true,
+    "campos": [
+      11,
+      11
+    ],
+    "lotes": [
+      "success"
+    ],
+    "filas": {
+      "origen": 100,
+      "copia": 100
+    },
+    "copia_no_en_origen": 0,
+    "origen_no_en_copia": 0
+  }
+}

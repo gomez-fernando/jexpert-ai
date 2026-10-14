@@ -1,0 +1,14 @@
+{
+  "fecha": "2026-10-14",
+  "sandbox": "dev",
+  "datasets": 749,
+  "datasets_con_datos": 509,
+  "datasets_con_perfil": 371,
+  "filas": 76076550,
+  "schemas_propios": 1954,
+  "namespaces": 248,
+  "politicas_de_fusion": 19,
+  "audiencias": 453,
+  "segundos": 255,
+  "errores": []
+}

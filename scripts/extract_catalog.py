@@ -7,7 +7,8 @@ Por defecto perfila los datasets cuyo nombre casa con --datasets y deja en --out
   relaciones.csv       cruces entre datasets y cuántos valores encuentran en el destino
   eventos_por_mes.csv  eventos y clientes por mes de cada dataset de eventos
   catalogo.md          el mismo catálogo en formato para leer
-  extraccion.json      fecha, sandbox, base de clientes y errores de la extracción
+  extraccion.json      fecha, hora de inicio y fin en UTC, sandbox, base de clientes y errores.
+                       Con la hora se localizan sus consultas en el registro de Query Service
 
 Si existe notas.csv en la carpeta que contiene --out-dir, sus columnas significado_nulo y notas
 pasan al catálogo. Las filas de notas.csv sin ruta son notas del dataset.
@@ -98,6 +99,14 @@ def col(path):
 
 def iso_day(ms):
     return datetime.fromtimestamp(ms / 1000, tz=timezone.utc).strftime('%Y-%m-%d') if ms else None
+
+
+def shown(path):
+    """Ruta relativa a la raíz del repositorio, para no mostrar la ruta local en los logs."""
+    try:
+        return path.relative_to(PROJECT_ROOT)
+    except ValueError:
+        return path
 
 
 def chunks(items, size):
@@ -557,8 +566,12 @@ def write_catalog(out_dir, datasets, base, customer_ns, relations, notes, meta):
     (out_dir / 'catalogo.md').write_text('\n'.join(md) + '\n', encoding='utf-8')
 
 
+def utc_now():
+    return datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
 def build_catalog(pattern_text, out_dir, sandbox):
-    started = time.time()
+    started, started_utc = time.time(), utc_now()
     datasets = load_datasets(re.compile(pattern_text))
     if not datasets:
         sys.exit(f'Ningún dataset con tabla en Query Service casa con {pattern_text}')
@@ -580,10 +593,10 @@ def build_catalog(pattern_text, out_dir, sandbox):
     meta = {'fecha': date.today().isoformat(), 'sandbox': sandbox, 'datasets': pattern_text,
             'base_clientes': base['name'] if base else None, 'campo_cliente': base['key'] if base else None,
             'namespace_cliente': customer_ns, 'datasets_perfilados': [d['name'] for d in datasets],
-            'segundos': round(time.time() - started), 'errores': _errors}
+            'inicio_utc': started_utc, 'fin_utc': utc_now(), 'segundos': round(time.time() - started), 'errores': _errors}
     write_catalog(out_dir, datasets, base, customer_ns, relations, notes, meta)
     (out_dir / 'extraccion.json').write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding='utf-8')
-    log('Catálogo en', out_dir, '| datasets:', len(datasets), '| errores:', len(_errors))
+    log('Catálogo en', shown(out_dir), '| datasets:', len(datasets), '| errores:', len(_errors))
 
 
 # Inventario completo
@@ -616,7 +629,7 @@ def count_objects():
 
 
 def build_inventory(out_dir, sandbox):
-    started = time.time()
+    started, started_utc = time.time(), utc_now()
     datasets = list_datasets('name,schemaRef,tags,classification,created,createdClient,dataIngested')
     log('Datasets en la sandbox:', len(datasets))
 
@@ -656,9 +669,10 @@ def build_inventory(out_dir, sandbox):
                'datasets_con_datos': sum(1 for r in rows if r['con_datos'] == 'true'),
                'datasets_con_perfil': sum(1 for r in rows if r['perfil_habilitado'] == 'true'),
                'filas': sum(int(r['filas']) for r in rows if str(r['filas']).isdigit()),
-               **count_objects(), 'segundos': round(time.time() - started), 'errores': _errors}
+               **count_objects(), 'inicio_utc': started_utc, 'fin_utc': utc_now(),
+               'segundos': round(time.time() - started), 'errores': _errors}
     (out_dir / 'inventario.json').write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding='utf-8')
-    log('Inventario en', out_dir, '| datasets:', len(rows), '| errores:', len(_errors))
+    log('Inventario en', shown(out_dir), '| datasets:', len(rows), '| errores:', len(_errors))
 
 
 def main():
@@ -683,7 +697,7 @@ def main():
     out_dir = out_dir if out_dir.is_absolute() else PROJECT_ROOT / out_dir
     out_dir.mkdir(parents=True, exist_ok=True)
     sandbox = load_config().sandbox_name
-    log('Sandbox:', sandbox, '| salida:', out_dir)
+    log('Sandbox:', sandbox, '| salida:', shown(out_dir))
 
     if args.full_inventory:
         build_inventory(out_dir, sandbox)

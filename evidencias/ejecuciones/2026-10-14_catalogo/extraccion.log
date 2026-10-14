@@ -1,0 +1,27 @@
+17:56:01 Sandbox: dev | salida: catalogo\2026-10-14
+17:56:13 Metadatos: fdg_tfm_bbank_applications
+17:56:16 Metadatos: fdg_tfm_bbank_atminfo
+17:56:19 Metadatos: fdg_tfm_bbank_atmtransactions
+17:56:21 Metadatos: fdg_tfm_bbank_bankaccount
+17:56:24 Metadatos: fdg_tfm_bbank_branch
+17:56:28 Metadatos: fdg_tfm_bbank_fulfillment
+17:56:30 Metadatos: fdg_tfm_bbank_loyalty
+17:56:33 Metadatos: fdg_tfm_bbank_productinteractions
+17:56:35 Metadatos: fdg_tfm_bbank_products
+17:56:38 Metadatos: fdg_tfm_bbank_profiledata
+17:56:41 Metadatos: fdg_tfm_bbank_propensity
+17:56:44 Metadatos: fdg_tfm_bbank_webinteractions
+17:56:58 Base de clientes: fdg_tfm_bbank_profiledata TRBbankProfileID
+17:57:10 Perfilado: fdg_tfm_bbank_atminfo (4 campos)
+17:57:13 Perfilado: fdg_tfm_bbank_branch (5 campos)
+17:57:15 Perfilado: fdg_tfm_bbank_bankaccount (5 campos)
+17:57:18 Perfilado: fdg_tfm_bbank_atmtransactions (5 campos)
+17:57:19 Perfilado: fdg_tfm_bbank_loyalty (3 campos)
+17:57:20 Perfilado: fdg_tfm_bbank_applications (8 campos)
+17:57:22 Perfilado: fdg_tfm_bbank_fulfillment (7 campos)
+17:57:23 Perfilado: fdg_tfm_bbank_products (3 campos)
+17:57:27 Perfilado: fdg_tfm_bbank_productinteractions (5 campos)
+17:57:27 Perfilado: fdg_tfm_bbank_propensity (11 campos)
+17:57:36 Perfilado: fdg_tfm_bbank_profiledata (19 campos)
+17:57:41 Perfilado: fdg_tfm_bbank_webinteractions (13 campos)
+17:58:09 Catálogo en catalogo\2026-10-14 | datasets: 12 | errores: 0
