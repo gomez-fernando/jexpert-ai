@@ -9,10 +9,10 @@ Acordado con el usuario el 2026-10-14. La entrega es el 2026-10-30. Los requisit
 | 1. Copias de BBank | 2026-10-14 | Hecha. 12 copias `fdg_tfm_bbank_*` en la sandbox `dev`, comprobadas contra su origen (`copias-bbank.md`) |
 | 2. Catálogo | 2026-10-15 y 2026-10-16 | Hecha el 2026-10-14. `scripts/extract_catalog.py` y el catálogo en `catalogo/2026-10-14/` |
 | 3. Skill | 2026-10-17 a 2026-10-21 | `SKILL.md`, ficheros de referencia y README |
-| 4. Peticiones de prueba | En paralelo con la fase 3 | Cinco o seis peticiones con su respuesta esperada |
+| 4. Peticiones de prueba | En paralelo con la fase 3 | Cuatro peticiones con su respuesta esperada |
 | 5. Comparación sin y con la skill | 2026-10-22 a 2026-10-25 | Horas, calidad y costes de los dos modos |
 | 6. Evidencias | Durante las fases 3 a 5 | Ejecuciones fechadas con sus incidencias, capturas con pie y entradas del registro de uso de IA |
-| 7. Documento y entrega | 2026-10-26 a 2026-10-29, entrega el 2026-10-30 | Documento de 15 páginas como máximo, README para que otra persona instale la skill, repo `jexpert-ai` reproducible y vídeo opcional |
+| 7. Documento y entrega | 2026-10-26 a 2026-10-29, entrega el 2026-10-30 | Documento de unas 10 páginas (la guía pone 15 como máximo), README para que otra persona instale la skill, repositorio reproducible (una copia limpia de `jexpert-ai`, sin `status.md` ni notas de trabajo). Sin vídeo, descartado el 2026-10-17 |
 
 ## Cumplimiento de la guía
 
@@ -22,7 +22,7 @@ Acordado con el usuario el 2026-10-14, antes de empezar la skill. Las evidencias
 | --- | --- | --- |
 | Documento de 15 páginas como máximo, con la estructura del apartado 5 | `documento/esqueleto-memoria.md`, con las ocho secciones y el reparto de páginas, que se rellena al cerrar cada fase | Claude prepara los hechos y los borradores, y el usuario escribe o corrige el análisis |
 | Capturas con un pie que diga qué se ve, qué demuestra y de qué fecha es | `evidencias/capturas.md`, con cada captura que hace falta, la sección que respalda y el pie redactado. Claude avisa en el momento de hacerla | El usuario hace las capturas |
-| Repositorio reproducible | La skill, `scripts/extract_catalog.py`, el catálogo con su fecha, las peticiones de prueba con su respuesta esperada y un script que compara las respuestas | Claude |
+| Repositorio reproducible | La skill, `scripts/extract_catalog.py`, el catálogo con su fecha, las peticiones de prueba con su respuesta esperada y la tabla con la puntuación de cada respuesta | Claude |
 | Evidencia de operación e incidencias | `evidencias/ejecuciones/`, con una ficha por ejecución fechada, y `evidencias/incidencias.md` | Claude, y el usuario lo valida |
 | Comparación sin y con la skill | `evidencias/comparacion/protocolo.md`, escrito antes de medir | Los dos. El usuario cronometra la petición hecha a mano |
 | Registro de uso de IA | `registro-ia.md`, con los seis campos de la guía y una entrada por intercambio relevante, anotada el mismo día | Claude prepara cada entrada y el usuario escribe la decisión humana |
@@ -71,26 +71,31 @@ Lee una petición de audiencia escrita por negocio y el catálogo. Comprueba pri
 
 Propone y no escribe nada en AEP.
 
-Funciona de dos formas, porque Roberto Fuertes López va a probarla por su cuenta y no tiene acceso a la sandbox:
+Funciona de dos formas, porque Roberto Fuertes va a probarla por su cuenta y no tiene acceso a la sandbox:
 
 - Con credenciales de la sandbox, calcula con Query Service el número exacto de clientes de la audiencia y de cada condición, sobre las copias. Son lecturas interactivas, que según Adobe no gastan horas de Data Distiller.
 - Sin credenciales, trabaja solo con el catálogo del repo. Da un tamaño aproximado con los recuentos por valor del catálogo, marcado como estimación porque supone que las condiciones son independientes, y deja como pendientes las comprobaciones exactas.
 
-Lo que Roberto no pueda ejecutar se demuestra en el documento con ejecuciones fechadas y capturas, o en el vídeo.
+Lo que Roberto no pueda ejecutar se demuestra en el documento con ejecuciones fechadas y capturas.
 
 Una petición viable con matices sería "clientes de Madrid con una tarjeta denegada que llegaron por la campaña de Black Friday", porque las denegadas solo se atribuyen a clientes por el email. Una no viable, "clientes cuyo saldo ha bajado en los últimos tres meses", porque no hay histórico del saldo. Los huecos conocidos de los datos (movimientos de tarjeta, evolución del saldo, importe de las solicitudes y propensión sin cruce con los clientes) sirven para las peticiones no viables.
 
 ## Peticiones de prueba
 
-Cinco o seis peticiones: dos viables, dos viables con matices y dos no viables. Se redactan como un correo de negocio, en lenguaje libre y con alguna ambigüedad, y no como una lista de condiciones. Cada una lleva su respuesta esperada.
+Cuatro peticiones: una viable, una viable con matices y dos no viables (eran cinco o seis hasta el recorte del 2026-10-17). Se redactan como un correo de negocio, en lenguaje libre y con alguna ambigüedad, y no como una lista de condiciones. Cada una lleva su respuesta esperada.
 
 Un ejemplo es "clientes que empezaron a contratar una tarjeta en la web en los dos últimos meses y no la terminaron, sin solicitudes rechazadas por sospecha de fraude, que acepten email y con saldo alto". Cruza cuatro datasets, el consentimiento de email solo existe para el 32,7 % de los clientes y el saldo alto no está definido.
 
 ## Comparación sin y con la skill
 
 - Se usa el mismo lote de peticiones en los dos modos.
+- La comparación usa la skill con acceso a la sandbox. Sin acceso, la skill se ejecuta con una o dos peticiones del lote para demostrar que funciona, y no entra en la comparación (2026-10-17).
+- La calidad se puntúa a mano, con la lista de puntos del protocolo, sin un script que compare las respuestas (2026-10-17).
 - Las horas a mano salen de cronometrar de principio a fin una sola petición resuelta a mano y de estimar el resto por pasos, calibrados con esa medida. Los pasos son entender la petición, buscar cada condición en los datasets, lanzar una query por condición para ver cuántos clientes la cumplen, redactar la respuesta y revisarla. El tiempo de cada petición depende de su número de condiciones. Va marcado como estimación con su supuesto.
 - Con la skill se miden por separado las horas de ejecución y las de revisión humana.
 - La calidad se mide con la misma lista de puntos en los dos modos, frente a la respuesta esperada: veredicto, atributo de cada condición, huecos detectados, avisos de cobertura y de valores vacíos, y decisiones para negocio. La nota es el porcentaje de puntos acertados.
-- El coste de Data Distiller sale del registro de consultas (`computeMetrics.clusterVMHours`), con el ID de cada consulta. La preparación gastó 0,37 horas en la copia de prueba y 1,87 en las otras 11.
+- El coste de Data Distiller sale del registro de consultas (`computeMetrics.clusterVMHours`), con el ID de cada consulta. La preparación gastó 0,37 horas en la copia de prueba y 1,87 en las otras 11. Comprobado por la API el 2026-10-17: desde el 2026-10-10 hay 207 consultas del TFM en `dev`. Las 12 CTAS suman 2,2383 horas, y las 195 lecturas interactivas (una fallida) no tienen `computeMetrics`, así que no registran horas de clúster. El listado trae el SQL en `effectiveSQL`, no en `sql`, y también los campos `clientId` y `userId`, que no se imprimen.
+- En la sandbox `dev`, el registro de consultas (`/data/foundation/query/queries`) da `computeMetrics.clusterVMHours` en cada consulta batch. Cada CTAS o `INSERT INTO` gasta entre 0,10 y 0,37 horas aunque escriba una fila, las fallidas también consumen y pasan unos 13 minutos en cola, aunque varias lanzadas a la vez esperan en paralelo. Que esa cifra sea la que descuenta la licencia está sin confirmar, pero es la que usa el TFM como coste desde el 2026-10-14.
+- Licencia de la organización de Jakala, según la captura del dashboard de uso de licencia que pasó el usuario el 2026-10-14, que es la vista Production: Compute hours 2.000 contratadas y 0,232 consumidas (0 %), AI credits 19.400 de 10.000 (194 %) y Addressable audience 8.352 de 6.000 (139 %).
+- El dashboard tiene un selector Production/Development (lo ve el usuario el 2026-10-17). La sandbox `dev` cuenta en Development, que suma todos los sandboxes de desarrollo de la organización. Ahí Compute hours no muestra horas contratadas y marca 6,726 consumidas, con datos recogidos por última vez el 2026-10-10, así que el 2026-10-17 todavía no incluye las 11 copias del 2026-10-14. Según la página de packaging de Query Service (consultada el 2026-10-17), todos los derechos de Query Service se comparten entre todos los sandboxes, así que las 2.000 horas cubrirían también los de desarrollo (la página no nombra Compute hours de forma expresa). Entre las dos vistas suman unas 6,96 horas de 2.000.
 - Para el beneficio anual hay que estimar cuántas peticiones de viabilidad hay al año en un proyecto de CDP y el coste por hora, las dos con su supuesto.

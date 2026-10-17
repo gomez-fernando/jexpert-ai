@@ -47,3 +47,11 @@ En el catálogo, el motivo de rechazo de `fdg_tfm_bbank_applications` salía con
 Las denegadas solo se pueden atribuir a un cliente por el email: 2.958 clientes de la base tienen alguna. Se añadió al extractor el cruce por email y la explicación a `catalogo/notas.csv`. Es una de las situaciones que la skill tiene que detectar en una petición.
 
 Las consultas de comprobación están en el registro de Query Service del 2026-10-14, entre las 15:53 y las 15:55 UTC. Las dos que lo demuestran son `e4004fed-3555-4229-b318-47a85e9b76a9` (solicitudes por estado, con y sin cliente) y `e99ea0e7-8d28-4d8c-8bb5-c463fc08bb9e` (emails de las solicitudes que están en la base). El detalle está en `ejecuciones/2026-10-14_catalogo/ficha.md`.
+
+## I07. El registro de consultas no trae el SQL en el campo `sql`
+
+Fecha: 2026-10-17.
+
+La primera versión del script de coste no encontró ninguna consulta del TFM entre las 4.211 de la sandbox, porque buscaba el texto de cada consulta en el campo `sql`. El listado de `GET /data/foundation/query/queries` no trae ese campo, y al pedir una consulta por su ID llega vacío. El SQL está en `effectiveSQL`. Se cambió el script para leer `effectiveSQL`, y con esa versión aparecieron las 207 consultas del TFM.
+
+Antes, una primera ejecución se paró a los 5 minutos porque no mostraba ningún avance. La versión guardada muestra el avance por página y descarta las páginas repetidas. El detalle está en `ejecuciones/2026-10-17_coste-consultas/ficha.md`.

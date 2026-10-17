@@ -1,5 +1,5 @@
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -14,10 +14,11 @@ DEFAULT_SCOPES = 'openid,AdobeID,read_organizations,additional_info.projectedPro
 @dataclass(frozen=True)
 class AEPConfig:
     credentials_path: Path
-    client_id: str
-    client_secret: str
-    api_key: str
-    org_id: str
+    # Fuera del repr para que imprimir la configuración no muestre los valores del fichero de credenciales.
+    client_id: str = field(repr=False)
+    client_secret: str = field(repr=False)
+    api_key: str = field(repr=False)
+    org_id: str = field(repr=False)
     sandbox_name: str
     db_name: str
     scopes: str

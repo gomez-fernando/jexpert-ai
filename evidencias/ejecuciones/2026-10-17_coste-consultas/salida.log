@@ -1,0 +1,34 @@
+﻿Inicio: 2026-10-17 20:53:47 UTC
+Página 1: 500 nuevas, 500 en total, última 2026-10-10T21:15:41
+Página 2: 499 nuevas, 999 en total, última 2026-10-10T21:23:06
+Página 3: 499 nuevas, 1498 en total, última 2026-10-11T01:09:38
+Página 4: 499 nuevas, 1997 en total, última 2026-10-13T01:05:05
+Página 5: 499 nuevas, 2496 en total, última 2026-10-14T01:17:44
+Página 6: 499 nuevas, 2995 en total, última 2026-10-14T16:00:04
+Página 7: 499 nuevas, 3494 en total, última 2026-10-15T01:07:01
+Página 8: 498 nuevas, 3992 en total, última 2026-10-17T01:17:35
+Página 9: 219 nuevas, 4211 en total, última 2026-10-17T20:26:23
+Página 10: 0 nuevas, 4211 en total, última -
+
+Consultas en dev desde 2026-10-10T00:00:00Z: 4211. Del TFM (fdg_tfm_bbank): 207
+
+2026-10-10T23:03:49  2c4be3db-706b-4318-9d73-017867e9b705  SUCCESS   Generic PostgreSQL  0.3678  CREATE TABLE fdg_tfm_bbank_branch WITH (schema='Training_BBa
+2026-10-14T14:53:31  ae1047ee-f1ee-4ce5-9a74-3afd9f637492  SUCCESS   API                 0.1300  CREATE TABLE fdg_tfm_bbank_profiledata WITH (schema='Trainin
+2026-10-14T14:53:33  63482ac0-ad37-4181-86e7-79e3f75101c3  SUCCESS   API                 0.1478  CREATE TABLE fdg_tfm_bbank_applications WITH (schema='Traini
+2026-10-14T14:53:34  f2e6fe1e-b8d3-4c73-a1c3-55f703c67c03  SUCCESS   API                 0.1444  CREATE TABLE fdg_tfm_bbank_fulfillment WITH (schema='Trainin
+2026-10-14T14:53:36  fe9d509f-82ac-464f-bc24-6c2268be7241  SUCCESS   API                 0.1417  CREATE TABLE fdg_tfm_bbank_webinteractions WITH (schema='Tra
+2026-10-14T14:53:38  46fa32cb-2933-46dd-9b5f-2614325f9d47  SUCCESS   API                 0.3067  CREATE TABLE fdg_tfm_bbank_bankaccount WITH (schema='Trainin
+2026-10-14T14:53:40  97a4d673-091b-4d6c-93b7-c5fe982010f3  SUCCESS   API                 0.1306  CREATE TABLE fdg_tfm_bbank_loyalty WITH (schema='Training_BB
+2026-10-14T14:53:42  fffcbc5c-c392-4046-b781-93644efa82fe  SUCCESS   API                 0.1306  CREATE TABLE fdg_tfm_bbank_atmtransactions WITH (schema='Tra
+2026-10-14T14:53:44  6d4dc879-1c86-4feb-b9be-191378c1fe3c  SUCCESS   API                 0.1411  CREATE TABLE fdg_tfm_bbank_productinteractions WITH (schema=
+2026-10-14T14:53:45  5946add6-b266-4c87-89c1-6fb9041d907b  SUCCESS   API                 0.3417  CREATE TABLE fdg_tfm_bbank_products WITH (schema='Training_B
+2026-10-14T14:53:47  a6188177-01a0-4565-9881-bf802fd768b6  SUCCESS   API                 0.1267  CREATE TABLE fdg_tfm_bbank_atminfo WITH (schema='Training_BB
+2026-10-14T14:53:49  27a1b6e6-2405-4634-a406-7d383709b445  SUCCESS   API                 0.1294  CREATE TABLE fdg_tfm_bbank_propensity WITH (schema='BBANK_Pr
+
+Tipo     Estado     Consultas  Con horas  clusterVMHours
+batch    SUCCESS           12         12          2.2383
+lectura  FAILED             1          0          0.0000
+lectura  SUCCESS          194          0          0.0000
+
+Total clusterVMHours: 2.2383
+Fin: 2026-10-17 20:53:59 UTC
