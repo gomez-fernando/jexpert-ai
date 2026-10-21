@@ -22,6 +22,5 @@ status/sandbox-dev/
 # Notas de trabajo que no se entregan con el TFM
 privado/
 
-# Inventario completo de la sandbox (scripts/extract_catalog.py --full-inventory). Lleva los nombres
-# de todos los datasets, también los de proyectos de clientes de Jakala
+# Inventario completo de la sandbox (scripts/extract_catalog.py --full-inventory). Solo sirve para explorar la sandbox y no se entrega
 inventario/

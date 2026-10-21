@@ -1,0 +1,10 @@
+# Decisiones sobre el repositorio y las credenciales
+
+Decisiones técnicas del TFM sobre qué sube a `jexpert-ai`, su historial, la protección de las credenciales en `aep/` y qué datos pueden salir del entorno de trabajo del usuario. Salieron de `status.md` el 2026-10-18 y el 2026-10-20 para que no pasara de 150 líneas, y siguen vigentes.
+
+- 2026-10-02: los datos del proyecto de trabajo del usuario se quedan en su entorno y no entran en este repositorio. Decide el usuario.
+- 2026-10-02: las normas del cliente del usuario y de Jakala no permiten enviar datos desde la cuenta personal del usuario. Para el TFM no se abren ni se pegan datos reales en el asistente. Las skills llevan parámetros y ejemplos sintéticos, y un fichero real solo entra enmascarado por un script local que ejecuta el usuario. El mecanismo concreto, incluidas las reglas de denegación de lectura en la configuración, está sin confirmar.
+
+- 2026-10-10: todo el contenido de esta carpeta va al GitHub personal (`jexpert-ai`) salvo las credenciales, que excluye el `.gitignore` con `*.postman_environment.json`. Decide el usuario.
+- 2026-10-14: se reescribe el historial de git: `status.md`, `dudas-roberto.md` y la transcripción de la sesión 4 se quitan de todos los commits con `git filter-repo`, y sus versiones limpias entran en el commit `a45d87c`. Los cinco commits anteriores conservan su fecha y cambian de identificador. En GitHub hay que borrar el repo y crearlo de nuevo, porque tras un force push la página Activity sigue enlazando el estado anterior. La copia del historial anterior está en `privado/` (`historial-anterior-2026-10-14.bundle` y `git-anterior-2026-10-14/`). Decide el usuario.
+- 2026-10-17: `client_secret` sale del repr de `AEPConfig` (`field(repr=False)` en `aep/config.py`), para que imprimir la configuración no muestre el secreto. Ese mismo día salen también `client_id`, `api_key` y `org_id`. Se hace antes de que Claude vuelva a conectarse por la API, pero las conexiones del 2026-10-10 al 2026-10-14 se hicieron sin este arreglo, así que no se puede fechar antes. Decide el usuario.

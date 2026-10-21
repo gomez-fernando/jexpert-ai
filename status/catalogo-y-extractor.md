@@ -1,0 +1,7 @@
+# Decisiones sobre el catálogo y el extractor
+
+Decisiones técnicas del TFM sobre `scripts/extract_catalog.py` y el formato del catálogo. Salieron de `status.md` el 2026-10-18 para que no pasara de 150 líneas, y siguen vigentes.
+
+- 2026-10-11: el script reutilizable será `scripts/extract_catalog.py`, con `--datasets` (regex, por defecto `^fdg_tfm_bbank_`), `--out-dir` (por defecto `catalogo/AAAA-MM-DD/`) y `--full-inventory` como alternativa. Decide el usuario.
+- 2026-10-14: el formato del catálogo es `catalogo.csv` (un atributo por fila) con `datasets.csv`, `relaciones.csv`, `eventos_por_mes.csv`, `catalogo.md` y `extraccion.json`, y las notas manuales van en `catalogo/notas.csv`. Lo propone Claude al escribir el script, con el "hazlo" del usuario, y el usuario lo da por bueno el 2026-10-16: las notas van aparte para que una extracción nueva no las borre.
+- 2026-10-14: con `--full-inventory`, la carpeta por defecto es `inventario/AAAA-MM-DD/` y no `catalogo/AAAA-MM-DD/`, y `inventario/` entra en el `.gitignore`. Motivo: el inventario lleva los nombres de los datasets de las POC de clientes de Jakala, que se excluyeron el 2026-10-10 y no deben subir a GitHub. Cambia el valor por defecto aprobado el 2026-10-11. Lo propone Claude y el usuario lo aprueba el 2026-10-17: el catálogo es lo que lee la skill y se entrega con su fecha, y el inventario solo sirve para explorar la sandbox.

@@ -1,5 +1,7 @@
 # Registro de uso de IA
 
+Desde el 2026-10-19 este registro no se actualiza. Sus entradas R02 a R11 se copiaron ese día a `ai-usage-log.md`, en el repositorio de la skill (`C:\PROJECTS\AEP VIABILIDAD AUDIENCIA`), que es el que se entrega y donde se anotan las entradas nuevas. Allí se numeran de R01 a R10, porque el 2026-10-20 se quitó la R01, que no aportaba nada. Cualquier corrección se hace allí.
+
 Recoge los intercambios con modelos de IA que afectaron a decisiones, código, reglas o resultados del TFM, según el apartado 7 de la Guía de alumnos TFM. No transcribe cada conversación: cada entrada es un intercambio relevante, con los seis campos que propone la guía.
 
 Las entradas van enmascaradas, sin secretos, datos personales ni nombres reales de mi proyecto de trabajo. Las horas van en UTC.

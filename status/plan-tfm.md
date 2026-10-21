@@ -1,6 +1,6 @@
 # Plan de trabajo del TFM
 
-Acordado con el usuario el 2026-10-14. La entrega es el 2026-10-30. Los requisitos de la guía y del profesor están en `requisitos-tfm.md`, en esta misma carpeta.
+Acordado con el usuario el 2026-10-14, con las fechas de las fases 3 a 7 ajustadas el 2026-10-20: el usuario trabaja 2 horas más ese día y 6 horas diarias del 2026-10-21 al 2026-10-25, unas 32 horas para unas 18 de trabajo estimado. Del 2026-10-26 al 2026-10-29 queda margen para revisar. La entrega es el 2026-10-30. Los requisitos de la guía y del profesor están en `requisitos-tfm.md`, en esta misma carpeta.
 
 ## Fases
 
@@ -8,31 +8,33 @@ Acordado con el usuario el 2026-10-14. La entrega es el 2026-10-30. Los requisit
 | --- | --- | --- |
 | 1. Copias de BBank | 2026-10-14 | Hecha. 12 copias `fdg_tfm_bbank_*` en la sandbox `dev`, comprobadas contra su origen (`copias-bbank.md`) |
 | 2. Catálogo | 2026-10-15 y 2026-10-16 | Hecha el 2026-10-14. `scripts/extract_catalog.py` y el catálogo en `catalogo/2026-10-14/` |
-| 3. Skill | 2026-10-17 a 2026-10-21 | `SKILL.md`, ficheros de referencia y README |
-| 4. Peticiones de prueba | En paralelo con la fase 3 | Cuatro peticiones con su respuesta esperada |
-| 5. Comparación sin y con la skill | 2026-10-22 a 2026-10-25 | Horas, calidad y costes de los dos modos |
-| 6. Evidencias | Durante las fases 3 a 5 | Ejecuciones fechadas con sus incidencias, capturas con pie y entradas del registro de uso de IA |
-| 7. Documento y entrega | 2026-10-26 a 2026-10-29, entrega el 2026-10-30 | Documento de unas 10 páginas (la guía pone 15 como máximo), README para que otra persona instale la skill, repositorio reproducible (una copia limpia de `jexpert-ai`, sin `status.md` ni notas de trabajo). Sin vídeo, descartado el 2026-10-17 |
+| 3. Skill | Metodología del repositorio (P01 a P05) el 2026-10-19 y el 2026-10-20. Skill del 2026-10-20 al 2026-10-21 | `SKILL.md`, ficheros de referencia y README |
+| 4. Peticiones de prueba | 2026-10-21 | Cuatro peticiones con su respuesta esperada |
+| 5. Comparación sin y con la skill | 2026-10-22 y 2026-10-23 | Horas, calidad y costes de los dos modos |
+| 6. Evidencias | Durante las fases 3 a 5, con la revisión final el 2026-10-23 | Ejecuciones fechadas con sus incidencias, capturas con pie y entradas del registro de uso de IA |
+| 7. Documento y entrega | 2026-10-24 y 2026-10-25, margen del 2026-10-26 al 2026-10-29 y entrega el 2026-10-30 | Documento de unas 10 páginas (la guía pone 15 como máximo), README para que otra persona instale la skill, repositorio reproducible (`C:\PROJECTS\AEP VIABILIDAD AUDIENCIA`, que desde el 2026-10-18 sustituye a la copia limpia de `jexpert-ai`). Sin vídeo, descartado el 2026-10-17 |
 
 ## Cumplimiento de la guía
 
 Acordado con el usuario el 2026-10-14, antes de empezar la skill. Las evidencias se generan mientras se trabaja y no al final, porque la guía pide ejecuciones fechadas con sus incidencias reales y decisiones que el usuario pueda explicar.
 
+Desde el 2026-10-19, las evidencias y el registro de IA están en el repositorio de la skill (`C:\PROJECTS\AEP VIABILIDAD AUDIENCIA`) y los lleva el chat de ese repositorio. `evidencias/` y `registro-ia.md` de esta carpeta son la versión anterior a la copia y ya no se actualizan.
+
 | Requisito de la guía | Cómo se cubre | Quién lo hace |
 | --- | --- | --- |
 | Documento de 15 páginas como máximo, con la estructura del apartado 5 | `documento/esqueleto-memoria.md`, con las ocho secciones y el reparto de páginas, que se rellena al cerrar cada fase | Claude prepara los hechos y los borradores, y el usuario escribe o corrige el análisis |
-| Capturas con un pie que diga qué se ve, qué demuestra y de qué fecha es | `evidencias/capturas.md`, con cada captura que hace falta, la sección que respalda y el pie redactado. Claude avisa en el momento de hacerla | El usuario hace las capturas |
+| Capturas con un pie que diga qué se ve, qué demuestra y de qué fecha es | `evidence/screenshots.md`, con cada captura que hace falta, la sección que respalda y el pie redactado. Claude avisa en el momento de hacerla | El usuario hace las capturas |
 | Repositorio reproducible | La skill, `scripts/extract_catalog.py`, el catálogo con su fecha, las peticiones de prueba con su respuesta esperada y la tabla con la puntuación de cada respuesta | Claude |
-| Evidencia de operación e incidencias | `evidencias/ejecuciones/`, con una ficha por ejecución fechada, y `evidencias/incidencias.md` | Claude, y el usuario lo valida |
-| Comparación sin y con la skill | `evidencias/comparacion/protocolo.md`, escrito antes de medir | Los dos. El usuario cronometra la petición hecha a mano |
-| Registro de uso de IA | `registro-ia.md`, con los seis campos de la guía y una entrada por intercambio relevante, anotada el mismo día | Claude prepara cada entrada y el usuario escribe la decisión humana |
+| Evidencia de operación e incidencias | `evidence/runs/`, con una ficha por ejecución fechada, y `evidence/incidents.md` | Claude, y el usuario lo valida |
+| Comparación sin y con la skill | `evidence/comparison/protocol.md`, escrito antes de medir | Los dos. El usuario cronometra la petición hecha a mano |
+| Registro de uso de IA | `ai-usage-log.md`, con los seis campos de la guía y una entrada por intercambio relevante, anotada el mismo día | Claude prepara cada entrada y el usuario escribe la decisión humana |
 | Artefacto instalable | README con instrucciones, configuración, ejemplo, pruebas y límites conocidos | Claude lo escribe, y el usuario u otra persona lo prueba desde cero |
 
 El análisis crítico es del usuario. Al cerrar cada fase hay una revisión corta: Claude enseña qué ha hecho, qué ha comprobado y qué no, y el usuario decide qué acepta, qué cambia y por qué. Lo que diga va tal cual al campo de decisión humana del registro de IA, y de ahí sale la sección de conclusiones y límites.
 
 La skill separa en sus respuestas los hechos, las inferencias y las preguntas abiertas, y marca lo que no ha podido comprobar, como pide el apartado 8 de la guía. Así sus respuestas sirven de captura de evidencia.
 
-Las fechas de las evidencias se apoyan en registros que no dependen del usuario, sobre todo el registro de consultas de Query Service, como explica `evidencias/README.md`. Al cerrar cada día de trabajo, el usuario hace commit y push a GitHub.
+Las fechas de las evidencias se apoyan en registros que no dependen del usuario, sobre todo el registro de consultas de Query Service, como explica `evidence/README.md` del repositorio de la skill. Al cerrar cada día de trabajo, el usuario hace commit y push a GitHub.
 
 ## Catálogo
 

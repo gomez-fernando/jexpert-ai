@@ -1,5 +1,7 @@
 # Evidencias del TFM
 
+Desde el 2026-10-19 esta carpeta no se actualiza. Su contenido se copió ese día a `evidence/`, en el repositorio de la skill (`C:\PROJECTS\AEP VIABILIDAD AUDIENCIA`), con los nombres de carpetas y ficheros en inglés. Las evidencias nuevas, incluidas las capturas pendientes de `capturas.md`, se guardan allí.
+
 Esta carpeta guarda la evidencia de operación que pide la Guía de alumnos TFM: ejecuciones fechadas, incidencias y su resolución, capturas y la comparación de la tarea sin y con la skill. Se rellena durante el trabajo, no al final, para que cada evidencia tenga la fecha en que ocurrió.
 
 ## Contenido
