@@ -1,6 +1,6 @@
 # Plan de trabajo del TFM
 
-Acordado con el usuario el 2026-10-14, con las fechas de las fases 3 a 7 ajustadas el 2026-10-20: el usuario trabaja 2 horas más ese día y 6 horas diarias del 2026-10-21 al 2026-10-25, unas 32 horas para unas 18 de trabajo estimado. Del 2026-10-26 al 2026-10-29 queda margen para revisar. La entrega es el 2026-10-30. Los requisitos de la guía y del profesor están en `requisitos-tfm.md`, en esta misma carpeta.
+Acordado con el usuario el 2026-10-14, con las fechas de las fases 3 a 7 ajustadas el 2026-10-20: el usuario trabaja 2 horas más ese día y 6 horas diarias del 2026-10-21 al 2026-10-25, unas 32 horas para unas 18 de trabajo estimado. Del 2026-10-26 al 2026-10-29 queda margen para revisar. La entrega es el 2026-10-30. El 2026-10-22, con lo que falta estimado en 15 a 19 horas y menos tiempo del previsto, el usuario aprueba recortes que lo dejan en 9 a 12 (detalle en Decisiones tomadas de `status.md`). Los requisitos de la guía y del profesor están en `requisitos-tfm.md`, en esta misma carpeta.
 
 ## Fases
 
@@ -11,8 +11,8 @@ Acordado con el usuario el 2026-10-14, con las fechas de las fases 3 a 7 ajustad
 | 3. Skill | Metodología del repositorio (P01 a P05) el 2026-10-19 y el 2026-10-20. Skill del 2026-10-20 al 2026-10-21 | `SKILL.md`, ficheros de referencia y README |
 | 4. Peticiones de prueba | 2026-10-21 | Cuatro peticiones con su respuesta esperada |
 | 5. Comparación sin y con la skill | 2026-10-22 y 2026-10-23 | Horas, calidad y costes de los dos modos |
-| 6. Evidencias | Durante las fases 3 a 5, con la revisión final el 2026-10-23 | Ejecuciones fechadas con sus incidencias, capturas con pie y entradas del registro de uso de IA |
-| 7. Documento y entrega | 2026-10-24 y 2026-10-25, margen del 2026-10-26 al 2026-10-29 y entrega el 2026-10-30 | Documento de unas 10 páginas (la guía pone 15 como máximo), README para que otra persona instale la skill, repositorio reproducible (`C:\PROJECTS\AEP VIABILIDAD AUDIENCIA`, que desde el 2026-10-18 sustituye a la copia limpia de `jexpert-ai`). Sin vídeo, descartado el 2026-10-17 |
+| 6. Evidencias | Durante las fases 3 a 5. Desde el 2026-10-22, la revisión final va dentro del prompt de la memoria | Ejecuciones fechadas con sus incidencias, capturas con pie y entradas del registro de uso de IA |
+| 7. Documento y entrega | 2026-10-24 y 2026-10-25, margen del 2026-10-26 al 2026-10-29 y entrega el 2026-10-30 | Documento de unas 8 páginas desde el 2026-10-22, antes 10 (la guía pone 15 como máximo), README para que otra persona instale la skill, probado con la ejecución sin sandbox en una instalación nueva, repositorio reproducible (`C:\PROJECTS\AEP VIABILIDAD AUDIENCIA`, que desde el 2026-10-18 sustituye a la copia limpia de `jexpert-ai`). Sin vídeo, descartado el 2026-10-17 |
 
 ## Cumplimiento de la guía
 
@@ -22,7 +22,7 @@ Desde el 2026-10-19, las evidencias y el registro de IA están en el repositorio
 
 | Requisito de la guía | Cómo se cubre | Quién lo hace |
 | --- | --- | --- |
-| Documento de 15 páginas como máximo, con la estructura del apartado 5 | `documento/esqueleto-memoria.md`, con las ocho secciones y el reparto de páginas, que se rellena al cerrar cada fase | Claude prepara los hechos y los borradores, y el usuario escribe o corrige el análisis |
+| Documento de 15 páginas como máximo, con la estructura del apartado 5 | `documento/esqueleto-memoria.md`, con las ocho secciones y el reparto de páginas, que se rellena al cerrar cada fase | Desde el 2026-10-22, Claude redacta la memoria entera, también el análisis, a partir de las evidencias y de las decisiones humanas del registro de IA, y el usuario la corrige |
 | Capturas con un pie que diga qué se ve, qué demuestra y de qué fecha es | `evidence/screenshots.md`, con cada captura que hace falta, la sección que respalda y el pie redactado. Claude avisa en el momento de hacerla | El usuario hace las capturas |
 | Repositorio reproducible | La skill, `scripts/extract_catalog.py`, el catálogo con su fecha, las peticiones de prueba con su respuesta esperada y la tabla con la puntuación de cada respuesta | Claude |
 | Evidencia de operación e incidencias | `evidence/runs/`, con una ficha por ejecución fechada, y `evidence/incidents.md` | Claude, y el usuario lo valida |
@@ -30,7 +30,7 @@ Desde el 2026-10-19, las evidencias y el registro de IA están en el repositorio
 | Registro de uso de IA | `ai-usage-log.md`, con los seis campos de la guía y una entrada por intercambio relevante, anotada el mismo día | Claude prepara cada entrada y el usuario escribe la decisión humana |
 | Artefacto instalable | README con instrucciones, configuración, ejemplo, pruebas y límites conocidos | Claude lo escribe, y el usuario u otra persona lo prueba desde cero |
 
-El análisis crítico es del usuario. Al cerrar cada fase hay una revisión corta: Claude enseña qué ha hecho, qué ha comprobado y qué no, y el usuario decide qué acepta, qué cambia y por qué. Lo que diga va tal cual al campo de decisión humana del registro de IA, y de ahí sale la sección de conclusiones y límites.
+El análisis crítico es del usuario. Al cerrar cada fase hay una revisión corta: Claude enseña qué ha hecho, qué ha comprobado y qué no, y el usuario decide qué acepta, qué cambia y por qué. Lo que diga va tal cual al campo de decisión humana del registro de IA, y de ahí sale la sección de conclusiones y límites. Desde el 2026-10-22, Claude redacta esa sección a partir de esas decisiones y el usuario la corrige.
 
 La skill separa en sus respuestas los hechos, las inferencias y las preguntas abiertas, y marca lo que no ha podido comprobar, como pide el apartado 8 de la guía. Así sus respuestas sirven de captura de evidencia.
 
@@ -91,9 +91,9 @@ Un ejemplo es "clientes que empezaron a contratar una tarjeta en la web en los d
 ## Comparación sin y con la skill
 
 - Se usa el mismo lote de peticiones en los dos modos.
-- La comparación usa la skill con acceso a la sandbox. Sin acceso, la skill se ejecuta con una o dos peticiones del lote para demostrar que funciona, y no entra en la comparación (2026-10-17).
+- La comparación usa la skill con acceso a la sandbox. Sin acceso, la skill se ejecuta con una petición del lote para demostrar que funciona, y no entra en la comparación (2026-10-17). Desde el 2026-10-22 es una sola petición, en una instalación nueva desde el README, que sirve también de prueba de instalación (C07 y C13).
 - La calidad se puntúa a mano, con la lista de puntos del protocolo, sin un script que compare las respuestas (2026-10-17).
-- Las horas a mano salen de cronometrar de principio a fin una sola petición resuelta a mano y de estimar el resto por pasos, calibrados con esa medida. Los pasos son entender la petición, buscar cada condición en los datasets, lanzar una query por condición para ver cuántos clientes la cumplen, redactar la respuesta y revisarla. El tiempo de cada petición depende de su número de condiciones. Va marcado como estimación con su supuesto.
+- Desde el 2026-10-27 no se cronometra ninguna petición: las horas a mano de las cuatro se estiman por pasos con tiempos por unidad, como estimación marcada, y la calidad solo se puntúa en el modo con la skill. Antes, las horas a mano salían de cronometrar de principio a fin una sola petición resuelta a mano y de estimar el resto por pasos, calibrados con esa medida. Los pasos son entender la petición, buscar cada condición en los datasets, lanzar una query por condición para ver cuántos clientes la cumplen, redactar la respuesta y revisarla. El tiempo de cada petición depende de su número de condiciones. Va marcado como estimación con su supuesto.
 - Con la skill se miden por separado las horas de ejecución y las de revisión humana.
 - La calidad se mide con la misma lista de puntos en los dos modos, frente a la respuesta esperada: veredicto, atributo de cada condición, huecos detectados, avisos de cobertura y de valores vacíos, y decisiones para negocio. La nota es el porcentaje de puntos acertados.
 - El coste de Data Distiller sale del registro de consultas (`computeMetrics.clusterVMHours`), con el ID de cada consulta. La preparación gastó 0,37 horas en la copia de prueba y 1,87 en las otras 11. Comprobado por la API el 2026-10-17: desde el 2026-10-10 hay 207 consultas del TFM en `dev`. Las 12 CTAS suman 2,2383 horas, y las 195 lecturas interactivas (una fallida) no tienen `computeMetrics`, así que no registran horas de clúster. El listado trae el SQL en `effectiveSQL`, no en `sql`, y también los campos `clientId` y `userId`, que no se imprimen.

@@ -1,8 +1,8 @@
 # Esqueleto de la memoria del TFM
 
-La memoria cuenta el caso de principio a fin en unas 10 páginas, con las capturas dentro, por debajo de las 15 que pone como máximo la guía. Sigue la estructura del apartado 5 de la Guía de alumnos TFM. El reparto deja media página de margen.
+La memoria cuenta el caso de principio a fin en unas 8 páginas, con las capturas dentro, por debajo de las 15 que pone como máximo la guía. Sigue la estructura del apartado 5 de la Guía de alumnos TFM. El reparto de la tabla estaba pensado para 10 páginas y se ajusta al redactarla (recorte del 2026-10-22).
 
-Cada sección se rellena al cerrar la fase de la que sale su contenido. Los hechos y las cifras los prepara Claude a partir de las evidencias, y el análisis (qué se acepta, qué no, por qué, qué queda sin demostrar) lo escribe el usuario.
+Desde el 2026-10-22, Claude redacta la memoria entera en un borrador, también el análisis (qué se acepta, qué no, por qué, qué queda sin demostrar), a partir de las evidencias y de las decisiones humanas del registro de IA, y el usuario la corrige. La revisión final de las evidencias (fase 6) se hace al redactar cada sección.
 
 | Sección | Páginas | Sale de | Capturas | Estado |
 | --- | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ La comparación sin y con la skill según `evidencias/comparacion/protocolo.md`:
 
 ## 8. Conclusiones y límites
 
-Qué queda demostrado y qué no, los riesgos y los siguientes pasos. Lo escribe el usuario a partir de sus revisiones de cada fase.
+Qué queda demostrado y qué no, los riesgos y los siguientes pasos. Lo redacta Claude a partir de las decisiones humanas del registro de IA, y el usuario lo corrige a fondo, porque es la parte que más cuenta como análisis crítico.
 
 ## Lista de comprobación antes de entregar
 
