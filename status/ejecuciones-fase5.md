@@ -55,6 +55,18 @@ Cada carpeta tiene `notes.md`, `queries.py` y `conversation.txt`. T01 y T02 tien
 - T04 se ejecutó el 2026-10-28, con sus cuatro ficheros (`notes.md`, `queries.py`, `output.json` y `conversation.txt`, sin `test-cases/expected`), y está en el commit `2c38ee9` (2026-10-28 17:53:21 hora local, con push y sin la copia de la skill). Su `notes.md` acaba en la marca de las 16:52:31 UTC (búsqueda de `test-cases/expected`, sin resultados), y no lleva las horas reales de la quinta pausa y de la respuesta ni la incidencia del primer `/export`. El usuario decide el 2026-10-28 dejarlo así.
 - T01 a T03 y la C08 están en el commit `0473f78`, con push. Desde el P10 (2026-10-28), `.gitignore` excluye `.claude/skills/audience-feasibility/` y los commits se pueden hacer con `git add -A`.
 
+## Decisiones de las ejecuciones y del P10
+
+Salieron de `status.md` el 2026-10-29.
+
+- 2026-10-28: las dos marcas de `notes.md` de T02 añadidas a mano (líneas 1 y 10) se quedan como están, sin decir que son posteriores. El P10 escribe la ficha de T02 con `notes.md` tal cual. Decide el usuario, después de que Claude recomendara indicarlo.
+- 2026-10-28: el `notes.md` de T04 se queda como está, sin las marcas que propuso Claude (horas reales de la quinta pausa y de la respuesta, e incidencia del primer `/export` enviado como mensaje). El P10 escribe la ficha de T04 con `notes.md` tal cual. Decide el usuario.
+- 2026-10-28: el prompt de los resultados de la comparación se llama `prompts/P10-comparison-results.md`. Decide el usuario.
+- 2026-10-28: el P10 analiza el 0 de T02 comparando el SQL de Q2 con el de la consulta `e99ea0e7` del 2026-10-14, que saca del registro de Query Service con un script de `aep/` (con su ficha, por la regla 1 de Evidencias de la skill), y no repite T02, porque su tamaño no puntúa. Decide el usuario, a propuesta de Claude.
+- 2026-10-28: el escenario pesimista del modo manual (la mitad de cada tiempo por unidad: 48,5, 56,5, 36,5 y 36,5 minutos) va en una sección nueva de resultado de `protocol.md`, debajo de Mediciones, anotado como añadido después de medir y sin cambiar el método. Cada ejecución lleva su entrada del registro (R21 a R24), como pide la regla 4 de Evidencias de la skill, y la propuesta del P10 lleva solo lo que el usuario tiene que validar, sin el texto de las fichas, para ahorrar tiempo. Decide el usuario, a propuesta de Claude.
+- 2026-10-28: en el P10, la ejecución de T01 termina a las 21:07:43 (la línea 11 de su `notes.md` dice que la respuesta llegó unos 2 minutos antes de la marca), T02 tiene un solo error que se escapa, porque la respuesta avisa del 0 y lo deja pendiente, y el coste de Data Distiller es 0 sin volver a comprobarlo. Decide el usuario, a propuesta de Claude.
+- 2026-10-28: no se hace un prompt para confirmar la causa del 0 de T02 ni para cambiar la skill con lo que dejan I10 a I12: quedan como límites conocidos, por el tiempo hasta la entrega. Consta en la decisión humana del P10. Decide el usuario, a propuesta de Claude.
+
 ## Hallazgos para el P10
 
 - T01: la skill no calcula la audiencia completa porque S1.C2 (saldo de puntos) no tiene umbral; lanza Q1 (contraste de la base, 7.730), Q2 (Valencia, 1.322) y Q3 (consentimiento de email, 1.330) entre las 21:05:34 y las 21:06:11 UTC.
